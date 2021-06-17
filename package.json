@@ -53,7 +53,7 @@
     "sass": "^1.35.1",
     "sass-loader": "^12.1.0",
     "url-loader": "^4.1.1",
-    "webpack": "^5.39.1"
+    "webpack": "5.39.0"
   },
   "browserslist": [
     "last 10 Chrome versions",
