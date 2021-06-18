@@ -14,7 +14,7 @@
 
 // cypress/plugins/index.ts
 
-const pluginConfig: Cypress.PluginConfig = (/*on, config*/) => {
+const pluginConfig: Cypress.PluginConfig = (/* on, config */) => {
   //
 };
 
