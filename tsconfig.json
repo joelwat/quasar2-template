@@ -1,7 +1,11 @@
 {
   "extends": "@quasar/app/tsconfig-preset",
   "compilerOptions": {
-    "baseUrl": "."
+    "baseUrl": ".",
+    "types": [
+      "cypress",
+      "quasar",
+    ]
   },
   "exclude": [
     "test/cypress",
