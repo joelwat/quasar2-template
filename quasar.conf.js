@@ -50,12 +50,13 @@ module.exports = configure((ctx) => ({
     // 'roboto-font-latin-ext', // this or either 'roboto-font', NEVER both!
 
     'roboto-font', // optional, you are not bound to it
-    'material-icons', // optional, you are not bound to it
+    // 'material-icons', // optional, you are not bound to it
+    'mdi-v5',
   ],
 
   // Full list of options: https://v2.quasar.dev/quasar-cli/quasar-conf-js#Property%3A-build
   build: {
-    vueRouterMode: 'hash', // available values: 'hash', 'history'
+    vueRouterMode: 'history', // available values: 'hash', 'history'
 
     // transpile: false,
 
@@ -92,6 +93,8 @@ module.exports = configure((ctx) => ({
     config: {},
 
     // iconSet: 'material-icons', // Quasar icon set
+    iconSet: 'mdi-v5',
+
     // lang: 'en-US', // Quasar language pack
 
     // For special cases outside of where the auto-import stategy can have an impact
