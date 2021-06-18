@@ -10,7 +10,9 @@
     "build": "yarn quasar build",
     "lint": "eslint --ext .js,.ts,.vue ./",
     "lint:fix": "eslint --ext .js,.ts,.vue --fix ./",
-    "test": "echo \"No test specified\" && exit 0"
+    "test": "echo \"No test specified\" && exit 0",
+    "test:e2e": "cross-env E2E_TEST=true start-test \"quasar dev\" http-get://localhost:8080 \"cypress open\"",
+    "test:e2e:ci": "cross-env E2E_TEST=true start-test \"quasar dev\" http-get://localhost:8080 \"cypress run\""
   },
   "dependencies": {
     "@quasar/babel-preset-app": "^2.0.1",
@@ -38,6 +40,8 @@
     "@babel/eslint-parser": "^7.14.5",
     "@quasar/app": "3.0.0-rc.3",
     "@quasar/cli": "^1.2.1",
+    "@quasar/quasar-app-extension-testing": "beta",
+    "@quasar/quasar-app-extension-testing-e2e-cypress": "beta",
     "@types/node": "^15.12.2",
     "@typescript-eslint/eslint-plugin": "^4.27.0",
     "@typescript-eslint/parser": "^4.27.0",
@@ -45,6 +49,7 @@
     "autoprefixer": "^10.2.6",
     "eslint": "^7.28.0",
     "eslint-config-airbnb-typescript": "^12.3.1",
+    "eslint-plugin-cypress": "^2.11.3",
     "eslint-plugin-import": "^2.23.4",
     "eslint-plugin-vue": "^7.11.1",
     "file-loader": "^6.2.0",
