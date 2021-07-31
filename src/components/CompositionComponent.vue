@@ -2,11 +2,7 @@
   <div>
     <p>{{ title }}</p>
     <ul>
-      <li
-        v-for="todo in todos"
-        :key="todo.id"
-        @click="increment"
-      >
+      <li v-for="todo in todos" :key="todo.id" @click="increment">
         {{ todo.id }} - {{ todo.content }}
       </li>
     </ul>

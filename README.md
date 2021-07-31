@@ -1,6 +1,6 @@
-# Health Hero Employee (health-hero-employee)
+# extractDate error minimal repo (quasar-extract-date-error)
 
-A Quasar Framework app
+extractDate error minimal repo
 
 ## Install the dependencies
 ```bash

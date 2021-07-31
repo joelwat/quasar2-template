@@ -30,8 +30,6 @@ module.exports = configure((ctx) => ({
   // --> boot files are part of "main.js"
   // https://v2.quasar.dev/quasar-cli/boot-files
   boot: [
-    'i18n',
-    'axios',
   ],
 
   // https://v2.quasar.dev/quasar-cli/quasar-conf-js#Property%3A-css
@@ -50,13 +48,12 @@ module.exports = configure((ctx) => ({
     // 'roboto-font-latin-ext', // this or either 'roboto-font', NEVER both!
 
     'roboto-font', // optional, you are not bound to it
-    // 'material-icons', // optional, you are not bound to it
-    'mdi-v5',
+    'material-icons', // optional, you are not bound to it
   ],
 
   // Full list of options: https://v2.quasar.dev/quasar-cli/quasar-conf-js#Property%3A-build
   build: {
-    vueRouterMode: 'history', // available values: 'hash', 'history'
+    vueRouterMode: 'hash', // available values: 'hash', 'history'
 
     // transpile: false,
 
@@ -84,7 +81,7 @@ module.exports = configure((ctx) => ({
   // Full list of options: https://v2.quasar.dev/quasar-cli/quasar-conf-js#Property%3A-devServer
   devServer: {
     https: false,
-    port: 3000,
+    port: 8080,
     open: true, // opens browser window automatically
   },
 
@@ -93,8 +90,6 @@ module.exports = configure((ctx) => ({
     config: {},
 
     // iconSet: 'material-icons', // Quasar icon set
-    iconSet: 'mdi-v5',
-
     // lang: 'en-US', // Quasar language pack
 
     // For special cases outside of where the auto-import stategy can have an impact
@@ -147,9 +142,9 @@ module.exports = configure((ctx) => ({
     },
 
     manifest: {
-      name: 'Health Hero Employee',
-      short_name: 'Health Hero Employee',
-      description: 'A Quasar Framework app',
+      name: 'extractDate error minimal repo',
+      short_name: 'extractDate error minimal repo',
+      description: 'extractDate error minimal repo',
       display: 'standalone',
       orientation: 'portrait',
       background_color: '#ffffff',
@@ -214,7 +209,7 @@ module.exports = configure((ctx) => ({
     builder: {
       // https://www.electron.build/configuration/configuration
 
-      appId: 'health-hero-employee',
+      appId: 'quasar-extract-date-error',
     },
 
     // "chain" is a webpack-chain object https://github.com/neutrinojs/webpack-chain

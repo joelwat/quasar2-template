@@ -1,10 +1,18 @@
 {
-  "json.schemas": [
-    {
-      "fileMatch": [
-        "cypress.json"
-      ],
-      "url": "https://on.cypress.io/cypress.schema.json"
-    }
-  ]
+  "vetur.validation.template": false,
+  "vetur.format.enable": false,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "vue"
+  ],
+  "typescript.tsdk": ".yarn/sdks/typescript/lib",
+  "vetur.experimental.templateInterpolationService": true,
+  "search.exclude": {
+    "**/.yarn": true,
+    "**/.pnp.*": true
+  },
+  "eslint.nodePath": ".yarn/sdks",
+  "typescript.enablePromptUseWorkspaceTsdk": true
 }
