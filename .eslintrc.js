@@ -22,6 +22,17 @@ module.exports = {
     sourceType: 'module' // Allows for the use of imports
   },
 
+  settings: {
+    'import/parsers': {
+      '@typescript-eslint/parser': ['.ts']
+    },
+    'import/resolver': {
+      typescript: {
+        alwaysTryTypes: true,
+      }
+    }
+  },
+
   env: {
     browser: true,
     node: true,
@@ -55,8 +66,6 @@ module.exports = {
   plugins: [
     // required to apply rules which need type information
     '@typescript-eslint',
-
-    'import',
 
     // https://eslint.vuejs.org/user-guide/#why-doesn-t-it-work-on-vue-file
     // required to lint *.vue files
