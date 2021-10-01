@@ -40,3 +40,20 @@ yarn-error.log*
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+
+# Typescript
+tsconfig.tsbuildinfo
+
+# Env Vars
+.env
+.env-dev
+.env-prod
+
+# Gradle keystore
+keystore.properties
+
+# Certificates and keys
+*.pem
+*.key
+*.crt
+*.cert
