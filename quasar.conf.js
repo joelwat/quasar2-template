@@ -108,7 +108,7 @@ module.exports = configure((ctx) => {
       https: false,
       port: 8080,
       open: true, // opens browser window automatically
-      headers
+      headers,
     },
 
     // https://v2.quasar.dev/quasar-cli/quasar-conf-js#Property%3A-framework
@@ -250,5 +250,5 @@ module.exports = configure((ctx) => {
         // extendWebpackPreload also available besides this chainWebpackPreload
       },
     },
-  }
+  };
 });
