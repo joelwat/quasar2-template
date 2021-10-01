@@ -52,6 +52,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["babel-loader", "virtual:dac7df795f6667145fcc1e6ce5e0539ccc82ff2cd663269c954fcc1c10ab330721a5890c4b9ac28bc9a9c53213ce2cbe4ca824d40a77f3bad22588fa5d742bcc#npm:8.2.2"],
             ["core-js", "npm:3.18.1"],
             ["css-loader", "virtual:dac7df795f6667145fcc1e6ce5e0539ccc82ff2cd663269c954fcc1c10ab330721a5890c4b9ac28bc9a9c53213ce2cbe4ca824d40a77f3bad22588fa5d742bcc#npm:5.2.7"],
+            ["dotenv", "npm:10.0.0"],
             ["eslint", "npm:7.32.0"],
             ["eslint-config-airbnb-typescript", "virtual:dac7df795f6667145fcc1e6ce5e0539ccc82ff2cd663269c954fcc1c10ab330721a5890c4b9ac28bc9a9c53213ce2cbe4ca824d40a77f3bad22588fa5d742bcc#npm:14.0.0"],
             ["eslint-import-resolver-node", "npm:0.3.6"],
@@ -7081,6 +7082,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["dotenv", [
+        ["npm:10.0.0", {
+          "packageLocation": "./.yarn/cache/dotenv-npm-10.0.0-36b272df25-f412c5fe8c.zip/node_modules/dotenv/",
+          "packageDependencies": [
+            ["dotenv", "npm:10.0.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["download", [
         ["npm:7.1.0", {
           "packageLocation": "./.yarn/cache/download-npm-7.1.0-136b04c26c-158feb3dab.zip/node_modules/download/",
@@ -13311,6 +13321,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["babel-loader", "virtual:dac7df795f6667145fcc1e6ce5e0539ccc82ff2cd663269c954fcc1c10ab330721a5890c4b9ac28bc9a9c53213ce2cbe4ca824d40a77f3bad22588fa5d742bcc#npm:8.2.2"],
             ["core-js", "npm:3.18.1"],
             ["css-loader", "virtual:dac7df795f6667145fcc1e6ce5e0539ccc82ff2cd663269c954fcc1c10ab330721a5890c4b9ac28bc9a9c53213ce2cbe4ca824d40a77f3bad22588fa5d742bcc#npm:5.2.7"],
+            ["dotenv", "npm:10.0.0"],
             ["eslint", "npm:7.32.0"],
             ["eslint-config-airbnb-typescript", "virtual:dac7df795f6667145fcc1e6ce5e0539ccc82ff2cd663269c954fcc1c10ab330721a5890c4b9ac28bc9a9c53213ce2cbe4ca824d40a77f3bad22588fa5d742bcc#npm:14.0.0"],
             ["eslint-import-resolver-node", "npm:0.3.6"],
