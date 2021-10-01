@@ -38,6 +38,9 @@ module.exports = {
     // consider disabling this class of rules if linting takes too long
     'plugin:@typescript-eslint/recommended-requiring-type-checking',
 
+    'plugin:import/recommended',
+    'plugin:import/typescript',
+
     // Uncomment any of the lines below to choose desired strictness,
     // but leave only one uncommented!
     // See https://eslint.vuejs.org/rules/#available-rules
@@ -52,6 +55,8 @@ module.exports = {
   plugins: [
     // required to apply rules which need type information
     '@typescript-eslint',
+
+    'import',
 
     // https://eslint.vuejs.org/user-guide/#why-doesn-t-it-work-on-vue-file
     // required to lint *.vue files

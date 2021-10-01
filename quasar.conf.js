@@ -15,6 +15,10 @@ const dotenv = require('dotenv');
 
 module.exports = configure((ctx) => {
   const env = dotenv.config().parsed;
+  const headers = ctx.debug === true ? { 'Cache-Control': 'no-store' } : {};
+  const $HOME = process.env.HOME ?? '';
+  const sourceMap = !ctx.prod;
+  const transpile = ctx.mode === 'ssr' || ctx.prod;
 
   const EnvVars = [
     'API_URL',
@@ -70,9 +74,13 @@ module.exports = configure((ctx) => {
 
     // Full list of options: https://v2.quasar.dev/quasar-cli/quasar-conf-js#Property%3A-build
     build: {
-      vueRouterMode: 'hash', // available values: 'hash', 'history'
+      vueRouterMode: 'history', // available values: 'hash', 'history'
 
-      // transpile: false,
+      sourceMap,
+
+      transpile,
+
+      env,
 
       // Add dependencies for transpiling with Babel (Array of string/regex)
       // (from node_modules, which are by default not transpiled).
@@ -100,6 +108,7 @@ module.exports = configure((ctx) => {
       https: false,
       port: 8080,
       open: true, // opens browser window automatically
+      headers
     },
 
     // https://v2.quasar.dev/quasar-cli/quasar-conf-js#Property%3A-framework
