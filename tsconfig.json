@@ -1,6 +1,27 @@
 {
   "extends": "@quasar/app/tsconfig-preset",
   "compilerOptions": {
-    "baseUrl": "."
-  }
+    "baseUrl": ".",
+    "importHelpers": true,
+    "incremental": true,
+    "target": "ESNext",
+    "isolatedModules": true,
+    "lib": [],
+    "types": [
+      "cypress",
+      "quasar",
+      "vee-validate",
+    ],
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ]
+    },
+  },
+  "exclude": [
+    "test/cypress",
+    "src-capacitor/android",
+    "src-capacitor/www",
+    "**/.yarn/*",
+  ]
 }
