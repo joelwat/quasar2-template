@@ -1,0 +1,18 @@
+{
+    "extends": "@tsconfig/node18/tsconfig.json",
+    "include": [
+        ".eslintrc.cjs",
+        "cypress.config.ts",
+        "postcss.config.cjs",
+        "quasar.config.cjs",
+        "vitest.config.ts"
+    ],
+    "compilerOptions": {
+        "baseUrl": ".",
+        "composite": true,
+        "types": [
+            "node",
+            "quasar"
+        ]
+    }
+}

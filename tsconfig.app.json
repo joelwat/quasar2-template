@@ -1,0 +1,38 @@
+{
+    "extends": "@quasar/app-vite/tsconfig-preset",
+    "include": [
+        "config/**/*",
+        "env.d.ts",
+        "src/**/*",
+        "src/**/*.vue",
+        "HMTConfig.js"
+    ],
+    "exclude": [
+        "src/**/__tests__/*"
+    ],
+    "compilerOptions": {
+        "allowJs": true,
+        "composite": true,
+        "baseUrl": ".",
+        "isolatedModules": true,
+        "lib": [
+            "ES2022",
+            "DOM",
+            "DOM.Iterable"
+        ],
+        "outDir": "dist",
+        "paths": {
+            "@/*": [
+                "./src/*"
+            ],
+            "app/*": [
+                "."
+            ]
+        },
+        "sourceMap": true,
+        "types": [
+            "@intlify/unplugin-vue-i18n/messages",
+            "element-plus/global"
+        ]
+    }
+}

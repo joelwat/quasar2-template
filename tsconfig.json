@@ -1,27 +1,15 @@
+//   "extends": "@quasar/app-vite/tsconfig-preset",
 {
-  "extends": "@quasar/app/tsconfig-preset",
-  "compilerOptions": {
-    "baseUrl": ".",
-    "importHelpers": true,
-    "incremental": true,
-    "target": "ESNext",
-    "isolatedModules": true,
-    "lib": [],
-    "types": [
-      "cypress",
-      "quasar",
-      "vee-validate",
-    ],
-    "paths": {
-      "@/*": [
-        "./src/*"
-      ]
-    },
-  },
-  "exclude": [
-    "test/cypress",
-    "src-capacitor/android",
-    "src-capacitor/www",
-    "**/.yarn/*",
-  ]
+    "files": [],
+    "references": [
+        {
+            "path": "./tsconfig.node.json"
+        },
+        {
+            "path": "./tsconfig.app.json"
+        },
+        {
+            "path": "./tsconfig.tests.json"
+        }
+    ]
 }

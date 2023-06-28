@@ -1,19 +1,16 @@
 {
-  "@quasar/testing": {
-    "harnesses": []
+  "@quasar/testing-unit-vitest": {
+    "options": [
+      "scripts",
+      "typescript",
+      "ui"
+    ]
   },
   "@quasar/testing-e2e-cypress": {
     "options": [
       "scripts",
-      "typescript"
-    ]
-  },
-  "@quasar/testing-unit-jest": {
-    "babel": "babelrc",
-    "options": [
-      "scripts",
       "typescript",
-      "majestic"
+      "code-coverage"
     ]
   }
 }

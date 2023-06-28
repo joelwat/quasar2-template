@@ -1,0 +1,18 @@
+{
+    "extends": "./tsconfig.app.json",
+    "exclude": [],
+    "include": [
+        "test/**/*",
+        "cypress/**/*",
+        "src/**/*.cy.ts"
+    ],
+    "compilerOptions": {
+        "composite": true,
+        "lib": [],
+        "outDir": "dist",
+        "types": [
+            "node",
+            "jsdom"
+        ]
+    }
+}
