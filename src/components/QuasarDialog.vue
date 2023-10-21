@@ -1,6 +1,9 @@
 <template>
     <!-- notice dialogRef here -->
-    <q-dialog ref="dialogRef" @hide="onDialogHide">
+    <q-dialog
+        ref="dialogRef"
+        @hide="onDialogHide"
+    >
         <q-card>
             <q-card-section>{{ message }}</q-card-section>
 
@@ -12,7 +15,11 @@
                     label="OK"
                     @click="onOKClick"
                 />
-                <q-btn color="primary" label="Cancel" @click="onCancelClick" />
+                <q-btn
+                    color="primary"
+                    label="Cancel"
+                    @click="onCancelClick"
+                />
             </q-card-actions>
         </q-card>
     </q-dialog>

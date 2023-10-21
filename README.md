@@ -1,6 +1,6 @@
-# App description (app-name)
+# Quasar v2 Template (quasar2-template)
 
-A Quasar Project
+Vet Portal
 
 ## Install the dependencies
 

@@ -1,4 +1,23 @@
 {
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": true,
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "editor.codeActionsOnSave": [
+        "source.fixAll.eslint"
+    ],
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "vue"
+    ],
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "search.exclude": {
+        "**/.yarn": true,
+        "**/.pnp.*": true
+    },
+    "typescript.enablePromptUseWorkspaceTsdk": true,
     "files.exclude": {
         "**/.git": true,
         "**/.svn": true,
@@ -7,8 +26,25 @@
         "**/.DS_Store": true,
         "**/Thumbs.db": true
     },
+    "i18n-ally.enabledParsers": [
+        "yaml"
+    ],
+    "i18n-ally.displayLanguage": "en-US",
+    "i18n-ally.sourceLanguage": "en-US",
     "i18n-ally.localesPaths": [
-        "src/i18n",
-        "coverage/lcov-report/src/i18n"
-    ]
+        "locales"
+    ],
+    "[javascript]": {
+        "editor.defaultFormatter": "Vue.volar"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "Vue.volar"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "i18n-ally.keystyle": "nested",
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    }
 }

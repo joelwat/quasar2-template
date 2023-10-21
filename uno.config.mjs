@@ -1,7 +1,15 @@
-const { defineConfig } = require('unocss');
+import {
+    defineConfig,
+    presetIcons,
+    presetUno,
+    transformerDirectives,
+} from 'unocss';
 
-module.exports = defineConfig({
-    presets: [],
+export default defineConfig({
+    presets: [
+        presetIcons(),
+        presetUno(),
+    ],
     rules: [
         // Padding
         [
@@ -93,6 +101,10 @@ module.exports = defineConfig({
         ],
 
         [
+            'fit',
+            { height: '100%', width: '100%' },
+        ],
+        [
             'fit-content',
             { width: 'fit-content' },
         ],
@@ -114,13 +126,12 @@ module.exports = defineConfig({
         ],
     ],
     safelist: [
-        'i-ep-check',
-        'i-ep-setting',
-        'i-ep-view',
+        'i-fa6-solid:arrow-up-z-a',
+        'i-fa6-solid:arrow-down-a-z',
+        'i-fa6-solid:eye',
+        'i-fa6-solid:eye-slash',
     ],
-    theme: {
-        breakpoints: {
-            // md: '1023px',
-        },
-    },
+    transformers: [
+        transformerDirectives(),
+    ],
 });

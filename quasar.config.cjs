@@ -11,15 +11,18 @@
 /* eslint func-names: 0 */
 /* eslint global-require: 0 */
 
-const { configure } = require('quasar/wrappers');
 const env = require('dotenv').config().parsed;
-const Inspect = require('vite-plugin-inspect');
-const path = require('path');
-const tsconfigPaths = require('vite-tsconfig-paths').default;
 const VueI18nPlugin = require('@intlify/unplugin-vue-i18n/vite');
+const path = require('path');
+const { configure } = require('quasar/wrappers');
 const Unocss = require('unocss/vite').default;
+const Inspect = require('vite-plugin-inspect');
+const tsconfigPaths = require('vite-tsconfig-paths').default;
+const Layouts = require('vite-plugin-vue-layouts').default;
+const VueRouter = require('unplugin-vue-router/vite').default;
+const Yaml = require('@rollup/plugin-yaml');
 
-const unoConfig = require('./uno.config');
+const unoConfig = import('./uno.config.mjs');
 
 module.exports = configure((/* ctx */) => ({
     eslint: {
@@ -38,8 +41,8 @@ module.exports = configure((/* ctx */) => ({
     // --> boot files are part of "main.js"
     // https://v2.quasar.dev/quasar-cli-vite/boot-files
     boot: [
-        'i18n',
         'axios',
+        'i18n',
     ],
 
     // https://v2.quasar.dev/quasar-cli-vite/quasar-config-js#css
@@ -51,7 +54,7 @@ module.exports = configure((/* ctx */) => ({
     extras: [
         // 'ionicons-v4',
         // 'mdi-v5',
-        // 'fontawesome-v6',
+        'fontawesome-v6',
         // 'eva-icons',
         // 'themify',
         // 'line-awesome',
@@ -64,7 +67,7 @@ module.exports = configure((/* ctx */) => ({
     // Full list of options: https://v2.quasar.dev/quasar-cli-vite/quasar-config-js#build
     build: {
         target: {
-            browser: ['es2019', 'edge88', 'firefox78', 'chrome87', 'safari13.1'],
+            browser: ['es2022', 'edge88', 'firefox78', 'chrome87', 'safari13.1'],
             node: 'node18',
         },
 
@@ -96,6 +99,16 @@ module.exports = configure((/* ctx */) => ({
             //     Inspect(),
             // ],
             [
+                VueRouter({
+                    routeBlockLang: 'yaml',
+                }),
+            ],
+            [
+                Layouts({
+                    defaultLayout: 'MainLayout',
+                }),
+            ],
+            [
                 tsconfigPaths(),
             ],
             [
@@ -109,13 +122,16 @@ module.exports = configure((/* ctx */) => ({
 
                     // you need to set i18n resource including paths !
                     include: [
-                        path.resolve(__dirname, './src/i18n/**'),
+                        path.resolve(__dirname, './src/i18n/**/*'),
                     ],
                     strictMessage: false, // FIXME: Remove HTML from translations
                 }),
             ],
             [
                 Unocss(unoConfig),
+            ],
+            [
+                Yaml(),
             ],
         ],
     },
@@ -124,6 +140,7 @@ module.exports = configure((/* ctx */) => ({
     devServer: {
         // https: true
         open: false, // opens browser window automatically
+        port: 3000,
     },
 
     // https://v2.quasar.dev/quasar-cli-vite/quasar-config-js#framework

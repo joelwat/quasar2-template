@@ -1,5 +1,8 @@
 <template>
-    <q-btn color="primary" data-cy="button">
+    <q-btn
+        color="primary"
+        data-cy="button"
+    >
         Button
         <q-tooltip
             v-model="showTooltip"

@@ -3,11 +3,10 @@
         <span data-cy="model-value">{{ modelValue }}</span>
         <button
             data-cy="button"
-            type="button"
             @click="
                 $emit(
                     'update:modelValue',
-                    modelValue.length > 0 ? modelValue.substring(1) : '',
+                    modelValue.length > 0 ? modelValue.substring(1) : ''
                 )
             "
         >

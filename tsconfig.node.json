@@ -1,18 +1,26 @@
 {
-    "extends": "@tsconfig/node18/tsconfig.json",
+    "compilerOptions": {
+        "allowSyntheticDefaultImports": true,
+        "baseUrl": ".",
+        "composite": true,
+        "importHelpers": true,
+        "module": "ESNext",
+        "moduleResolution": "NodeNext",
+        "types": [
+            "node",
+            "@quasar/quasar-app-extension-testing-e2e-cypress",
+            "@types/cypress__code-coverage",
+            "vite-plugin-vue-layouts/client"
+        ],
+        "verbatimModuleSyntax": true
+    },
+    "extends": "@quasar/app-vite/tsconfig-preset",
     "include": [
         ".eslintrc.cjs",
         "cypress.config.ts",
         "postcss.config.cjs",
         "quasar.config.cjs",
+        "uno.config.mjs",
         "vitest.config.ts"
-    ],
-    "compilerOptions": {
-        "baseUrl": ".",
-        "composite": true,
-        "types": [
-            "node",
-            "quasar"
-        ]
-    }
+    ]
 }

@@ -1,7 +1,7 @@
 <template>
     <q-page class="row items-center justify-evenly">
         <example-component
-            title="Example component"
+            :title="t('title')"
             active
             :todos="todos"
             :meta="meta"
@@ -10,9 +10,18 @@
 </template>
 
 <script setup lang="ts">
-import { Todo, Meta } from 'components/models';
-import ExampleComponent from 'components/ExampleComponent.vue';
 import { ref } from 'vue';
+import { useI18n } from 'vue-i18n';
+import { definePage } from 'vue-router/auto';
+import ExampleComponent from '@/components/ExampleComponent.vue';
+import type { Todo, Meta } from '@/components/models';
+
+definePage({
+    name: 'index',
+    path: '/',
+});
+
+const { t } = useI18n();
 
 const todos = ref<Todo[]>([
     {

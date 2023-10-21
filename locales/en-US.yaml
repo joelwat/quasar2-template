@@ -1,0 +1,6 @@
+# This is just an example,
+# so you can safely delete all default props below
+
+failed: Action failed
+success: Action was successful
+title: Looks like i18n is working

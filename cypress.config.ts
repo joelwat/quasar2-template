@@ -4,6 +4,7 @@ import { defineConfig } from 'cypress';
 
 export default defineConfig({
     fixturesFolder: 'test/cypress/fixtures',
+    projectId: 'knf7x6',
     screenshotsFolder: 'test/cypress/screenshots',
     videosFolder: 'test/cypress/videos',
     video: true,
@@ -12,7 +13,7 @@ export default defineConfig({
             registerCodeCoverageTasks(on, config);
             return config;
         },
-        baseUrl: 'http://localhost:9000/',
+        baseUrl: 'http://localhost:3000/',
         supportFile: 'test/cypress/support/e2e.ts',
         specPattern: 'test/cypress/e2e/**/*.cy.{js,jsx,ts,tsx}',
     },

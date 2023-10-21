@@ -1,25 +1,18 @@
 {
-    "extends": "@quasar/app-vite/tsconfig-preset",
-    "include": [
-        "config/**/*",
-        "env.d.ts",
-        "src/**/*",
-        "src/**/*.vue",
-        "HMTConfig.js"
-    ],
-    "exclude": [
-        "src/**/__tests__/*"
-    ],
     "compilerOptions": {
         "allowJs": true,
-        "composite": true,
         "baseUrl": ".",
+        "checkJs": false,
+        "composite": true,
+        "importHelpers": true,
         "isolatedModules": true,
         "lib": [
             "ES2022",
             "DOM",
             "DOM.Iterable"
         ],
+        "module": "ESNext",
+        "moduleResolution": "Bundler",
         "outDir": "dist",
         "paths": {
             "@/*": [
@@ -29,10 +22,27 @@
                 "."
             ]
         },
+        "skipLibCheck": true,
         "sourceMap": true,
+        "strict": false,
         "types": [
             "@intlify/unplugin-vue-i18n/messages",
-            "element-plus/global"
-        ]
-    }
+            "vite/client",
+            "vite-plugin-vue-layouts/client",
+            "vue-i18n"
+        ],
+        "verbatimModuleSyntax": true
+    },
+    "exclude": [
+        "src/**/__tests__/*",
+        "src/**/*.cy.ts"
+    ],
+    "extends": "@quasar/app-vite/tsconfig-preset",
+    "include": [
+        "typed-router.d.ts",
+        "env.d.ts",
+        "src/**/*",
+        "src/**/*.vue",
+        "HMTConfig.js"
+    ]
 }
