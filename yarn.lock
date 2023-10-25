@@ -4671,8 +4671,8 @@ __metadata:
   linkType: hard
 
 "eslint-plugin-vue@npm:^9.17.0":
-  version: 9.17.0
-  resolution: "eslint-plugin-vue@npm:9.17.0"
+  version: 9.18.0
+  resolution: "eslint-plugin-vue@npm:9.18.0"
   dependencies:
     "@eslint-community/eslint-utils": "npm:^4.4.0"
     natural-compare: "npm:^1.4.0"
@@ -4683,7 +4683,7 @@ __metadata:
     xml-name-validator: "npm:^4.0.0"
   peerDependencies:
     eslint: ^6.2.0 || ^7.0.0 || ^8.0.0
-  checksum: 15fbd84575f8ba181082bdb8c026b75a5abde071c628a4a6dde30bfd5114cf1e273b356646d90201d0ed88372c4c321f7814e90f17e0b40f43e238f985b09fc2
+  checksum: 6873f776e1bbb4d9b6bd5de604c80fbfa09e389eb48e19d36ced76ee918931ba128bdb5d36e216cd564cbcf2aa24133e99d4b2115eb99456e2a54ba7e1cbf101
   languageName: node
   linkType: hard
 
