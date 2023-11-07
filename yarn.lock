@@ -1271,11 +1271,11 @@ __metadata:
   linkType: hard
 
 "@types/cypress__code-coverage@npm:^3.10.1":
-  version: 3.10.1
-  resolution: "@types/cypress__code-coverage@npm:3.10.1"
+  version: 3.10.2
+  resolution: "@types/cypress__code-coverage@npm:3.10.2"
   dependencies:
     cypress: "npm:*"
-  checksum: dbd491763507bfee4cfce1d60769e07e69d91d28398d396a8d78d12eb52d1deff636337eff3d0ee122e956b44b6d562c0308f3b5765e0abf0fc9501267e51f7e
+  checksum: 61fdd100aaf4dc7c184840492b0277639b7d1dad1745ad85c6bc00db3a78439cb5efb2a38a44310e241f8e7a4ed829e1972cb3efd52e1f83fe58ce622759d4fe
   languageName: node
   linkType: hard
 
