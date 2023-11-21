@@ -2221,18 +2221,18 @@ __metadata:
   linkType: hard
 
 "@vue/test-utils@npm:^2.4.1":
-  version: 2.4.1
-  resolution: "@vue/test-utils@npm:2.4.1"
+  version: 2.4.2
+  resolution: "@vue/test-utils@npm:2.4.2"
   dependencies:
-    js-beautify: "npm:1.14.9"
-    vue-component-type-helpers: "npm:1.8.4"
+    js-beautify: "npm:^1.14.9"
+    vue-component-type-helpers: "npm:^1.8.21"
   peerDependencies:
     "@vue/server-renderer": ^3.0.1
     vue: ^3.0.1
   peerDependenciesMeta:
     "@vue/server-renderer":
       optional: true
-  checksum: b3e88b84468c610a62dcea51d5ae089ea299192dd1fc787d69e78c76316b8425cbf1f035a05ab9043cad043c800823df7d76652224bfa713db8d0cf9ec8abb9c
+  checksum: c96bb2ee9ad15fae41b1614b3cf3a34a4a8abaef3689e54325332994600388b40579eae75f0488e62fb05c5979f54ccd91db6f3cba955231662322862605b8b7
   languageName: node
   linkType: hard
 
@@ -2261,13 +2261,6 @@ __metadata:
   dependencies:
     vue-demi: "npm:>=0.14.6"
   checksum: d97ac00a60213e3d5f3b55e838168394971766abad69dbf02dc838e21181b3bc0ab4edcace927312c2ef165d8cb2bcfa6976388f93fe5fba2516cb1631b506b6
-  languageName: node
-  linkType: hard
-
-"abbrev@npm:^1.0.0":
-  version: 1.1.1
-  resolution: "abbrev@npm:1.1.1"
-  checksum: 3f762677702acb24f65e813070e306c61fafe25d4b2583f9dfc935131f774863f3addd5741572ed576bd69cabe473c5af18e1e108b829cb7b6b4747884f726e6
   languageName: node
   linkType: hard
 
@@ -5566,7 +5559,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"glob@npm:^10.2.2, glob@npm:^10.3.10":
+"glob@npm:^10.2.2, glob@npm:^10.3.10, glob@npm:^10.3.3":
   version: 10.3.10
   resolution: "glob@npm:10.3.10"
   dependencies:
@@ -5595,7 +5588,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"glob@npm:^8.0.0, glob@npm:^8.1.0":
+"glob@npm:^8.0.0":
   version: 8.1.0
   resolution: "glob@npm:8.1.0"
   dependencies:
@@ -6617,19 +6610,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"js-beautify@npm:1.14.9":
-  version: 1.14.9
-  resolution: "js-beautify@npm:1.14.9"
+"js-beautify@npm:^1.14.9":
+  version: 1.14.11
+  resolution: "js-beautify@npm:1.14.11"
   dependencies:
     config-chain: "npm:^1.1.13"
     editorconfig: "npm:^1.0.3"
-    glob: "npm:^8.1.0"
-    nopt: "npm:^6.0.0"
+    glob: "npm:^10.3.3"
+    nopt: "npm:^7.2.0"
   bin:
     css-beautify: js/bin/css-beautify.js
     html-beautify: js/bin/html-beautify.js
     js-beautify: js/bin/js-beautify.js
-  checksum: be7b968a15fef3b3f906b3f043538aebbe5ce0db60b3b44b9532c93d05790078011b8cf66c9b00b28fdd49ba3b15b098babb22fb4ae75fcf2b7814a6ad4ce12f
+  checksum: 23267f8e68a4cf190274906fbec98c4fa44025e1b7e1fa701480867c9ab6b2b90a1bb2b358cd487c34d735a1039c16bcb51f82d390bcc6384172cc540aa11c9b
   languageName: node
   linkType: hard
 
@@ -7534,18 +7527,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nopt@npm:^6.0.0":
-  version: 6.0.0
-  resolution: "nopt@npm:6.0.0"
-  dependencies:
-    abbrev: "npm:^1.0.0"
-  bin:
-    nopt: bin/nopt.js
-  checksum: 837b52c330df16fcaad816b1f54fec6b2854ab1aa771d935c1603fbcf9b023bb073f1466b1b67f48ea4dce127ae675b85b9d9355700e9b109de39db490919786
-  languageName: node
-  linkType: hard
-
-"nopt@npm:^7.0.0":
+"nopt@npm:^7.0.0, nopt@npm:^7.2.0":
   version: 7.2.0
   resolution: "nopt@npm:7.2.0"
   dependencies:
@@ -10295,10 +10277,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vue-component-type-helpers@npm:1.8.4":
-  version: 1.8.4
-  resolution: "vue-component-type-helpers@npm:1.8.4"
-  checksum: b18ffe06e4834e6df2ff08ec1ddff19eb730b6b68a40727f937eb80fcb20bf523c1f8f0884ac17e5d72f4612f34da9dbd4aba9659a34f89e70c73e7e5f818de9
+"vue-component-type-helpers@npm:^1.8.21":
+  version: 1.8.22
+  resolution: "vue-component-type-helpers@npm:1.8.22"
+  checksum: 31b34ecdc4de3c69fb73802530380db1676497bda4e0ecb37ab098ebfbcad05bebd15b713520033866c0c1ddb6c56ff79d727b0a6777947dfcc434aaca3b11e2
   languageName: node
   linkType: hard
 
