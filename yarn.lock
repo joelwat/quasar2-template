@@ -756,11 +756,11 @@ __metadata:
   linkType: hard
 
 "@iconify-json/fa6-solid@npm:^1.1.15":
-  version: 1.1.15
-  resolution: "@iconify-json/fa6-solid@npm:1.1.15"
+  version: 1.1.16
+  resolution: "@iconify-json/fa6-solid@npm:1.1.16"
   dependencies:
     "@iconify/types": "npm:*"
-  checksum: fe32b0a33c5da56ff28a2eb2f0e47d3f5fa018271c6d37356bc6bca854505d627030b79b6a4552e4788958149f5cd00331def1e478d50e800d3190c48503c2ee
+  checksum: f1a76bbf5fab9ac40369ead1f44edbbc40c721ab9737d0b29bc1254009acfa83134ef54c93d3e078d3bee3679908cfa44828eaf99accc3ed42850b197e5a04b1
   languageName: node
   linkType: hard
 
@@ -9850,11 +9850,11 @@ __metadata:
 
 "typescript@patch:typescript@npm%3A^5.2.2#optional!builtin<compat/typescript>":
   version: 5.3.2
-  resolution: "typescript@patch:typescript@npm%3A5.3.2#optional!builtin<compat/typescript>::version=5.3.2&hash=29ae49"
+  resolution: "typescript@patch:typescript@npm%3A5.3.2#optional!builtin<compat/typescript>::version=5.3.2&hash=e012d7"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: c81b9bd20c6dbe90fa43e876c586021447f2b47baede9fa542b1f56715835c043e23b2eaf19c42c067cc6f5ae512bd9a9be28a67b3a1d9807f8c9cfb1269875e
+  checksum: 73c8bad74e732d93211c9d77f28b03307e2f5fc6a0afc73f4b783261ab567686a16d6ae958bdaef383a00be1b0b8c8b6741dd6ca3d13af4963fa7e47456d49c7
   languageName: node
   linkType: hard
 
