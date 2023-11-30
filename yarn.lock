@@ -8370,9 +8370,9 @@ __metadata:
   linkType: soft
 
 "quasar@npm:^2.13.0":
-  version: 2.14.0
-  resolution: "quasar@npm:2.14.0"
-  checksum: 1da026ed24ed515d4bee284df5791ca51779ccdbaae376a52c5a17687c5e8d6f204338db6f22a735318da0c477c74b06108573f38a480ef87761736768ceb547
+  version: 2.14.1
+  resolution: "quasar@npm:2.14.1"
+  checksum: 06bfce8d0b34b22a9e9a5457ff90dcaf599701523ff8df1fa6a41324af2cac896b9c529da4cc22764f1b0992d95bc1468078bfbb9bf26e78f2699aef4b1a72ab
   languageName: node
   linkType: hard
 
