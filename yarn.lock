@@ -1201,10 +1201,10 @@ __metadata:
   linkType: hard
 
 "@quasar/app-vite@npm:^1.6.2":
-  version: 1.7.0
-  resolution: "@quasar/app-vite@npm:1.7.0"
+  version: 1.7.1
+  resolution: "@quasar/app-vite@npm:1.7.1"
   dependencies:
-    "@quasar/render-ssr-error": "npm:^1.0.1"
+    "@quasar/render-ssr-error": "npm:^1.0.3"
     "@quasar/vite-plugin": "npm:^1.3.3"
     "@rollup/pluginutils": "npm:^4.1.2"
     "@types/chrome": "npm:^0.0.208"
@@ -1263,7 +1263,7 @@ __metadata:
       optional: true
   bin:
     quasar: bin/quasar
-  checksum: fc7f944f32a420a50c2ba59c2092c6590cdfc9db480924ca39e950e5bd5004d47c6b795dbd5b43f633afcff4f9d11f2c95d560f12fbecef817cd2ed05c22ea66
+  checksum: b7b7f0d69910442567eaa059228e2352c33f53cda7f0c74ee8228138af440018eaf7cc78925851b8f4ce46d06cf2d6d18505b46d2554d133fa0a1495dc1e5d0e
   languageName: node
   linkType: hard
 
@@ -1315,12 +1315,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@quasar/render-ssr-error@npm:^1.0.1":
-  version: 1.0.2
-  resolution: "@quasar/render-ssr-error@npm:1.0.2"
+"@quasar/render-ssr-error@npm:^1.0.3":
+  version: 1.0.3
+  resolution: "@quasar/render-ssr-error@npm:1.0.3"
   dependencies:
     stack-trace: "npm:^1.0.0-pre2"
-  checksum: 667dcbad52a9f0c7197bda136bb22991417714aabb4968fcdb72893b152bf23417ddf3506deb5d5d0d139be95d12418f26d2ba91e1b5fb93e3e2527edc505324
+  checksum: 337e1e842eff010b0945a4e410930f098a13c8dd690c48ca2c979edb356564900b65e60d57bab841993eff2bc24919899e6b88cc2231fe03fefc22c4a81d7ded
   languageName: node
   linkType: hard
 
