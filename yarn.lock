@@ -10296,8 +10296,8 @@ __metadata:
   linkType: hard
 
 "vite-plugin-inspect@npm:^0.8.0":
-  version: 0.8.0
-  resolution: "vite-plugin-inspect@npm:0.8.0"
+  version: 0.8.1
+  resolution: "vite-plugin-inspect@npm:0.8.1"
   dependencies:
     "@antfu/utils": "npm:^0.7.6"
     "@rollup/pluginutils": "npm:^5.0.5"
@@ -10312,7 +10312,7 @@ __metadata:
   peerDependenciesMeta:
     "@nuxt/kit":
       optional: true
-  checksum: 6555947f37fd7966abdc7207f960527ae2591c7739c6c02e55c738ae8648aae5fbbf6c263f2a5b4bc2f4c81e9848d9dca813e89d91184b85fc57b4dc6b700363
+  checksum: bc555a3839b60664209891af41f7149e8d8bf71ba5593e689ab28cbd93891bb37522eed05a72f76859cd552365c46f0330f1a7c25c6f540b4dda127276dbb721
   languageName: node
   linkType: hard
 
