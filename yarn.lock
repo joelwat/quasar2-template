@@ -2427,30 +2427,30 @@ __metadata:
   linkType: hard
 
 "@vueuse/core@npm:^10.5.0":
-  version: 10.6.1
-  resolution: "@vueuse/core@npm:10.6.1"
+  version: 10.7.0
+  resolution: "@vueuse/core@npm:10.7.0"
   dependencies:
     "@types/web-bluetooth": "npm:^0.0.20"
-    "@vueuse/metadata": "npm:10.6.1"
-    "@vueuse/shared": "npm:10.6.1"
+    "@vueuse/metadata": "npm:10.7.0"
+    "@vueuse/shared": "npm:10.7.0"
     vue-demi: "npm:>=0.14.6"
-  checksum: 39983a91082e97e818d811f951ef60b1f2fc9fa7f0840397f2a0c57e24e8e669ab49576f7b429ffe33c9902406352b0ce383dadeb3b87285e911a564adc39b15
+  checksum: 512b381031f7ba582f4d1633512eb800372425d69a476365a8ed8b5b5ff5ba86ef7091be0706b14fa8d59457243e64ffbf0a28f53c390364c5404344607392fe
   languageName: node
   linkType: hard
 
-"@vueuse/metadata@npm:10.6.1":
-  version: 10.6.1
-  resolution: "@vueuse/metadata@npm:10.6.1"
-  checksum: 68e5dcf1156f765510f78eda99a1849705d4219a07221bde6f3a31e742fd0c6142510f5879fc105eaaafa0039b57b41b6aafdd82d579e034fada1175a672c99f
+"@vueuse/metadata@npm:10.7.0":
+  version: 10.7.0
+  resolution: "@vueuse/metadata@npm:10.7.0"
+  checksum: 813d3354848efd2fcb8eb517900aee1098e2b320f772a9dd34d1805a4d23c71680fe90f2f3e4fa9feba00dd99cfb48c992c018c3a2c03cd437e872dd8495bd7e
   languageName: node
   linkType: hard
 
-"@vueuse/shared@npm:10.6.1":
-  version: 10.6.1
-  resolution: "@vueuse/shared@npm:10.6.1"
+"@vueuse/shared@npm:10.7.0":
+  version: 10.7.0
+  resolution: "@vueuse/shared@npm:10.7.0"
   dependencies:
     vue-demi: "npm:>=0.14.6"
-  checksum: d97ac00a60213e3d5f3b55e838168394971766abad69dbf02dc838e21181b3bc0ab4edcace927312c2ef165d8cb2bcfa6976388f93fe5fba2516cb1631b506b6
+  checksum: ff2625439ae0c2ac733f95f86784b7286e45c2b915cb9d013d01a4ede9d101c8cb949b8c9040d753d980ff7815b169b7c19292115d596d0c6d5a21daaf2ca9c1
   languageName: node
   linkType: hard
 
