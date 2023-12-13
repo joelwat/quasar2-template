@@ -896,8 +896,8 @@ __metadata:
   linkType: hard
 
 "@intlify/unplugin-vue-i18n@npm:^1.4.0":
-  version: 1.5.0
-  resolution: "@intlify/unplugin-vue-i18n@npm:1.5.0"
+  version: 1.6.0
+  resolution: "@intlify/unplugin-vue-i18n@npm:1.6.0"
   dependencies:
     "@intlify/bundle-utils": "npm:^7.4.0"
     "@intlify/shared": "npm:^9.4.0"
@@ -922,7 +922,7 @@ __metadata:
       optional: true
     vue-i18n-bridge:
       optional: true
-  checksum: b877a5d2a42bd8a2c17746f5ef9fc90e1dffb83058e739320f63c6d3620a0fe878e9e2a972f6b0eb049aceceecb65a658c9ceb7d49e11dce4fc1fda4e08945a5
+  checksum: 63abc65f4cf040f889da48184b1f43809cb2cef3be239676f5a00cf9873fb88419e9fc0222b59a344a0a8854ebc698c4a6c12592ab8e0211b908369355c77129
   languageName: node
   linkType: hard
 
