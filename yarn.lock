@@ -8351,7 +8351,7 @@ __metadata:
     unplugin-vue-router: "npm:^0.7.0"
     vite: "npm:^4.5.0"
     vite-plugin-inspect: "npm:^0.8.0"
-    vite-plugin-vue-layouts: "npm:^0.9.0"
+    vite-plugin-vue-layouts: "npm:^0.10.0"
     vite-tsconfig-paths: "npm:^4.2.1"
     vitest: "npm:^0.34.6"
     vue: "npm:^3.3.6"
@@ -10136,9 +10136,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite-plugin-vue-layouts@npm:^0.9.0":
-  version: 0.9.1
-  resolution: "vite-plugin-vue-layouts@npm:0.9.1"
+"vite-plugin-vue-layouts@npm:^0.10.0":
+  version: 0.10.0
+  resolution: "vite-plugin-vue-layouts@npm:0.10.0"
   dependencies:
     debug: "npm:^4.3.4"
     fast-glob: "npm:^3.3.2"
@@ -10146,7 +10146,7 @@ __metadata:
     vite: ^4.0.0 || ^5.0.0
     vue: ^3.2.4
     vue-router: ^4.0.11
-  checksum: 8e9f1610b18bc5a8b965c3642ac85ecd67d18b60897db7001745def9d65171c5893a809701a89d28cf284399f7b31fe89cf49b9ae837a8643d5756a27ea929dc
+  checksum: 5ece191d04632796224737fe61dd961edb9a3d5a47b74eabca0bfadc86cb6a750b062f3fc664ef4573ff7dd7beb124adb4176351d096368def0be9a2c5b6aa84
   languageName: node
   linkType: hard
 
