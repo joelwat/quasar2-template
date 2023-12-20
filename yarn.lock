@@ -895,9 +895,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@intlify/unplugin-vue-i18n@npm:^1.4.0":
-  version: 1.6.0
-  resolution: "@intlify/unplugin-vue-i18n@npm:1.6.0"
+"@intlify/unplugin-vue-i18n@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "@intlify/unplugin-vue-i18n@npm:2.0.0"
   dependencies:
     "@intlify/bundle-utils": "npm:^7.4.0"
     "@intlify/shared": "npm:^9.4.0"
@@ -922,7 +922,7 @@ __metadata:
       optional: true
     vue-i18n-bridge:
       optional: true
-  checksum: 63abc65f4cf040f889da48184b1f43809cb2cef3be239676f5a00cf9873fb88419e9fc0222b59a344a0a8854ebc698c4a6c12592ab8e0211b908369355c77129
+  checksum: 1588a7cb8f0649884f9cb5d42de57841ab9b1324d1616cdc9bf36294772f6794812bdd18afa42acd286c1704d7ac8ff8d773704024989bbfa29989cc434919c5
   languageName: node
   linkType: hard
 
@@ -8377,7 +8377,7 @@ __metadata:
   dependencies:
     "@iconify-json/fa6-solid": "npm:^1.1.15"
     "@intlify/eslint-plugin-vue-i18n": "npm:^2.0.0"
-    "@intlify/unplugin-vue-i18n": "npm:^1.4.0"
+    "@intlify/unplugin-vue-i18n": "npm:^2.0.0"
     "@intlify/vite-plugin-vue-i18n": "npm:^7.0.0"
     "@quasar/app-vite": "npm:^1.6.2"
     "@quasar/extras": "npm:^1.16.7"
