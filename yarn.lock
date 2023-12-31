@@ -426,9 +426,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@cypress/code-coverage@npm:^3.12.1":
-  version: 3.12.14
-  resolution: "@cypress/code-coverage@npm:3.12.14"
+"@cypress/code-coverage@npm:^3.12.15":
+  version: 3.12.16
+  resolution: "@cypress/code-coverage@npm:3.12.16"
   dependencies:
     "@cypress/webpack-preprocessor": "npm:^6.0.0"
     chalk: "npm:4.1.2"
@@ -445,7 +445,7 @@ __metadata:
     babel-loader: ^8.3 || ^9
     cypress: "*"
     webpack: ^4 || ^5
-  checksum: 3c79585897a05f00356c111c96c9a83f28fec20477bb820b1131d4974605a1b18b1cf7bd668093512be589f952b73a0524e34965993599aec0bf93439762b252
+  checksum: c7fceb222c0e6babf9a5ea2031d96fa0971d1971b16e1167bb692b588d07df64978a95c227287d7e29cc9500054e23470e242253c7342767167a189fccd83c6f
   languageName: node
   linkType: hard
 
@@ -1181,22 +1181,22 @@ __metadata:
   linkType: hard
 
 "@quasar/quasar-app-extension-testing-e2e-cypress@npm:^5.1.1":
-  version: 5.1.1
-  resolution: "@quasar/quasar-app-extension-testing-e2e-cypress@npm:5.1.1"
+  version: 5.2.0
+  resolution: "@quasar/quasar-app-extension-testing-e2e-cypress@npm:5.2.0"
   dependencies:
-    "@cypress/code-coverage": "npm:^3.12.1"
+    "@cypress/code-coverage": "npm:^3.12.15"
     cross-env: "npm:^7.0.3"
     lodash: "npm:^4.17.21"
     nyc: "npm:^15.1.0"
-    start-server-and-test: "npm:^2.0.0"
+    start-server-and-test: "npm:2.0.0"
     vite-plugin-istanbul: "npm:^5.0.0"
   peerDependencies:
-    cypress: ^12.2.0
+    cypress: ^12.2.0 || ^13.2.0
     eslint-plugin-cypress: ^2.12.1
   peerDependenciesMeta:
     eslint-plugin-cypress:
       optional: true
-  checksum: 616cd7ee2945677039884d370424138c42d8b1cbad9b710d1b6ed1c85c8be557e521ffe29f4d49e6447aefc3c585d58611ad03ae4b453d430d053417ad4cd7e6
+  checksum: 231c4190e6610fafda22567262c44899fc13a5df7b1064f5ae2c81674ced1bdaae71ce8b54869a5937592e226b3f987f9cf005acc0510c9d4bafdaecd353f86a
   languageName: node
   linkType: hard
 
@@ -2874,6 +2874,16 @@ __metadata:
   version: 4.7.0
   resolution: "axe-core@npm:4.7.0"
   checksum: 89ac5712b5932ac7d23398b4cb5ba081c394a086e343acc68ba49c83472706e18e0799804e8388c779dcdacc465377deb29f2714241d3fbb389cf3a6b275c9ba
+  languageName: node
+  linkType: hard
+
+"axios@npm:^0.27.2":
+  version: 0.27.2
+  resolution: "axios@npm:0.27.2"
+  dependencies:
+    follow-redirects: "npm:^1.14.9"
+    form-data: "npm:^4.0.0"
+  checksum: 76d673d2a90629944b44d6f345f01e58e9174690f635115d5ffd4aca495d99bcd8f95c590d5ccb473513f5ebc1d1a6e8934580d0c57cdd0498c3a101313ef771
   languageName: node
   linkType: hard
 
@@ -5303,6 +5313,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"follow-redirects@npm:^1.14.9":
+  version: 1.15.4
+  resolution: "follow-redirects@npm:1.15.4"
+  peerDependenciesMeta:
+    debug:
+      optional: true
+  checksum: 5f37ed9170c9eb19448c5418fdb0f2b73f644b5364834e70791a76ecc7db215246f9773bbef4852cfae4067764ffc852e047f744b661b0211532155b73556a6a
+  languageName: node
+  linkType: hard
+
 "follow-redirects@npm:^1.15.0":
   version: 1.15.3
   resolution: "follow-redirects@npm:1.15.3"
@@ -6646,7 +6666,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"joi@npm:^17.11.0":
+"joi@npm:^17.11.0, joi@npm:^17.7.0":
   version: 17.11.0
   resolution: "joi@npm:17.11.0"
   dependencies:
@@ -7344,7 +7364,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"minimist@npm:^1.2.0, minimist@npm:^1.2.6, minimist@npm:^1.2.8":
+"minimist@npm:^1.2.0, minimist@npm:^1.2.6, minimist@npm:^1.2.7, minimist@npm:^1.2.8":
   version: 1.2.8
   resolution: "minimist@npm:1.2.8"
   checksum: 19d3fcdca050087b84c2029841a093691a91259a47def2f18222f41e7645a0b7c44ef4b40e88a1e58a40c84d2ef0ee6047c55594d298146d0eb3f6b737c20ce6
@@ -8820,7 +8840,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rxjs@npm:^7.5.1, rxjs@npm:^7.5.5, rxjs@npm:^7.8.1":
+"rxjs@npm:^7.5.1, rxjs@npm:^7.5.5, rxjs@npm:^7.8.0, rxjs@npm:^7.8.1":
   version: 7.8.1
   resolution: "rxjs@npm:7.8.1"
   dependencies:
@@ -9233,7 +9253,27 @@ __metadata:
   languageName: node
   linkType: hard
 
-"start-server-and-test@npm:^2.0.0, start-server-and-test@npm:^2.0.1":
+"start-server-and-test@npm:2.0.0":
+  version: 2.0.0
+  resolution: "start-server-and-test@npm:2.0.0"
+  dependencies:
+    arg: "npm:^5.0.2"
+    bluebird: "npm:3.7.2"
+    check-more-types: "npm:2.24.0"
+    debug: "npm:4.3.4"
+    execa: "npm:5.1.1"
+    lazy-ass: "npm:1.6.0"
+    ps-tree: "npm:1.2.0"
+    wait-on: "npm:7.0.1"
+  bin:
+    server-test: src/bin/start.js
+    start-server-and-test: src/bin/start.js
+    start-test: src/bin/start.js
+  checksum: b8eba7e98bced3a896040cf1d1372526aba0d65cf6ee3a22aa64a2c74ece01b90489e4e670070c47e4527589af17541c03f50c3b3df2b714605f0302f9008e6b
+  languageName: node
+  linkType: hard
+
+"start-server-and-test@npm:^2.0.1":
   version: 2.0.3
   resolution: "start-server-and-test@npm:2.0.3"
   dependencies:
@@ -10437,6 +10477,21 @@ __metadata:
     typescript:
       optional: true
   checksum: a930e4317fd3a9135ad4f9165e6ca2949e45c0e5cd4812b6f575fb591f3bd266097f0ebb615d5822017ce07b50c01e0a8c5bc245035fa3895a6dd2ba4f9c7294
+  languageName: node
+  linkType: hard
+
+"wait-on@npm:7.0.1":
+  version: 7.0.1
+  resolution: "wait-on@npm:7.0.1"
+  dependencies:
+    axios: "npm:^0.27.2"
+    joi: "npm:^17.7.0"
+    lodash: "npm:^4.17.21"
+    minimist: "npm:^1.2.7"
+    rxjs: "npm:^7.8.0"
+  bin:
+    wait-on: bin/wait-on
+  checksum: 2a9c56d26dac573e6bfd36e85d99f072021c23dc2c0faab900a411460b58e16982b96b018d9168c366040f56196314fa46f3d79ef19e3dc38f55824d5035f2ec
   languageName: node
   linkType: hard
 
