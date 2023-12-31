@@ -49,7 +49,7 @@
         "@typescript-eslint/eslint-plugin": "^6.8.0",
         "@typescript-eslint/parser": "^6.8.0",
         "@unocss/preset-icons": "^0.58.0",
-        "@vitejs/plugin-vue": "^4.4.0",
+        "@vitejs/plugin-vue": "^5.0.0",
         "@vue/test-utils": "^2.4.1",
         "autoprefixer": "^10.4.16",
         "chokidar-cli": "^3.0.0",
@@ -89,6 +89,6 @@
     "packageManager": "yarn@4.0.2",
     "resolutions": {
         "vite": "^4.5.0",
-        "@vitejs/plugin-vue": "^4.4.0"
+        "@vitejs/plugin-vue": "^5.0.0"
     }
 }
