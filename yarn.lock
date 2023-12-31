@@ -1489,7 +1489,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:18.19.3, @types/node@npm:^18.17.5":
+"@types/node@npm:18.19.4":
+  version: 18.19.4
+  resolution: "@types/node@npm:18.19.4"
+  dependencies:
+    undici-types: "npm:~5.26.4"
+  checksum: e395bf591e79bd91c0819e7bee39c56e881399da2ca37fba5a59194ff28941fb8ed663c3fb4fba89465842720d916110dee9b774a3e4aecbe08b9e1ada4ab4fe
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:^18.17.5":
   version: 18.19.3
   resolution: "@types/node@npm:18.19.3"
   dependencies:
@@ -8387,7 +8396,7 @@ __metadata:
     "@rollup/plugin-yaml": "npm:^4.1.2"
     "@tsconfig/node18": "npm:^18.2.2"
     "@types/cypress__code-coverage": "npm:^3.10.1"
-    "@types/node": "npm:18.19.3"
+    "@types/node": "npm:18.19.4"
     "@typescript-eslint/eslint-plugin": "npm:^6.8.0"
     "@typescript-eslint/parser": "npm:^6.8.0"
     "@unocss/preset-icons": "npm:^0.58.0"
