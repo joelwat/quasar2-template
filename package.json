@@ -16,7 +16,7 @@
         "test:component": "cross-env NODE_ENV=test cypress open --component -p3000",
         "test:component:ci": "cross-env NODE_ENV=test cypress run --component -p3000",
         "test:e2e": "cross-env NODE_ENV=test start-test \"yarn dev -p3000\" http-get://localhost:3000 \"cypress open --e2e\"",
-        "test:e2e:ci": "cross-env NODE_ENV=test start-test \"yarn dev -p3000\" http-get://localhost:3000 \"cypress run --e2e\"",
+        "test:e2e:ci": "cross-env NODE_ENV=test start-test \"yarn dev -p3000\" http-get://127.0.0.1:3000 \"cypress run --e2e\"",
         "test:unit": "vitest",
         "test:unit:ci": "vitest run",
         "test:unit:ui": "vitest --ui",
