@@ -4,7 +4,7 @@ import { defineConfig } from 'cypress';
 
 export default defineConfig({
     fixturesFolder: 'test/cypress/fixtures',
-    projectId: 'knf7x6',
+    projectId: 'bkmavm',
     screenshotsFolder: 'test/cypress/screenshots',
     videosFolder: 'test/cypress/videos',
     e2e: {

@@ -14,7 +14,7 @@
         "lint:watch": "chokidar '**/*.{(c|m)?js,vue,json}' '!(node_modules/*|dist/*coverage/*)' --cache --initial --debounce -c 'eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --ignore-path .gitignore'",
         "test": "echo \"See package.json => scripts for available tests.\" && exit 0",
         "test:component": "cross-env NODE_ENV=test cypress open --component -p3000",
-        "test:component:ci": "cross-env NODE_ENV=test cypress run --component -p3000",
+        "test:component:ci": "cross-env NODE_ENV=test cypress run --component -p3000 --browser firefox",
         "test:e2e": "cross-env NODE_ENV=test start-test \"yarn dev -p3000\" http-get://localhost:3000 \"cypress open --e2e\"",
         "test:e2e:ci": "cross-env NODE_ENV=test start-test \"yarn dev -p3000\" http-get://127.0.0.1:3000 \"cypress run --e2e\"",
         "test:unit": "vitest",
