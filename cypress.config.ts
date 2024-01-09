@@ -7,7 +7,6 @@ export default defineConfig({
     projectId: 'knf7x6',
     screenshotsFolder: 'test/cypress/screenshots',
     videosFolder: 'test/cypress/videos',
-    video: true,
     e2e: {
         setupNodeEvents(on, config) {
             registerCodeCoverageTasks(on, config);
