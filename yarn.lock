@@ -1627,15 +1627,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^18.17.5":
-  version: 18.19.7
-  resolution: "@types/node@npm:18.19.7"
-  dependencies:
-    undici-types: "npm:~5.26.4"
-  checksum: cdac009dae672b4ef357d6eab85bbb56e837023e5d95b19fed2d621049fe861e974574e977a18b2ba57869b2d2db7af1a96a2c7ced2fd0495058e35afbff8c0f
-  languageName: node
-  linkType: hard
-
 "@types/qs@npm:*":
   version: 6.9.11
   resolution: "@types/qs@npm:6.9.11"
@@ -3788,12 +3779,11 @@ __metadata:
   linkType: hard
 
 "cypress@npm:*, cypress@npm:^13.6.2":
-  version: 13.6.2
-  resolution: "cypress@npm:13.6.2"
+  version: 13.6.3
+  resolution: "cypress@npm:13.6.3"
   dependencies:
     "@cypress/request": "npm:^3.0.0"
     "@cypress/xvfb": "npm:^1.2.4"
-    "@types/node": "npm:^18.17.5"
     "@types/sinonjs__fake-timers": "npm:8.1.1"
     "@types/sizzle": "npm:^2.3.2"
     arch: "npm:^2.2.0"
@@ -3836,7 +3826,7 @@ __metadata:
     yauzl: "npm:^2.10.0"
   bin:
     cypress: bin/cypress
-  checksum: deee1d7c876db5b6078ea80c0a3fbdefac399c68ee71ab461944d3f091c6ba8409bb36ca759ee25559b069bae2cd01214f87dea62527da2afb71219e17921d58
+  checksum: dc6038ff7b36aeef7cc97918fbdc848f43175cd3396df9f0d723f8fbb172b2f0ced98ddcd55786f38b57a9634f9a1dc446d5712ac20d30ae7c786f626dc28adc
   languageName: node
   linkType: hard
 
