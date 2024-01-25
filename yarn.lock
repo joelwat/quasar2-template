@@ -10334,16 +10334,16 @@ __metadata:
   linkType: hard
 
 "vite-plugin-inspect@npm:^0.8.1":
-  version: 0.8.2
-  resolution: "vite-plugin-inspect@npm:0.8.2"
+  version: 0.8.3
+  resolution: "vite-plugin-inspect@npm:0.8.3"
   dependencies:
     "@antfu/utils": "npm:^0.7.7"
     "@rollup/pluginutils": "npm:^5.1.0"
     debug: "npm:^4.3.4"
     error-stack-parser-es: "npm:^0.1.1"
     fs-extra: "npm:^11.2.0"
-    lodash-es: "npm:^4.17.21"
     open: "npm:^10.0.3"
+    perfect-debounce: "npm:^1.0.0"
     picocolors: "npm:^1.0.0"
     sirv: "npm:^2.0.4"
   peerDependencies:
@@ -10351,7 +10351,7 @@ __metadata:
   peerDependenciesMeta:
     "@nuxt/kit":
       optional: true
-  checksum: e48c88705c5ca29d7b5198825247890215fbd14aa639bfef71488103fd5745d5495c1a1b0f3cbd61d2d5cf2103a70fe6749aba170ca60cda72e74d79813755f6
+  checksum: 4d645769236d7a154acd0881c28eb8656034b1225ecb79e02d88ebadead64739cc3980c7528d15822113389370cb26e6c810b4c68a342de33341c36ab4ddc584
   languageName: node
   linkType: hard
 
