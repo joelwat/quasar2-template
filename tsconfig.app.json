@@ -24,7 +24,7 @@
         },
         "skipLibCheck": true,
         "sourceMap": true,
-        "strict": false,
+        "strict": true,
         "types": [
             "@intlify/unplugin-vue-i18n/messages",
             "vite/client",
@@ -43,6 +43,5 @@
         "env.d.ts",
         "src/**/*",
         "src/**/*.vue",
-        "HMTConfig.js"
     ]
 }

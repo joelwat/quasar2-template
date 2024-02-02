@@ -164,29 +164,6 @@ module.exports = {
 
         // Disabled for compatibility with old code
         'no-underscore-dangle': 'off',
-
-        // XXX: Disabled for compatibility with old code
-        '@typescript-eslint/no-unnecessary-condition': 'off',
-        '@typescript-eslint/prefer-nullish-coalescing': 'off',
-        '@typescript-eslint/no-floating-promises': 'off',
-        '@typescript-eslint/no-unsafe-member-access': 'off',
-        'no-multi-assign': 'off',
-        '@typescript-eslint/no-unsafe-assignment': 'off',
-        '@typescript-eslint/no-unsafe-call': 'off',
-        '@typescript-eslint/no-unsafe-argument': 'off',
-        'no-useless-escape': 'off',
-        '@typescript-eslint/no-confusing-void-expression': 'off',
-        '@typescript-eslint/no-unsafe-return': 'off',
-        'no-return-assign': 'off',
-        '@typescript-eslint/unbound-method': 'off',
-        'func-names': 'off',
-        '@typescript-eslint/no-this-alias': 'off',
-        '@typescript-eslint/no-shadow': 'off',
-        'vue/no-lone-template': 'off',
-        'no-unreachable': 'off',
-        '@typescript-eslint/default-param-last': 'off',
-        'vuejs-accessibility/label-has-for': 'off',
-        'vue/max-len': 'off',
     },
 
     settings: {
