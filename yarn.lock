@@ -5720,17 +5720,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"happy-dom@npm:^12.10.3":
-  version: 12.10.3
-  resolution: "happy-dom@npm:12.10.3"
+"happy-dom@npm:^13.3.8":
+  version: 13.3.8
+  resolution: "happy-dom@npm:13.3.8"
   dependencies:
-    css.escape: "npm:^1.5.1"
     entities: "npm:^4.5.0"
-    iconv-lite: "npm:^0.6.3"
     webidl-conversions: "npm:^7.0.0"
-    whatwg-encoding: "npm:^2.0.0"
     whatwg-mimetype: "npm:^3.0.0"
-  checksum: 10c0/fbf8647e17c4af5c166d7c4b6963f4bbc9d1c279e94a4c77234b1fecca98c59989b894c7b186f5107e1062d40ffd84f12350b757f51330a5fc1c5228eb199517
+  checksum: 10c0/0be04ecde7f57c7d9a899f8720e431fa9f02ac45ece528c22b41dc88872923a1be3ad13917b8a7d8b9b15ee7febb1f1681d0e545fceb8b14523122fa3fd411f1
   languageName: node
   linkType: hard
 
@@ -8369,7 +8366,7 @@ __metadata:
     eslint-plugin-react: "npm:^7.33.2"
     eslint-plugin-vue: "npm:^9.21.1"
     eslint-plugin-vuejs-accessibility: "npm:^2.2.1"
-    happy-dom: "npm:^12.10.3"
+    happy-dom: "npm:^13.3.8"
     pinia: "npm:^2.1.7"
     postcss: "npm:^8.4.33"
     quasar: "npm:^2.14.3"
