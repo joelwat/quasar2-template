@@ -10135,8 +10135,8 @@ __metadata:
   linkType: hard
 
 "unplugin-vue-router@npm:^0.8.0":
-  version: 0.8.3
-  resolution: "unplugin-vue-router@npm:0.8.3"
+  version: 0.8.4
+  resolution: "unplugin-vue-router@npm:0.8.4"
   dependencies:
     "@babel/types": "npm:^7.23.9"
     "@rollup/pluginutils": "npm:^5.1.0"
@@ -10156,7 +10156,7 @@ __metadata:
   peerDependenciesMeta:
     vue-router:
       optional: true
-  checksum: 10c0/27dc54dff5a545461b008f1f00922f52af1234151987c7a69f461c77cbe82e019911d0d471638ce8165751ea3df922cfc963dcfaddf9e9b70c72ad4e7c82aaf8
+  checksum: 10c0/f0905ee7b8cac2ac7fc9a8ff76fbf91c92aaf9b6fa06a3963e0d87035168760de76b83a37b97c1c34411f0d260390a858002b927e90e343b9e8c0535a5ed3588
   languageName: node
   linkType: hard
 
