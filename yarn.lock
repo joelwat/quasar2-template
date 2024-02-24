@@ -290,7 +290,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/parser@npm:^7.14.7, @babel/parser@npm:^7.22.7, @babel/parser@npm:^7.23.5, @babel/parser@npm:^7.23.9":
+"@babel/parser@npm:^7.14.7, @babel/parser@npm:^7.23.5, @babel/parser@npm:^7.23.6, @babel/parser@npm:^7.23.9":
   version: 7.23.9
   resolution: "@babel/parser@npm:7.23.9"
   bin:
@@ -401,7 +401,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/types@npm:^7.22.15, @babel/types@npm:^7.22.19, @babel/types@npm:^7.22.5, @babel/types@npm:^7.23.0, @babel/types@npm:^7.23.6, @babel/types@npm:^7.23.9, @babel/types@npm:^7.8.3":
+"@babel/types@npm:^7.22.15, @babel/types@npm:^7.22.5, @babel/types@npm:^7.23.0, @babel/types@npm:^7.23.6, @babel/types@npm:^7.23.9, @babel/types@npm:^7.8.3":
   version: 7.23.9
   resolution: "@babel/types@npm:7.23.9"
   dependencies:
@@ -1235,7 +1235,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rollup/pluginutils@npm:^5.0.1, @rollup/pluginutils@npm:^5.0.2, @rollup/pluginutils@npm:^5.0.4, @rollup/pluginutils@npm:^5.1.0":
+"@rollup/pluginutils@npm:^5.0.1, @rollup/pluginutils@npm:^5.0.2, @rollup/pluginutils@npm:^5.1.0":
   version: 5.1.0
   resolution: "@rollup/pluginutils@npm:5.1.0"
   dependencies:
@@ -2133,7 +2133,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vue-macros/common@npm:^1.8.0":
+"@vue-macros/common@npm:^1.10.1":
   version: 1.10.1
   resolution: "@vue-macros/common@npm:1.10.1"
   dependencies:
@@ -2758,17 +2758,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ast-kit@npm:^0.9.4":
-  version: 0.9.5
-  resolution: "ast-kit@npm:0.9.5"
-  dependencies:
-    "@babel/parser": "npm:^7.22.7"
-    "@rollup/pluginutils": "npm:^5.0.2"
-    pathe: "npm:^1.1.1"
-  checksum: 10c0/4ea86de71319db90f7f58f6882714693cbb94a8e8a1ad07c6088ff93899f0ae9196edbb693dc99db58fdde83e834f49b3ff75373c499e23b1c2af2122e030182
-  languageName: node
-  linkType: hard
-
 "ast-types-flow@npm:^0.0.8":
   version: 0.0.8
   resolution: "ast-types-flow@npm:0.0.8"
@@ -2776,13 +2765,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ast-walker-scope@npm:^0.5.0":
-  version: 0.5.0
-  resolution: "ast-walker-scope@npm:0.5.0"
+"ast-walker-scope@npm:^0.6.0":
+  version: 0.6.0
+  resolution: "ast-walker-scope@npm:0.6.0"
   dependencies:
-    "@babel/parser": "npm:^7.22.7"
-    ast-kit: "npm:^0.9.4"
-  checksum: 10c0/2730cbb50e3e5ba468317d8db9a3038a77a27f99b26559c6e05f59726fad7409956f930773e9ab7b84d00d9f7d6669d54d04311319bace216dc1e0f4db8fcb8f
+    "@babel/parser": "npm:^7.23.6"
+    ast-kit: "npm:^0.11.3"
+  checksum: 10c0/de7d95c411141ccf962ac81323e5cb25e1fddd04f52e9513237ca79c6c5b473ef7882740f82ba68b147acc9f58edee55e79324232099e8520dd3618b2fa46647
   languageName: node
   linkType: hard
 
@@ -3240,7 +3229,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chokidar@npm:>=3.0.0 <4.0.0, chokidar@npm:^3.5.2, chokidar@npm:^3.5.3":
+"chokidar@npm:>=3.0.0 <4.0.0, chokidar@npm:^3.5.2, chokidar@npm:^3.5.3, chokidar@npm:^3.6.0":
   version: 3.6.0
   resolution: "chokidar@npm:3.6.0"
   dependencies:
@@ -5156,7 +5145,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fast-glob@npm:^3.2.12, fast-glob@npm:^3.2.9, fast-glob@npm:^3.3.1, fast-glob@npm:^3.3.2":
+"fast-glob@npm:^3.2.12, fast-glob@npm:^3.2.9, fast-glob@npm:^3.3.2":
   version: 3.3.2
   resolution: "fast-glob@npm:3.3.2"
   dependencies:
@@ -6964,13 +6953,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"local-pkg@npm:^0.4.3":
-  version: 0.4.3
-  resolution: "local-pkg@npm:0.4.3"
-  checksum: 10c0/361c77d7873a629f09c9e86128926227171ee0fe3435d282fb80303ff255bb4d3c053b555d47e953b4f41d2561f2a7bc0e53e9ca5c9bc9607226a77c91ea4994
-  languageName: node
-  linkType: hard
-
 "local-pkg@npm:^0.5.0":
   version: 0.5.0
   resolution: "local-pkg@npm:0.5.0"
@@ -7479,6 +7461,18 @@ __metadata:
     pkg-types: "npm:^1.0.3"
     ufo: "npm:^1.3.2"
   checksum: 10c0/0861d64f13e8e6f99e4897b652b553ded4d4b9e7b011d6afd7141e013b77ed9b9be0cd76e60c46c60c56cc9b8e27061165e5696179ba9f4161c24d162db7b621
+  languageName: node
+  linkType: hard
+
+"mlly@npm:^1.6.0":
+  version: 1.6.1
+  resolution: "mlly@npm:1.6.1"
+  dependencies:
+    acorn: "npm:^8.11.3"
+    pathe: "npm:^1.1.2"
+    pkg-types: "npm:^1.0.3"
+    ufo: "npm:^1.3.2"
+  checksum: 10c0/a7bf26b3d4f83b0f5a5232caa3af44be08b464f562f31c11d885d1bc2d43b7d717137d47b0c06fdc69e1b33ffc09f902b6d2b18de02c577849d40914e8785092
   languageName: node
   linkType: hard
 
@@ -8454,7 +8448,7 @@ __metadata:
     tslib: "npm:^2.6.2"
     typescript: "npm:^5.3.3"
     unocss: "npm:^0.58.5"
-    unplugin-vue-router: "npm:^0.7.0"
+    unplugin-vue-router: "npm:^0.8.0"
     vite: "npm:^5.1.3"
     vite-plugin-inspect: "npm:^0.8.3"
     vite-plugin-vue-layouts: "npm:^0.11.0"
@@ -8960,7 +8954,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"scule@npm:^1.0.0":
+"scule@npm:^1.3.0":
   version: 1.3.0
   resolution: "scule@npm:1.3.0"
   checksum: 10c0/5d1736daa10622c420f2aa74e60d3c722e756bfb139fa784ae5c66669fdfe92932d30ed5072e4ce3107f9c3053e35ad73b2461cb18de45b867e1d4dea63f8823
@@ -10140,33 +10134,33 @@ __metadata:
   languageName: node
   linkType: hard
 
-"unplugin-vue-router@npm:^0.7.0":
-  version: 0.7.0
-  resolution: "unplugin-vue-router@npm:0.7.0"
+"unplugin-vue-router@npm:^0.8.0":
+  version: 0.8.3
+  resolution: "unplugin-vue-router@npm:0.8.3"
   dependencies:
-    "@babel/types": "npm:^7.22.19"
-    "@rollup/pluginutils": "npm:^5.0.4"
-    "@vue-macros/common": "npm:^1.8.0"
-    ast-walker-scope: "npm:^0.5.0"
-    chokidar: "npm:^3.5.3"
-    fast-glob: "npm:^3.3.1"
+    "@babel/types": "npm:^7.23.9"
+    "@rollup/pluginutils": "npm:^5.1.0"
+    "@vue-macros/common": "npm:^1.10.1"
+    ast-walker-scope: "npm:^0.6.0"
+    chokidar: "npm:^3.6.0"
+    fast-glob: "npm:^3.3.2"
     json5: "npm:^2.2.3"
-    local-pkg: "npm:^0.4.3"
-    mlly: "npm:^1.4.2"
-    pathe: "npm:^1.1.1"
-    scule: "npm:^1.0.0"
-    unplugin: "npm:^1.5.0"
-    yaml: "npm:^2.3.2"
+    local-pkg: "npm:^0.5.0"
+    mlly: "npm:^1.6.0"
+    pathe: "npm:^1.1.2"
+    scule: "npm:^1.3.0"
+    unplugin: "npm:^1.7.1"
+    yaml: "npm:^2.3.4"
   peerDependencies:
-    vue-router: ^4.1.0
+    vue-router: ^4.3.0
   peerDependenciesMeta:
     vue-router:
       optional: true
-  checksum: 10c0/c6ad27c2885a2048ff261d4ea71d4b5e61f332d7c261bcea9c55f77f9a4b19c95c865a8e48d5e2d0079e00cad8352fbbd15003246e16c50ac47cdce2d3302601
+  checksum: 10c0/27dc54dff5a545461b008f1f00922f52af1234151987c7a69f461c77cbe82e019911d0d471638ce8165751ea3df922cfc963dcfaddf9e9b70c72ad4e7c82aaf8
   languageName: node
   linkType: hard
 
-"unplugin@npm:^1.1.0, unplugin@npm:^1.5.0":
+"unplugin@npm:^1.1.0, unplugin@npm:^1.7.1":
   version: 1.7.1
   resolution: "unplugin@npm:1.7.1"
   dependencies:
@@ -10868,7 +10862,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"yaml@npm:^2.0.0, yaml@npm:^2.3.2, yaml@npm:^2.3.4":
+"yaml@npm:^2.0.0, yaml@npm:^2.3.4":
   version: 2.3.4
   resolution: "yaml@npm:2.3.4"
   checksum: 10c0/cf03b68f8fef5e8516b0f0b54edaf2459f1648317fc6210391cf606d247e678b449382f4bd01f77392538429e306c7cba8ff46ff6b37cac4de9a76aff33bd9e1
