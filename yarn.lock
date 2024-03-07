@@ -877,13 +877,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@intlify/unplugin-vue-i18n@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "@intlify/unplugin-vue-i18n@npm:2.0.0"
+"@intlify/unplugin-vue-i18n@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "@intlify/unplugin-vue-i18n@npm:3.0.0"
   dependencies:
     "@intlify/bundle-utils": "npm:^7.4.0"
     "@intlify/shared": "npm:^9.4.0"
-    "@rollup/pluginutils": "npm:^5.0.2"
+    "@rollup/pluginutils": "npm:^5.1.0"
     "@vue/compiler-sfc": "npm:^3.2.47"
     debug: "npm:^4.3.3"
     fast-glob: "npm:^3.2.12"
@@ -904,7 +904,7 @@ __metadata:
       optional: true
     vue-i18n-bridge:
       optional: true
-  checksum: 10c0/1588a7cb8f0649884f9cb5d42de57841ab9b1324d1616cdc9bf36294772f6794812bdd18afa42acd286c1704d7ac8ff8d773704024989bbfa29989cc434919c5
+  checksum: 10c0/9d7bad4da95a7361391ec875c1d160816cc8cb2e5efb155b718d7be9f52826c63c2b32d8c5545584a62923eff32a3c4b48fe5b6ed39d2022c60854fee6260f22
   languageName: node
   linkType: hard
 
@@ -1235,7 +1235,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rollup/pluginutils@npm:^5.0.1, @rollup/pluginutils@npm:^5.0.2, @rollup/pluginutils@npm:^5.1.0":
+"@rollup/pluginutils@npm:^5.0.1, @rollup/pluginutils@npm:^5.1.0":
   version: 5.1.0
   resolution: "@rollup/pluginutils@npm:5.1.0"
   dependencies:
@@ -8388,7 +8388,7 @@ __metadata:
   dependencies:
     "@iconify-json/fa6-solid": "npm:^1.1.20"
     "@intlify/eslint-plugin-vue-i18n": "npm:^2.0.0"
-    "@intlify/unplugin-vue-i18n": "npm:^2.0.0"
+    "@intlify/unplugin-vue-i18n": "npm:^3.0.0"
     "@quasar/app-vite": "npm:^1.7.3"
     "@quasar/extras": "npm:^1.16.9"
     "@quasar/quasar-app-extension-testing-e2e-cypress": "npm:^6.0.0"
