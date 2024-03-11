@@ -5759,13 +5759,13 @@ __metadata:
   linkType: hard
 
 "happy-dom@npm:^13.3.8, happy-dom@npm:^13.6.2":
-  version: 13.7.0
-  resolution: "happy-dom@npm:13.7.0"
+  version: 13.7.3
+  resolution: "happy-dom@npm:13.7.3"
   dependencies:
     entities: "npm:^4.5.0"
     webidl-conversions: "npm:^7.0.0"
     whatwg-mimetype: "npm:^3.0.0"
-  checksum: 10c0/d21c863b31c481a70be8b7c98f5e9287dad8180b1424fda41b5a634be3cbb9b80f7e7e992ce846eec97e8c9060fdb3dfe756cd2b75dd0710b8114bde866e248a
+  checksum: 10c0/ff2c5332cc594f0509e2db53a4efbad977320c71ee4f1eb557da2af7b225ee88b767137f0e3b04ca95610bd0a5c875aa834b0bb6839e5ab07a8ed1d91b2f5206
   languageName: node
   linkType: hard
 
