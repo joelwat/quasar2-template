@@ -5779,7 +5779,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"happy-dom@npm:^13.3.8, happy-dom@npm:^13.6.2":
+"happy-dom@npm:^13.6.2":
   version: 13.8.6
   resolution: "happy-dom@npm:13.8.6"
   dependencies:
@@ -5787,6 +5787,17 @@ __metadata:
     webidl-conversions: "npm:^7.0.0"
     whatwg-mimetype: "npm:^3.0.0"
   checksum: 10c0/b994196ce24c311c3b27e8ba95c919419d7e0a42a34c8263321125214cdd4a7a648544f77f6a82fa6fd771f4c20943145d7bd5c67e21c3a66c4320faddfe6aa5
+  languageName: node
+  linkType: hard
+
+"happy-dom@npm:^14.0.0":
+  version: 14.0.0
+  resolution: "happy-dom@npm:14.0.0"
+  dependencies:
+    entities: "npm:^4.5.0"
+    webidl-conversions: "npm:^7.0.0"
+    whatwg-mimetype: "npm:^3.0.0"
+  checksum: 10c0/961e498f7f6bfdb59c6082b538383f43251287968060e26bea3a823ab1f7a4432d051bccca6fd8671766f16c094877accd3fb162291c5c338989c5b5700f132c
   languageName: node
   linkType: hard
 
@@ -8450,7 +8461,7 @@ __metadata:
     eslint-plugin-react: "npm:^7.33.2"
     eslint-plugin-vue: "npm:^9.21.1"
     eslint-plugin-vuejs-accessibility: "npm:^2.2.1"
-    happy-dom: "npm:^13.3.8"
+    happy-dom: "npm:^14.0.0"
     pinia: "npm:^2.1.7"
     postcss: "npm:^8.4.35"
     quasar: "npm:^2.14.5"
