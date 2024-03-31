@@ -1142,9 +1142,9 @@ __metadata:
   linkType: hard
 
 "@quasar/extras@npm:^1.16.9":
-  version: 1.16.10
-  resolution: "@quasar/extras@npm:1.16.10"
-  checksum: 10c0/4cc57f9b75b6a27143969cafc04487ab9017bbc836258042793fb2c754ae287b9de4aa11b66c856fe47157c64c3eb19a5fb1a5cf49b595c12b3e0a1551653147
+  version: 1.16.11
+  resolution: "@quasar/extras@npm:1.16.11"
+  checksum: 10c0/cc61379a80d701573dc22f1588d91ee10202b3951916cc8c8c560680409017bb6eaea07133039fc51e0ce2199d67bf60078dd7ad7fcfee0b5fe28f0a7c650d21
   languageName: node
   linkType: hard
 
