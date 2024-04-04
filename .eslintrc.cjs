@@ -73,6 +73,10 @@ module.exports = {
                 'plugin:cypress/recommended',
             ],
         },
+        {
+            files: ['*.js'],
+            extends: ['plugin:@typescript-eslint/disable-type-checked'],
+        },
     ],
 
     globals: {
