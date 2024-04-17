@@ -1149,8 +1149,8 @@ __metadata:
   linkType: hard
 
 "@quasar/quasar-app-extension-testing-e2e-cypress@npm:^6.0.0":
-  version: 6.0.0
-  resolution: "@quasar/quasar-app-extension-testing-e2e-cypress@npm:6.0.0"
+  version: 6.1.0
+  resolution: "@quasar/quasar-app-extension-testing-e2e-cypress@npm:6.1.0"
   dependencies:
     "@cypress/code-coverage": "npm:^3.12.26"
     cross-env: "npm:^7.0.3"
@@ -1164,7 +1164,7 @@ __metadata:
   peerDependenciesMeta:
     eslint-plugin-cypress:
       optional: true
-  checksum: 10c0/ed7a41cba11b5aba8057c4d794bec1ce6a15733efd3fd39cb83dc06442ea5b0213c902539219748d5b755daf580be6f3e7f902f1d2d0b0483d8617869b68351a
+  checksum: 10c0/3925b67f4686f7855ba2dd911480009deea26a807b98c850ae94028c1496f5fe37d1926104429685a069861027a3e0bb237dd3e6b64dea55b906048b74d53966
   languageName: node
   linkType: hard
 
