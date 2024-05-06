@@ -1112,11 +1112,11 @@ __metadata:
   linkType: hard
 
 "@quasar/app-vite@npm:^1.8.0":
-  version: 1.8.4
-  resolution: "@quasar/app-vite@npm:1.8.4"
+  version: 1.9.1
+  resolution: "@quasar/app-vite@npm:1.9.1"
   dependencies:
     "@quasar/render-ssr-error": "npm:^1.0.3"
-    "@quasar/vite-plugin": "npm:^1.3.3"
+    "@quasar/vite-plugin": "npm:^1.7.0"
     "@rollup/pluginutils": "npm:^4.1.2"
     "@types/chrome": "npm:^0.0.208"
     "@types/compression": "npm:^1.7.2"
@@ -1155,7 +1155,7 @@ __metadata:
     electron-packager: ">= 15"
     eslint: ^8.11.0
     pinia: ^2.0.0
-    quasar: ^2.14.0
+    quasar: ^2.16.0
     vue: ^3.2.29
     vue-router: ^4.0.12
     vuex: ^4.0.0
@@ -1177,7 +1177,7 @@ __metadata:
       optional: true
   bin:
     quasar: bin/quasar
-  checksum: 10c0/4fd7d77a450ade37d323213dc0e77285c43db20bea8eb63447326115fb6106a6de80aa13dd187af94ccdae2969524e16f6aeeec1f04d44f9266668288b65eb67
+  checksum: 10c0/270dfa7d2fe1b63dd5f13053623092eadd743531301a8cd709ed5db5b9a1cce45d318021103e92e37dd242a9bea9746e0f1b2a5dbace40c556c7ab2de2feebe3
   languageName: node
   linkType: hard
 
@@ -1238,7 +1238,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@quasar/vite-plugin@npm:^1.3.3, @quasar/vite-plugin@npm:^1.6.0":
+"@quasar/vite-plugin@npm:^1.6.0":
   version: 1.6.0
   resolution: "@quasar/vite-plugin@npm:1.6.0"
   peerDependencies:
@@ -1247,6 +1247,18 @@ __metadata:
     vite: ^2.0.0 || ^3.0.0 || ^4.0.0 || ^5.0.0-beta.0
     vue: ^3.0.0
   checksum: 10c0/46283dd9baa368a0956869aadc7c23ae9e0ec7fc753f3e4dde397e094f2e6c70f83ef37a89a7390dd5b761ba62cdd08410417aa46dad01ea287f0f0741500374
+  languageName: node
+  linkType: hard
+
+"@quasar/vite-plugin@npm:^1.7.0":
+  version: 1.7.0
+  resolution: "@quasar/vite-plugin@npm:1.7.0"
+  peerDependencies:
+    "@vitejs/plugin-vue": ^2.0.0 || ^3.0.0 || ^4.0.0 || ^5.0.0
+    quasar: ^2.16.0
+    vite: ^2.0.0 || ^3.0.0 || ^4.0.0 || ^5.0.0
+    vue: ^3.0.0
+  checksum: 10c0/d04da314b16daeccebf28b3c45ab1773ddf5a9edc0fc1f08b0dfd99fd07b5d847df0e0e14b2f6986df9d25177c332316566d695de95c77a8fc2a15618a348e36
   languageName: node
   linkType: hard
 
