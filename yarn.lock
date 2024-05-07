@@ -1238,19 +1238,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@quasar/vite-plugin@npm:^1.6.0":
-  version: 1.6.0
-  resolution: "@quasar/vite-plugin@npm:1.6.0"
-  peerDependencies:
-    "@vitejs/plugin-vue": ^2.0.0 || ^3.0.0 || ^4.0.0 || ^5.0.0-beta.0
-    quasar: ^2.8.0
-    vite: ^2.0.0 || ^3.0.0 || ^4.0.0 || ^5.0.0-beta.0
-    vue: ^3.0.0
-  checksum: 10c0/46283dd9baa368a0956869aadc7c23ae9e0ec7fc753f3e4dde397e094f2e6c70f83ef37a89a7390dd5b761ba62cdd08410417aa46dad01ea287f0f0741500374
-  languageName: node
-  linkType: hard
-
-"@quasar/vite-plugin@npm:^1.7.0":
+"@quasar/vite-plugin@npm:^1.6.0, @quasar/vite-plugin@npm:^1.7.0":
   version: 1.7.0
   resolution: "@quasar/vite-plugin@npm:1.7.0"
   peerDependencies:
