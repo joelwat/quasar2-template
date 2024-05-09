@@ -87,7 +87,7 @@
         "npm": ">= 6.13.4",
         "yarn": ">= 1.21.1"
     },
-    "packageManager": "yarn@4.2.1",
+    "packageManager": "yarn@4.2.2",
     "resolutions": {
         "vite": "^5.0.11",
         "@vitejs/plugin-vue": "^5.0.2"
