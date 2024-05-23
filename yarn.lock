@@ -2135,7 +2135,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vue-macros/common@npm:^1.10.2":
+"@vue-macros/common@npm:^1.10.3":
   version: 1.10.3
   resolution: "@vue-macros/common@npm:1.10.3"
   dependencies:
@@ -10196,28 +10196,28 @@ __metadata:
   linkType: hard
 
 "unplugin-vue-router@npm:^0.8.5":
-  version: 0.8.6
-  resolution: "unplugin-vue-router@npm:0.8.6"
+  version: 0.8.8
+  resolution: "unplugin-vue-router@npm:0.8.8"
   dependencies:
-    "@babel/types": "npm:^7.24.0"
+    "@babel/types": "npm:^7.24.5"
     "@rollup/pluginutils": "npm:^5.1.0"
-    "@vue-macros/common": "npm:^1.10.2"
+    "@vue-macros/common": "npm:^1.10.3"
     ast-walker-scope: "npm:^0.6.1"
     chokidar: "npm:^3.6.0"
     fast-glob: "npm:^3.3.2"
     json5: "npm:^2.2.3"
     local-pkg: "npm:^0.5.0"
-    mlly: "npm:^1.6.1"
+    mlly: "npm:^1.7.0"
     pathe: "npm:^1.1.2"
     scule: "npm:^1.3.0"
     unplugin: "npm:^1.10.1"
-    yaml: "npm:^2.4.1"
+    yaml: "npm:^2.4.2"
   peerDependencies:
     vue-router: ^4.3.0
   peerDependenciesMeta:
     vue-router:
       optional: true
-  checksum: 10c0/64706c7c56c35000685696d23ba3e18b768fc71694c6ac43385225fc80f594dd33da991382a4896178f7d91fd04732008b13516505a6aa813226c8ef5909da22
+  checksum: 10c0/d9abc1a11d38acaac913caed3bc2e4cef48bdf90f274feeb3cf6a0de54c6d8028d7dcfc1e178c2441c4a5fae0ef3b18bfe4124c5144eef7893b1a3a4ba5e5fa6
   languageName: node
   linkType: hard
 
@@ -10899,7 +10899,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"yaml@npm:^2.0.0, yaml@npm:^2.4.1":
+"yaml@npm:^2.0.0, yaml@npm:^2.4.1, yaml@npm:^2.4.2":
   version: 2.4.2
   resolution: "yaml@npm:2.4.2"
   bin:
