@@ -19,7 +19,7 @@
         ".eslintrc.cjs",
         "cypress.config.ts",
         "postcss.config.cjs",
-        "quasar.config.cjs",
+        "quasar.config.ts",
         "uno.config.mjs",
         "vitest.config.ts"
     ]

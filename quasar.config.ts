@@ -1,39 +1,22 @@
-/* eslint-env node */
-
-/*
- * This file runs in a Node context (it's NOT transpiled by Babel), so use only
- * the ES6 features that are supported by your Node version. https://node.green/
- */
-
 // Configuration for your app
 // https://v2.quasar.dev/quasar-cli-vite/quasar-config-js
 
 /* eslint func-names: 0 */
 /* eslint global-require: 0 */
 
-const env = require('dotenv').config().parsed;
-const VueI18nPlugin = require('@intlify/unplugin-vue-i18n/vite');
-const path = require('path');
-const { configure } = require('quasar/wrappers');
-const Unocss = require('unocss/vite').default;
-const Inspect = require('vite-plugin-inspect');
-const tsconfigPaths = require('vite-tsconfig-paths').default;
-const Layouts = require('vite-plugin-vue-layouts').default;
-const VueRouter = require('unplugin-vue-router/vite').default;
-const Yaml = require('@rollup/plugin-yaml');
+import { fileURLToPath } from 'node:url';
+import { configure } from 'quasar/wrappers';
+import checker from 'vite-plugin-checker';
+import Unocss from 'unocss/vite';
+import Inspect from 'vite-plugin-inspect';
+import tsconfigPaths from 'vite-tsconfig-paths';
+import Layouts from 'vite-plugin-vue-layouts';
+import VueRouter from 'unplugin-vue-router/vite';
+import Yaml from '@rollup/plugin-yaml';
 
-const unoConfig = import('./uno.config.mjs');
+import unoConfig from './uno.config.mjs';
 
-module.exports = configure((/* ctx */) => ({
-    eslint: {
-        fix: false,
-        // include: [],
-        // exclude: [],
-        // rawOptions: {},
-        warnings: false,
-        errors: false,
-    },
-
+export default configure((ctx) => ({
     // https://v2.quasar.dev/quasar-cli-vite/prefetch-feature
     // preFetch: true,
 
@@ -76,28 +59,43 @@ module.exports = configure((/* ctx */) => ({
         // vueDevtools,
         vueOptionsAPI: true,
 
-        sourcemap: env.VITE_ENVIRONMENT !== 'prod'
-            ? 'inline'
-            : false,
-
-        // rebuildCache: true, // rebuilds Vite/linter/etc cache on startup
+        sourcemap: ctx.prod
+            ? false
+            : 'inline',
 
         // publicPath: '/',
         // analyze: true,
-        // env: {},
+        // envFolder: '',
+        // envFiles: [],
         // rawDefine: {}
         // ignorePublicFolder: true,
         // minify: false,
         // polyfillModulePreload: true,
         // distDir
+        vueDevtools: true,
 
         // extendViteConf (viteConf) {},
         // viteVuePluginOptions: {},
 
         vitePlugins: [
-            // [
-            //     Inspect(),
-            // ],
+            [
+                Inspect(),
+            ],
+            [
+                checker({
+                    eslint: {
+                        lintCommand: 'eslint "./**/*.{js,ts,mjs,cjs,vue}"',
+                    },
+                    // stylelint: {
+                    //     lintCommand: 'stylelint "./**/*.{css,scss,vue}"',
+                    //     importMeta: import.meta,
+                    // },
+                    typescript: true,
+                    vueTsc: {
+                        tsconfigPath: 'tsconfig.vue-tsc.json',
+                    },
+                }), { server: false },
+            ],
             [
                 VueRouter({
                     routeBlockLang: 'yaml',
@@ -112,7 +110,7 @@ module.exports = configure((/* ctx */) => ({
                 tsconfigPaths(),
             ],
             [
-                VueI18nPlugin({
+                '@intlify/unplugin-vue-i18n/vite', {
                     // if you want to use Vue I18n Legacy API, you need to set `compositionOnly: false`
                     // compositionOnly: false,
 
@@ -122,10 +120,11 @@ module.exports = configure((/* ctx */) => ({
 
                     // you need to set i18n resource including paths !
                     include: [
-                        path.resolve(__dirname, './src/i18n/**/*'),
+                        fileURLToPath(new URL('./src/i18n', import.meta.url)),
                     ],
+                    ssr: ctx.modeName === 'ssr',
                     strictMessage: false, // FIXME: Remove HTML from translations
-                }),
+                },
             ],
             [
                 Unocss(unoConfig),
@@ -138,13 +137,14 @@ module.exports = configure((/* ctx */) => ({
 
     // Full list of options: https://v2.quasar.dev/quasar-cli-vite/quasar-config-js#devServer
     devServer: {
-        // https: true
+        https: true,
         open: false, // opens browser window automatically
-        port: 3000,
+        port: 5173,
     },
 
     // https://v2.quasar.dev/quasar-cli-vite/quasar-config-js#framework
     framework: {
+        autoImportComponentCase: 'pascal',
         config: {
             ripple: false,
         },

@@ -11,11 +11,11 @@
             "path": "./tsconfig.tests.json"
         }
     ],
-    "ts-node": {
-        "esm": true,
-        "transpileOnly": true,
-        "compilerOptions": {
-            "module": "ESNext",
-        }
-    }
+    // "ts-node": {
+    //     "esm": true,
+    //     "transpileOnly": true,
+    //     "compilerOptions": {
+    //         "module": "ESNext",
+    //     }
+    // }
 }

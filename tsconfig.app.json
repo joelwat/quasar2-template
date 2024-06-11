@@ -27,6 +27,7 @@
         "strict": true,
         "types": [
             "@intlify/unplugin-vue-i18n/messages",
+            "unplugin-vue-router/client",
             "vite/client",
             "vite-plugin-vue-layouts/client",
             "vue-i18n"
@@ -34,8 +35,14 @@
         "verbatimModuleSyntax": true
     },
     "exclude": [
-        "src/**/__tests__/*",
-        "src/**/*.cy.ts"
+        "./dist",
+        "./node_modules",
+        "./.quasar",
+        "./quasar.config.*.temporary.compiled.*",
+        "./src-capacitor",
+        "./src-cordova",
+        "./src/**/__tests__/*",
+        "./src/**/*.cy.ts"
     ],
     "extends": "@quasar/app-vite/tsconfig-preset",
     "include": [
