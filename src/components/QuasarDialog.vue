@@ -1,28 +1,28 @@
 <template>
     <!-- notice dialogRef here -->
-    <q-dialog
+    <QDialog
         ref="dialogRef"
         @hide="onDialogHide"
     >
-        <q-card>
-            <q-card-section>{{ message }}</q-card-section>
+        <QCard>
+            <QCardSection>{{ message }}</QCardSection>
 
             <!-- buttons example -->
-            <q-card-actions align="right">
-                <q-btn
+            <QCardActions align="right">
+                <QBtn
                     data-cy="ok-button"
                     color="primary"
                     label="OK"
                     @click="onOKClick"
                 />
-                <q-btn
+                <QBtn
                     color="primary"
                     label="Cancel"
                     @click="onCancelClick"
                 />
-            </q-card-actions>
-        </q-card>
-    </q-dialog>
+            </QCardActions>
+        </QCard>
+    </QDialog>
 </template>
 
 <script lang="ts">

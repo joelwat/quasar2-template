@@ -1,5 +1,5 @@
 <template>
-    <q-btn
+    <QBtn
         data-cy="button"
         label="test emit"
         color="positive"

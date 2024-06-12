@@ -1,5 +1,5 @@
 <template>
-    <q-select
+    <QSelect
         v-model="selected"
         data-cy="select"
         label="test options selection"

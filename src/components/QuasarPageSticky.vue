@@ -1,17 +1,17 @@
 <template>
-    <q-page-sticky
+    <QPageSticky
         position="bottom-right"
         :offset="[18, 18]"
     >
-        <q-btn
+        <QBtn
             data-cy="button"
             rounded
             color="accent"
             icon="arrow_forward"
         >
             {{ title }}
-        </q-btn>
-    </q-page-sticky>
+        </QBtn>
+    </QPageSticky>
 </template>
 
 <script lang="ts">

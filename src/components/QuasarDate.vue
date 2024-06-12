@@ -1,11 +1,11 @@
 <template>
-    <q-date
+    <QDate
         v-model="date"
         data-cy="date-picker"
     />
 
     <div>
-        <q-input
+        <QInput
             v-model="date"
             label="Scegli data"
         >
@@ -18,13 +18,13 @@
                     @click="dateDialogRef.show()"
                 />
             </template>
-        </q-input>
-        <q-dialog ref="dateDialogRef">
-            <q-date
+        </QInput>
+        <QDialog ref="dateDialogRef">
+            <QDate
                 v-model="date"
                 @update:model-value="dateDialogRef.hide()"
             />
-        </q-dialog>
+        </QDialog>
     </div>
 
     <span data-cy="date-value">{{ date }}</span>

@@ -1,18 +1,18 @@
 <template>
-    <q-btn
+    <QBtn
         color="primary"
         data-cy="button"
     >
         Button
-        <q-tooltip
+        <QTooltip
             v-model="showTooltip"
             data-cy="tooltip"
             class="bg-red"
             :offset="[10, 10]"
         >
             Here I am!
-        </q-tooltip>
-    </q-btn>
+        </QTooltip>
+    </QBtn>
 </template>
 
 <script lang="ts">

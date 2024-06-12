@@ -1,27 +1,27 @@
 <template>
-    <q-checkbox
+    <QCheckbox
         v-model="checked"
         data-cy="checkbox"
     />
-    <q-toggle
+    <QToggle
         v-model="toggled"
         data-cy="toggle"
     />
 
-    <q-radio
+    <QRadio
         v-model="selected"
         val="Value1"
         data-cy="radio-1"
     >
         Value1
-    </q-radio>
-    <q-radio
+    </QRadio>
+    <QRadio
         v-model="selected"
         val="Value2"
         data-cy="radio-2"
     >
         Value2
-    </q-radio>
+    </QRadio>
 </template>
 
 <script lang="ts">

@@ -1,5 +1,5 @@
 <template>
-    <q-drawer
+    <QDrawer
         v-model="showDrawer"
         show-if-above
         :width="200"
@@ -8,7 +8,7 @@
         data-cy="drawer"
         class="bg-primary text-white"
     >
-        <q-scroll-area class="fit">
+        <QScrollArea class="fit">
             <div class="q-pa-sm">
                 <div
                     v-for="n in 50"
@@ -17,11 +17,11 @@
                     Drawer {{ n }} / 50
                 </div>
             </div>
-            <q-btn data-cy="button">
+            <QBtn data-cy="button">
                 Am I on screen?
-            </q-btn>
-        </q-scroll-area>
-    </q-drawer>
+            </QBtn>
+        </QScrollArea>
+    </QDrawer>
 </template>
 
 <script lang="ts">
