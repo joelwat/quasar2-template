@@ -45,7 +45,7 @@
         "@rollup/plugin-yaml": "^4.1.2",
         "@tsconfig/node20": "^20.1.4",
         "@types/cypress__code-coverage": "^3.10.2",
-        "@types/node": "20.14.4",
+        "@types/node": "20.14.10",
         "@typescript-eslint/eslint-plugin": "^7.13.0",
         "@typescript-eslint/parser": "^7.13.0",
         "@unocss/preset-icons": "^0.61.0",
