@@ -974,11 +974,11 @@ __metadata:
   linkType: hard
 
 "@iconify-json/fa6-solid@npm:^1.1.21":
-  version: 1.1.21
-  resolution: "@iconify-json/fa6-solid@npm:1.1.21"
+  version: 1.1.22
+  resolution: "@iconify-json/fa6-solid@npm:1.1.22"
   dependencies:
     "@iconify/types": "npm:*"
-  checksum: 10c0/c9475ff895831980c3eae639037d09f704d46abefb8b618b7784630a8ae431f744a22c9527b7a40122c5789b8191751fcd3f30c92962c68f7c125858754c166b
+  checksum: 10c0/959ceea14ccb94646a1194e01f9005256d1c435a6e04ce9ea651acd2b5858bdf74392ce87f6e59cf1c0f052fc2567ff42ed889667da6ae900551e8e141fc5fba
   languageName: node
   linkType: hard
 
