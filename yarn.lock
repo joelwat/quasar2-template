@@ -400,7 +400,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/types@npm:^7.24.5, @babel/types@npm:^7.24.6, @babel/types@npm:^7.24.7, @babel/types@npm:^7.8.3":
+"@babel/types@npm:^7.24.5, @babel/types@npm:^7.24.7, @babel/types@npm:^7.8.3":
   version: 7.24.7
   resolution: "@babel/types@npm:7.24.7"
   dependencies:
@@ -7934,7 +7934,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mlly@npm:^1.2.0, mlly@npm:^1.4.2, mlly@npm:^1.6.1, mlly@npm:^1.7.0":
+"mlly@npm:^1.2.0, mlly@npm:^1.4.2, mlly@npm:^1.6.1, mlly@npm:^1.7.0, mlly@npm:^1.7.1":
   version: 1.7.1
   resolution: "mlly@npm:1.7.1"
   dependencies:
@@ -8991,7 +8991,7 @@ __metadata:
     tslib: "npm:^2.6.3"
     typescript: "npm:^5.4.5"
     unocss: "npm:^0.61.0"
-    unplugin-vue-router: "npm:^0.9.1"
+    unplugin-vue-router: "npm:^0.10.0"
     vite: "npm:^5.2.13"
     vite-plugin-checker: "npm:^0.6.4"
     vite-plugin-inspect: "npm:^0.8.4"
@@ -10840,11 +10840,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"unplugin-vue-router@npm:^0.9.1":
-  version: 0.9.1
-  resolution: "unplugin-vue-router@npm:0.9.1"
+"unplugin-vue-router@npm:^0.10.0":
+  version: 0.10.0
+  resolution: "unplugin-vue-router@npm:0.10.0"
   dependencies:
-    "@babel/types": "npm:^7.24.6"
+    "@babel/types": "npm:^7.24.7"
     "@rollup/pluginutils": "npm:^5.1.0"
     "@vue-macros/common": "npm:^1.10.4"
     ast-walker-scope: "npm:^0.6.1"
@@ -10852,17 +10852,17 @@ __metadata:
     fast-glob: "npm:^3.3.2"
     json5: "npm:^2.2.3"
     local-pkg: "npm:^0.5.0"
-    mlly: "npm:^1.7.0"
+    mlly: "npm:^1.7.1"
     pathe: "npm:^1.1.2"
     scule: "npm:^1.3.0"
     unplugin: "npm:^1.10.1"
-    yaml: "npm:^2.4.3"
+    yaml: "npm:^2.4.5"
   peerDependencies:
-    vue-router: ^4.3.0
+    vue-router: ^4.4.0
   peerDependenciesMeta:
     vue-router:
       optional: true
-  checksum: 10c0/f1f7ef7231f588a242a4a84e147ca55e2edfd3373a7339786fcb904d414072630424cbbf1863fa1dd8b0bf870d6f270aec7fab5d6940387a3b84a55648431d1a
+  checksum: 10c0/8f08e469f972a1310cb67b8dbf4fd5845d74e9098634e6b04962cc343cfa4a30faba6ff36435e2abedf9307e1448a9fe65bf40f4bbe36e87f75b6c1fc258a9d8
   languageName: node
   linkType: hard
 
@@ -11675,7 +11675,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"yaml@npm:^2.0.0, yaml@npm:^2.4.3, yaml@npm:^2.4.5":
+"yaml@npm:^2.0.0, yaml@npm:^2.4.5":
   version: 2.4.5
   resolution: "yaml@npm:2.4.5"
   bin:
