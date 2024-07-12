@@ -8764,18 +8764,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:^8.4.38":
-  version: 8.4.39
-  resolution: "postcss@npm:8.4.39"
-  dependencies:
-    nanoid: "npm:^3.3.7"
-    picocolors: "npm:^1.0.1"
-    source-map-js: "npm:^1.2.0"
-  checksum: 10c0/16f5ac3c4e32ee76d1582b3c0dcf1a1fdb91334a45ad755eeb881ccc50318fb8d64047de4f1601ac96e30061df203f0f2e2edbdc0bfc49b9c57bc9fb9bedaea3
-  languageName: node
-  linkType: hard
-
-"postcss@npm:^8.4.39":
+"postcss@npm:^8.4.38, postcss@npm:^8.4.39":
   version: 8.4.39
   resolution: "postcss@npm:8.4.39"
   dependencies:
@@ -9019,9 +9008,9 @@ __metadata:
   linkType: soft
 
 "quasar@npm:^2.16.4":
-  version: 2.16.5
-  resolution: "quasar@npm:2.16.5"
-  checksum: 10c0/27e12376a6f03f678180cb29d480ba6d5d7765b2874db79c0b1eaf8fce84914a8a69d118e63a03c2f30c6a50acc3ae815e222c54e2e70de26ede1fc9f78e0916
+  version: 2.16.6
+  resolution: "quasar@npm:2.16.6"
+  checksum: 10c0/1a64e93190ce6b412e8dab68dbeff63a5e105b0d019747b57ee34393ef53729faf99a6aad994a234e8e3723f1fe1a1a338a7636ff437d17a6088a948f1afe111
   languageName: node
   linkType: hard
 
