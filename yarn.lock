@@ -5263,15 +5263,15 @@ __metadata:
   linkType: hard
 
 "eslint-plugin-vuejs-accessibility@npm:^2.3.0":
-  version: 2.3.1
-  resolution: "eslint-plugin-vuejs-accessibility@npm:2.3.1"
+  version: 2.4.0
+  resolution: "eslint-plugin-vuejs-accessibility@npm:2.4.0"
   dependencies:
     aria-query: "npm:^5.3.0"
     emoji-regex: "npm:^10.0.0"
     vue-eslint-parser: "npm:^9.0.1"
   peerDependencies:
     eslint: ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0 || ^9.0.0
-  checksum: 10c0/ecab323eaff8771eee1687c09a940db8b32fc587ef3c145ca123d040fe9d92c5d07e83fe3234fdb71870a47374b3952ef43ab9e49c2ef0c23105f0d112d6d8c6
+  checksum: 10c0/2413588a68ad4e8d91cabe6d20351f53cec0a513af2b9c838c97d9f8fc9cb3bcf17702e81d604395125de88208026635448295be31012b5abcf859deaa831324
   languageName: node
   linkType: hard
 
