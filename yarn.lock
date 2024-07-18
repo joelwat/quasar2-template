@@ -25,7 +25,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@antfu/utils@npm:^0.7.7":
+"@antfu/utils@npm:^0.7.10, @antfu/utils@npm:^0.7.7":
   version: 0.7.10
   resolution: "@antfu/utils@npm:0.7.10"
   checksum: 10c0/98991f66a4752ef097280b4235b27d961a13a2c67ef8e5b716a120eb9823958e20566516711204e2bfb08f0b935814b715f49ecd79c3b9b93ce32747ac297752
@@ -4717,10 +4717,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"error-stack-parser-es@npm:^0.1.1":
-  version: 0.1.4
-  resolution: "error-stack-parser-es@npm:0.1.4"
-  checksum: 10c0/52e36d7c2a1acc34e99de20eaf6bd48a9b89a01481534bd866334a69ecb65e514401b6ffa753d82069d8bf2ae4d8903f92eaaf747cdec57034900fcaa2a5e3de
+"error-stack-parser-es@npm:^0.1.4":
+  version: 0.1.5
+  resolution: "error-stack-parser-es@npm:0.1.5"
+  checksum: 10c0/60331183269d5d5f2d80ce01be58387e7f7ef86ec821db7bba3e7aad201174b3f1b561973c678af7ec945542de8f2d1d23d5152ff8adf6154080eff02cd0e0b5
   languageName: node
   linkType: hard
 
@@ -11172,24 +11172,24 @@ __metadata:
   linkType: hard
 
 "vite-plugin-inspect@npm:^0.8.4":
-  version: 0.8.4
-  resolution: "vite-plugin-inspect@npm:0.8.4"
+  version: 0.8.5
+  resolution: "vite-plugin-inspect@npm:0.8.5"
   dependencies:
-    "@antfu/utils": "npm:^0.7.7"
+    "@antfu/utils": "npm:^0.7.10"
     "@rollup/pluginutils": "npm:^5.1.0"
-    debug: "npm:^4.3.4"
-    error-stack-parser-es: "npm:^0.1.1"
+    debug: "npm:^4.3.5"
+    error-stack-parser-es: "npm:^0.1.4"
     fs-extra: "npm:^11.2.0"
     open: "npm:^10.1.0"
     perfect-debounce: "npm:^1.0.0"
-    picocolors: "npm:^1.0.0"
+    picocolors: "npm:^1.0.1"
     sirv: "npm:^2.0.4"
   peerDependencies:
     vite: ^3.1.0 || ^4.0.0 || ^5.0.0-0
   peerDependenciesMeta:
     "@nuxt/kit":
       optional: true
-  checksum: 10c0/cd9924bdf24989f61317a9400e622ab3db574a807aaae8412815558211a572b71c0988f5110bf03eecda718e286786d8c848756322e2e9b1eebc673515f34cec
+  checksum: 10c0/b44c80a9a9b7677529e8674fdeaf4a9c052e2237cfb749d558898a487f481ac7d797ed2067eca93a5da8ade50bae9c289919c5aefdb26a4b5ceccc75b24b78a3
   languageName: node
   linkType: hard
 
