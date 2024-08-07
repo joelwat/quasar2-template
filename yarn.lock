@@ -1269,9 +1269,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@quasar/app-vite@npm:2.0.0-beta.16":
-  version: 2.0.0-beta.16
-  resolution: "@quasar/app-vite@npm:2.0.0-beta.16"
+"@quasar/app-vite@npm:2.0.0-beta.17":
+  version: 2.0.0-beta.17
+  resolution: "@quasar/app-vite@npm:2.0.0-beta.17"
   dependencies:
     "@quasar/render-ssr-error": "npm:^1.0.2"
     "@quasar/ssl-certificate": "npm:^1.0.0"
@@ -1311,7 +1311,6 @@ __metadata:
   peerDependencies:
     "@electron/packager": ">= 18"
     electron-builder: ">= 22"
-    electron-packager: ">= 15"
     pinia: ^2.0.0
     quasar: ^2.16.0
     vue: ^3.2.29
@@ -1323,8 +1322,6 @@ __metadata:
       optional: true
     electron-builder:
       optional: true
-    electron-packager:
-      optional: true
     eslint:
       optional: true
     pinia:
@@ -1335,7 +1332,7 @@ __metadata:
       optional: true
   bin:
     quasar: bin/quasar.js
-  checksum: 10c0/6e3e52a9001152b55e6bd7ece1fedde34c52003c79f6851545a89d0fe8d4699830265df9ce4e5e42f6bb1d80082473696b460de5fbff14f387668cf3c50e3be6
+  checksum: 10c0/28bfcf96f5f512923b48871500ef12946a9bd7a70e4adeb5867cdc5667c835497f5a732aa03a1d4150bcdccf009a21731d0734e519fd8da5989375e157513d99
   languageName: node
   linkType: hard
 
@@ -9006,7 +9003,7 @@ __metadata:
     "@iconify-json/fa6-solid": "npm:^1.1.23"
     "@intlify/eslint-plugin-vue-i18n": "npm:^3.0.0"
     "@intlify/unplugin-vue-i18n": "npm:^4.0.0"
-    "@quasar/app-vite": "npm:2.0.0-beta.16"
+    "@quasar/app-vite": "npm:2.0.0-beta.17"
     "@quasar/extras": "npm:^1.16.12"
     "@quasar/quasar-app-extension-testing-e2e-cypress": "npm:^6.1.0"
     "@quasar/quasar-app-extension-testing-unit-vitest": "npm:^1.0.0"
