@@ -1269,9 +1269,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@quasar/app-vite@npm:2.0.0-beta.17":
-  version: 2.0.0-beta.17
-  resolution: "@quasar/app-vite@npm:2.0.0-beta.17"
+"@quasar/app-vite@npm:2.0.0-beta.18":
+  version: 2.0.0-beta.18
+  resolution: "@quasar/app-vite@npm:2.0.0-beta.18"
   dependencies:
     "@quasar/render-ssr-error": "npm:^1.0.2"
     "@quasar/ssl-certificate": "npm:^1.0.0"
@@ -1306,6 +1306,7 @@ __metadata:
     semver: "npm:^7.6.3"
     serialize-javascript: "npm:^6.0.2"
     table: "npm:^6.8.2"
+    ts-essentials: "npm:^9.4.2"
     vite: "npm:^5.3.5"
     webpack-merge: "npm:^6.0.1"
   peerDependencies:
@@ -1332,7 +1333,7 @@ __metadata:
       optional: true
   bin:
     quasar: bin/quasar.js
-  checksum: 10c0/28bfcf96f5f512923b48871500ef12946a9bd7a70e4adeb5867cdc5667c835497f5a732aa03a1d4150bcdccf009a21731d0734e519fd8da5989375e157513d99
+  checksum: 10c0/13f0288445550a28455e6891da2974ca35c49721066a36972c2fa9dada46d1d9149c472bf60423cd38c483a066b9664f46c0a7e1568985992f65d7a7130a3019
   languageName: node
   linkType: hard
 
@@ -9003,7 +9004,7 @@ __metadata:
     "@iconify-json/fa6-solid": "npm:^1.1.23"
     "@intlify/eslint-plugin-vue-i18n": "npm:^3.0.0"
     "@intlify/unplugin-vue-i18n": "npm:^4.0.0"
-    "@quasar/app-vite": "npm:2.0.0-beta.17"
+    "@quasar/app-vite": "npm:2.0.0-beta.18"
     "@quasar/extras": "npm:^1.16.12"
     "@quasar/quasar-app-extension-testing-e2e-cypress": "npm:^6.1.0"
     "@quasar/quasar-app-extension-testing-unit-vitest": "npm:^1.0.0"
@@ -10560,6 +10561,18 @@ __metadata:
   peerDependencies:
     typescript: ">=4.2.0"
   checksum: 10c0/f54a0ba9ed56ce66baea90a3fa087a484002e807f28a8ccb2d070c75e76bde64bd0f6dce98b3802834156306050871b67eec325cb4e918015a360a3f0868c77c
+  languageName: node
+  linkType: hard
+
+"ts-essentials@npm:^9.4.2":
+  version: 9.4.2
+  resolution: "ts-essentials@npm:9.4.2"
+  peerDependencies:
+    typescript: ">=4.1.0"
+  peerDependenciesMeta:
+    typescript:
+      optional: true
+  checksum: 10c0/125d79a0fc4fbfcfbc6f6461e05cde1f9da46035867ae3164812e615d6cc02cd0b2f470c944f619e87f89bebb00b81eb5c9558e83cf6e8e0f47be184474f855e
   languageName: node
   linkType: hard
 
