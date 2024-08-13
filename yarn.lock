@@ -2335,7 +2335,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vue-macros/common@npm:^1.11.0":
+"@vue-macros/common@npm:^1.12.2":
   version: 1.12.2
   resolution: "@vue-macros/common@npm:1.12.2"
   dependencies:
@@ -10941,12 +10941,12 @@ __metadata:
   linkType: hard
 
 "unplugin-vue-router@npm:^0.10.1":
-  version: 0.10.2
-  resolution: "unplugin-vue-router@npm:0.10.2"
+  version: 0.10.3
+  resolution: "unplugin-vue-router@npm:0.10.3"
   dependencies:
     "@babel/types": "npm:^7.25.2"
     "@rollup/pluginutils": "npm:^5.1.0"
-    "@vue-macros/common": "npm:^1.11.0"
+    "@vue-macros/common": "npm:^1.12.2"
     ast-walker-scope: "npm:^0.6.1"
     chokidar: "npm:^3.6.0"
     fast-glob: "npm:^3.3.2"
@@ -10955,18 +10955,18 @@ __metadata:
     mlly: "npm:^1.7.1"
     pathe: "npm:^1.1.2"
     scule: "npm:^1.3.0"
-    unplugin: "npm:^1.12.0"
+    unplugin: "npm:^1.12.1"
     yaml: "npm:^2.5.0"
   peerDependencies:
     vue-router: ^4.4.0
   peerDependenciesMeta:
     vue-router:
       optional: true
-  checksum: 10c0/bd8cf5dc1281338eee910540f592b0753ed43c919ce159536565297f0da5e9d8ff0bb99bbc85ea38d29d89569c0379624f2f076b8e2fb378d203dd26b17c98f8
+  checksum: 10c0/66e9277a98e9790ae6912ef738ebcdc4ae2ae70648af7135c47e82371c27423e9204ab5a50a494548062b618b4300e4c05dfe9bfce30ded82dba443bef9d5ecd
   languageName: node
   linkType: hard
 
-"unplugin@npm:^1.1.0, unplugin@npm:^1.12.0":
+"unplugin@npm:^1.1.0":
   version: 1.12.0
   resolution: "unplugin@npm:1.12.0"
   dependencies:
@@ -10975,6 +10975,18 @@ __metadata:
     webpack-sources: "npm:^3.2.3"
     webpack-virtual-modules: "npm:^0.6.2"
   checksum: 10c0/d4ca9508adbc3724fbafe0eec50e346b3772d3bca7881f20b29d403c576fae5ac2f1224cc84481913396e9c52cba5e934d2815d1b2a206c439fdc52ec39889b8
+  languageName: node
+  linkType: hard
+
+"unplugin@npm:^1.12.1":
+  version: 1.12.1
+  resolution: "unplugin@npm:1.12.1"
+  dependencies:
+    acorn: "npm:^8.12.1"
+    chokidar: "npm:^3.6.0"
+    webpack-sources: "npm:^3.2.3"
+    webpack-virtual-modules: "npm:^0.6.2"
+  checksum: 10c0/85dca6ea362f23af36597119e12b8bf022164f6efaf8027cfe10f07ff53d7722f4b58572447d77f64e27c9d657d8937e6d8c9a66884f3189379f2c3184fd1836
   languageName: node
   linkType: hard
 
