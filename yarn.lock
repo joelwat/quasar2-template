@@ -4508,7 +4508,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"error-stack-parser-es@npm:^0.1.4":
+"error-stack-parser-es@npm:^0.1.5":
   version: 0.1.5
   resolution: "error-stack-parser-es@npm:0.1.5"
   checksum: 10c0/60331183269d5d5f2d80ce01be58387e7f7ef86ec821db7bba3e7aad201174b3f1b561973c678af7ec945542de8f2d1d23d5152ff8adf6154080eff02cd0e0b5
@@ -10962,13 +10962,13 @@ __metadata:
   linkType: hard
 
 "vite-plugin-inspect@npm:^0.8.5":
-  version: 0.8.5
-  resolution: "vite-plugin-inspect@npm:0.8.5"
+  version: 0.8.6
+  resolution: "vite-plugin-inspect@npm:0.8.6"
   dependencies:
     "@antfu/utils": "npm:^0.7.10"
     "@rollup/pluginutils": "npm:^5.1.0"
-    debug: "npm:^4.3.5"
-    error-stack-parser-es: "npm:^0.1.4"
+    debug: "npm:^4.3.6"
+    error-stack-parser-es: "npm:^0.1.5"
     fs-extra: "npm:^11.2.0"
     open: "npm:^10.1.0"
     perfect-debounce: "npm:^1.0.0"
@@ -10979,7 +10979,7 @@ __metadata:
   peerDependenciesMeta:
     "@nuxt/kit":
       optional: true
-  checksum: 10c0/b44c80a9a9b7677529e8674fdeaf4a9c052e2237cfb749d558898a487f481ac7d797ed2067eca93a5da8ade50bae9c289919c5aefdb26a4b5ceccc75b24b78a3
+  checksum: 10c0/0ae27759b18ee7eb439a93e65666e80863f5341fff70fe3f8123f81d1796e1ff446bcbeb9dc512bc01de63d6fad72fe8da57b7b3214f755d0000280f4a3d667d
   languageName: node
   linkType: hard
 
