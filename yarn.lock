@@ -1356,23 +1356,23 @@ __metadata:
   linkType: hard
 
 "@quasar/quasar-app-extension-testing-unit-vitest@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "@quasar/quasar-app-extension-testing-unit-vitest@npm:1.0.0"
+  version: 1.1.0
+  resolution: "@quasar/quasar-app-extension-testing-unit-vitest@npm:1.1.0"
   dependencies:
-    happy-dom: "npm:^13.6.2"
+    happy-dom: "npm:^15.0.0"
     lodash-es: "npm:^4.17.21"
     vite-jsconfig-paths: "npm:^2.0.1"
     vite-tsconfig-paths: "npm:^4.3.1"
   peerDependencies:
-    "@vitest/ui": ^1.1.0
+    "@vitest/ui": ^1.1.0 || ^2.0.0
     "@vue/test-utils": ^2.4.3
     quasar: ^2.12.7
-    vitest: ^1.1.0
+    vitest: ^1.1.0 || ^2.0.0
     vue: ^3.3.4
   peerDependenciesMeta:
     "@vitest/ui":
       optional: true
-  checksum: 10c0/00cc6cfb139f813a94cbc08539a782c829c08eed829002b66f2dfc4ca61b7e25c1ea396dc09526eda940ba72e8a48cc9cb3328dd8b2f68848da60f27bd9f0c81
+  checksum: 10c0/75cdeb5daca116f5d04330f2e3535bc00e1296f0117af5c06902dc957e68dfa1c2afa9a57f4c1031f8fa8b25345d26163d863a99483c48b97462e9c5568929a5
   languageName: node
   linkType: hard
 
@@ -6105,17 +6105,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"happy-dom@npm:^13.6.2":
-  version: 13.10.1
-  resolution: "happy-dom@npm:13.10.1"
-  dependencies:
-    entities: "npm:^4.5.0"
-    webidl-conversions: "npm:^7.0.0"
-    whatwg-mimetype: "npm:^3.0.0"
-  checksum: 10c0/bbe9edafde6622a8ab485f5576c3eb210caa1e083c176282322385f57535506092480ea62c139a71a64fcdb0027be97776670609fefd428745b4282d7211b174
-  languageName: node
-  linkType: hard
-
 "happy-dom@npm:^14.12.3":
   version: 14.12.3
   resolution: "happy-dom@npm:14.12.3"
@@ -6124,6 +6113,17 @@ __metadata:
     webidl-conversions: "npm:^7.0.0"
     whatwg-mimetype: "npm:^3.0.0"
   checksum: 10c0/72e817bc9d03c4c0dbb794f8fb5b69aac4b4dbe0ee789a6b6a02a60298a9aa99bac766967a5c642153e5c95c02489437f878de5641ed64fd13b2271c56805df5
+  languageName: node
+  linkType: hard
+
+"happy-dom@npm:^15.0.0":
+  version: 15.7.3
+  resolution: "happy-dom@npm:15.7.3"
+  dependencies:
+    entities: "npm:^4.5.0"
+    webidl-conversions: "npm:^7.0.0"
+    whatwg-mimetype: "npm:^3.0.0"
+  checksum: 10c0/e64a9ae67ae73a24fe77e61e939b20764509197c9fbaa537c6955ac699aca5a02e26b5995c3234047abe43668d1df37fbeff837e41f7af981966ce81d73b25a6
   languageName: node
   linkType: hard
 
