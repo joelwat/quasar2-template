@@ -1,13 +1,16 @@
 import { installQuasarPlugin } from '@quasar/quasar-app-extension-testing-unit-vitest';
 import { mount } from '@vue/test-utils';
+import type { VueWrapper } from '@vue/test-utils';
 import { describe, expect, it } from 'vitest';
 import ExampleComponent from './demo/ExampleComponent.vue';
+
+type ExampleComponentType = InstanceType<typeof ExampleComponent>;
 
 installQuasarPlugin();
 
 describe('example Component', () => {
   it('should mount component with todos', async () => {
-    const wrapper = mount(ExampleComponent, {
+    const wrapper: VueWrapper<ExampleComponentType> = mount(ExampleComponent, {
       props: {
         title: 'Hello',
         meta: {

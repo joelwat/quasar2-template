@@ -9,7 +9,7 @@ module.exports = {
   // `parser: 'vue-eslint-parser'` is already included with any 'plugin:vue/**' config and should be omitted
   parserOptions: {
     parser: require.resolve('@typescript-eslint/parser'),
-    extraFileExtensions: [ '.vue' ]
+    extraFileExtensions: ['.vue']
   },
 
   env: {
@@ -35,7 +35,18 @@ module.exports = {
     // 'plugin:vue/vue3-recommended', // Priority C: Recommended (Minimizing Arbitrary Choices and Cognitive Overhead)
 
     'airbnb-base'
-    
+
+  ],
+
+  overrides: [
+    {
+      files: [
+        'test/vitest/**/*.test.{js,ts}',
+      ],
+      rules: {
+        'no-unused-expressions': 'off',
+      },
+    }
   ],
 
   plugins: [
@@ -45,7 +56,7 @@ module.exports = {
     // https://eslint.vuejs.org/user-guide/#why-doesn-t-it-work-on-vue-files
     // required to lint *.vue files
     'vue'
-    
+
   ],
 
   globals: {
@@ -63,7 +74,7 @@ module.exports = {
 
   // add your custom rules here
   rules: {
-    
+
     'no-plusplus': 'off',
     'no-param-reassign': 'off',
     'no-void': 'off',
@@ -82,7 +93,7 @@ module.exports = {
     'import/no-unresolved': 'off',
     'import/no-extraneous-dependencies': 'off',
     'import/prefer-default-export': 'off',
-    
+
     'prefer-promise-reject-errors': 'off',
 
     quotes: ['warn', 'single', { avoidEscape: true }],
