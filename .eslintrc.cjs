@@ -40,23 +40,38 @@ module.exports = {
 
   overrides: [
     {
+      env: {
+        'cypress/globals': true,
+      },
+      extends: [
+        'plugin:cypress/recommended',
+      ],
       files: [
-        'test/vitest/**/*.test.{js,ts}',
+        '**/*.cy.{js,ts}',
       ],
       rules: {
         'no-unused-expressions': 'off',
       },
-    }
+    },
+    {
+      files: [
+        '**/*.{spec,test}.{js,ts}',
+      ],
+      rules: {
+        'no-unused-expressions': 'off',
+      },
+    },
   ],
 
   plugins: [
+    'cypress',
+
     // required to apply rules which need type information
     '@typescript-eslint',
 
     // https://eslint.vuejs.org/user-guide/#why-doesn-t-it-work-on-vue-files
     // required to lint *.vue files
-    'vue'
-
+    'vue',
   ],
 
   globals: {
@@ -109,6 +124,11 @@ module.exports = {
     'no-unused-vars': 'off',
 
     // allow debugger during development only
-    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off'
+    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
+
+    'max-len': [
+      'warn',
+      120,
+    ],
   }
 }
