@@ -948,11 +948,11 @@ __metadata:
   linkType: hard
 
 "@iconify-json/fa6-solid@npm:^1.1.23":
-  version: 1.2.0
-  resolution: "@iconify-json/fa6-solid@npm:1.2.0"
+  version: 1.2.1
+  resolution: "@iconify-json/fa6-solid@npm:1.2.1"
   dependencies:
     "@iconify/types": "npm:*"
-  checksum: 10c0/672aa52ccc1b8634eba8bf2d955b9426f7816ec1c5bbb39e5e5d2c39fbf3e9c307329c44ba7c89396c0af7d3f7b640fe6f202883590be7eb6bc30cb8815eac4e
+  checksum: 10c0/6165a9827b6343c1b68a15bbb744db013d43900e61c542639ec40648d060eea78dd6df4a0a00b9347aafefa3ff5c352f061cfe8f04253f61b6ec082a7bf00b7c
   languageName: node
   linkType: hard
 
