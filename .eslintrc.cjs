@@ -58,7 +58,7 @@ module.exports = {
         '**/*.{spec,test}.{js,ts}',
       ],
       rules: {
-        'no-unused-expressions': 'off',
+        '@typescript-eslint/no-unused-expressions': 'off',
       },
     },
   ],
@@ -125,6 +125,9 @@ module.exports = {
 
     // allow debugger during development only
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
+
+    // dupelicated lints from @typescript-eslint/recommended
+    'no-unused-expressions': 'off',
 
     'max-len': [
       'warn',
