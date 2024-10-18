@@ -47,7 +47,7 @@ export default configure((ctx) => ({
       node: 'node20',
     },
 
-    vueRouterMode: 'hash', // available values: 'hash', 'history'
+    vueRouterMode: 'history', // available values: 'hash', 'history'
     // vueRouterBase,
     // vueDevtools,
     // vueOptionsAPI: false,
@@ -67,27 +67,37 @@ export default configure((ctx) => ({
     // viteVuePluginOptions: {},
 
     vitePlugins: [
-      ['@intlify/unplugin-vue-i18n/vite', {
+      [
+        '@intlify/unplugin-vue-i18n/vite', {
         // if you want to use Vue I18n Legacy API, you need to set `compositionOnly: false`
         // compositionOnly: false,
 
-        // if you want to use named tokens in your Vue I18n messages, such as 'Hello {name}',
-        // you need to set `runtimeOnly: false`
-        // runtimeOnly: false,
+          // if you want to use named tokens in your Vue I18n messages, such as 'Hello {name}',
+          // you need to set `runtimeOnly: false`
+          // runtimeOnly: false,
 
-        ssr: ctx.modeName === 'ssr',
+          ssr: ctx.modeName === 'ssr',
 
-        // you need to set i18n resource including paths !
-        include: [fileURLToPath(new URL('./src/i18n', import.meta.url))],
-      }],
-      ['vite-plugin-checker', {
-        vueTsc: {
-          tsconfigPath: 'tsconfig.vue-tsc.json',
+          // you need to set i18n resource including paths !
+          include: [fileURLToPath(new URL('./src/i18n', import.meta.url))],
         },
-        eslint: {
-          lintCommand: 'eslint "./**/*.{js,ts,mjs,cjs,vue}"',
+      ],
+      [
+        'rollup-plugin-visualizer', {
+          emitFile: true,
+          filename: 'stats.html',
         },
-      }, { server: false }],
+      ],
+      [
+        'vite-plugin-checker', {
+          vueTsc: {
+            tsconfigPath: 'tsconfig.vue-tsc.json',
+          },
+          eslint: {
+            lintCommand: 'eslint "./**/*.{js,ts,mjs,cjs,vue}"',
+          },
+        }, { server: false },
+      ],
     ],
   },
 
