@@ -24,13 +24,13 @@ interface Props {
 }
 
 const props = withDefaults(defineProps<Props>(), {
-  todos: () => [],
+    todos: () => [],
 });
 
 const clickCount = ref(0);
 function increment() {
-  clickCount.value += 1;
-  return clickCount.value;
+    clickCount.value += 1;
+    return clickCount.value;
 }
 
 const todoCount = computed(() => props.todos.length);

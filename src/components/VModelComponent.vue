@@ -19,14 +19,14 @@
 import { defineComponent } from 'vue';
 
 export default defineComponent({
-  name: 'QuasarTooltip',
-  props: {
-    modelValue: {
-      type: String,
-      required: true,
+    name: 'QuasarTooltip',
+    props: {
+        modelValue: {
+            type: String,
+            required: true,
+        },
     },
-  },
-  // eslint-disable-next-line @typescript-eslint/no-unnecessary-condition
-  emits: { 'update:modelValue': (payload: string) => payload !== undefined },
+    // eslint-disable-next-line @typescript-eslint/no-unnecessary-condition
+    emits: { 'update:modelValue': (payload: string) => payload !== undefined },
 });
 </script>

@@ -13,7 +13,7 @@
 import { defineComponent } from 'vue';
 
 export default defineComponent({
-  name: 'QuasarButton',
-  emits: { test: () => true },
+    name: 'QuasarButton',
+    emits: { test: () => true },
 });
 </script>

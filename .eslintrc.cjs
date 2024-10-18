@@ -129,6 +129,10 @@ module.exports = {
     // dupelicated lints from @typescript-eslint/recommended
     'no-unused-expressions': 'off',
 
+    'indent': [
+      'warn',
+      4,
+    ],
     'max-len': [
       'warn',
       120,

@@ -6,6 +6,6 @@
 import { Notify } from 'quasar';
 
 function onClick() {
-  Notify.create('Hello there!');
+    Notify.create('Hello there!');
 }
 </script>

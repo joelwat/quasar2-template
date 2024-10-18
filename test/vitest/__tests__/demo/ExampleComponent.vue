@@ -26,26 +26,26 @@ interface Meta {
 }
 
 const props = withDefaults(
-  defineProps<{
+    defineProps<{
     title: string;
     todos?: Todo[];
     meta: Meta;
     active?: boolean;
   }>(),
-  {
-    todos: () => [],
-  },
+    {
+        todos: () => [],
+    },
 );
 
 const clickCount = ref(0);
 function increment() {
-  clickCount.value += 1;
-  return clickCount.value;
+    clickCount.value += 1;
+    return clickCount.value;
 }
 
 const todoCount = computed(() => props.todos.length);
 
 defineExpose({
-  clickCount,
+    clickCount,
 });
 </script>

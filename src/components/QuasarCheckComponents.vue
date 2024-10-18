@@ -10,17 +10,17 @@
 import { defineComponent, ref } from 'vue';
 
 export default defineComponent({
-  name: 'QuasarCheckboxAndToggle',
-  setup() {
-    const checked = ref();
-    const toggled = ref();
-    const selected = ref();
+    name: 'QuasarCheckboxAndToggle',
+    setup() {
+        const checked = ref();
+        const toggled = ref();
+        const selected = ref();
 
-    return {
-      checked,
-      toggled,
-      selected,
-    };
-  },
+        return {
+            checked,
+            toggled,
+            selected,
+        };
+    },
 });
 </script>
