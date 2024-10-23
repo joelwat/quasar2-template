@@ -1,7 +1,21 @@
 {
   "extends": "@quasar/app-vite/tsconfig-preset",
   "compilerOptions": {
-    "baseUrl": "."
+    "baseUrl": ".",
+    "importHelpers": true,
+    "isolatedModules": true,
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "sourceMap": true,
+    "strict": true,
+    "types": [
+        "@intlify/unplugin-vue-i18n/messages",
+        "unplugin-vue-router/client",
+        "vite/client",
+        "vite-plugin-vue-layouts/client",
+        "vue-i18n"
+    ],
+    "verbatimModuleSyntax": true
   },
   "exclude": [
     "./dist",
@@ -10,5 +24,13 @@
     "./src-capacitor",
     "./src-cordova",
     "./quasar.config.*.temporary.compiled*"
+  ],
+  "include": [
+    "./typed-router.d.ts",
+    "./src/**/*.ts",
+    "./src/**/*.d.ts",
+    "./src/**/*.vue",
+    "./test/**/*.ts",
+    "./test/**/*.vue",
   ]
 }

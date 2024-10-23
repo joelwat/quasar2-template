@@ -89,14 +89,28 @@ export default configure((ctx) => ({
                 },
             ],
             [
+                'unplugin-vue-router/vite', {
+                    routeBlockLang: 'yaml',
+                },
+            ],
+            [
                 'vite-plugin-checker', {
                     vueTsc: {
                         tsconfigPath: 'tsconfig.vue-tsc.json',
                     },
                     eslint: {
-                        lintCommand: 'eslint "./**/*.{js,ts,mjs,cjs,vue}"',
+                        // eslint-disable-next-line max-len
+                        lintCommand: 'eslint --cache --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --ignore-path .gitignore',
                     },
                 }, { server: false },
+            ],
+            [
+                'vite-plugin-inspect',
+            ],
+            [
+                'vite-plugin-vue-layouts', {
+                    defaultLayout: 'MainLayout',
+                },
             ],
         ],
     },

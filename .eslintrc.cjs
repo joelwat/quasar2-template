@@ -8,8 +8,13 @@ module.exports = {
   // Must use parserOptions instead of "parser" to allow vue-eslint-parser to keep working
   // `parser: 'vue-eslint-parser'` is already included with any 'plugin:vue/**' config and should be omitted
   parserOptions: {
+    extraFileExtensions: ['.vue'],
     parser: require.resolve('@typescript-eslint/parser'),
-    extraFileExtensions: ['.vue']
+    project: [
+      './tsconfig.json',
+      './tsconfig.node.json',
+      './tsconfig.vue-tsc.json',
+    ]
   },
 
   env: {
@@ -137,5 +142,8 @@ module.exports = {
       'warn',
       120,
     ],
+  },
+  settings: {
+    'import/core-modules': ['vue-router/auto-routes'],
   }
 }

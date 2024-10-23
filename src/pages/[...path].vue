@@ -1,5 +1,5 @@
 <template>
-  <div class="fullscreen bg-blue text-white text-center q-pa-md flex flex-center">
+  <QPage class="fullscreen bg-blue text-white text-center q-pa-md flex flex-center">
     <div>
       <div style="font-size: 30vh">
         404
@@ -9,7 +9,7 @@
         Oops. Nothing here...
       </div>
 
-      <q-btn
+      <QBtn
         class="q-mt-xl"
         color="white"
         text-color="blue"
@@ -19,10 +19,15 @@
         no-caps
       />
     </div>
-  </div>
+  </QPage>
 </template>
 
 <script setup lang="ts">
+import {
+    QPage,
+    QBtn,
+} from 'quasar';
+
 defineOptions({
     name: 'ErrorNotFound',
 });

@@ -1,8 +1,8 @@
 <template>
-  <q-layout view="lHh Lpr lFf">
-    <q-header elevated>
-      <q-toolbar>
-        <q-btn
+  <QLayout view="lHh Lpr lFf">
+    <QHeader elevated>
+      <QToolbar>
+        <QBtn
           flat
           dense
           round
@@ -11,43 +11,54 @@
           @click="toggleLeftDrawer"
         />
 
-        <q-toolbar-title>
+        <QToolbarTitle>
           Quasar App
-        </q-toolbar-title>
+        </QToolbarTitle>
 
         <div>Quasar v{{ $q.version }}</div>
-      </q-toolbar>
-    </q-header>
+      </QToolbar>
+    </QHeader>
 
-    <q-drawer
+    <QDrawer
       v-model="leftDrawerOpen"
       show-if-above
       bordered
     >
-      <q-list>
-        <q-item-label
+      <QList>
+        <QItemLabel
           header
         >
           Essential Links
-        </q-item-label>
+        </QItemLabel>
 
         <EssentialLink
           v-for="link in linksList"
           :key="link.title"
           v-bind="link"
         />
-      </q-list>
-    </q-drawer>
+      </QList>
+    </QDrawer>
 
-    <q-page-container>
-      <router-view />
-    </q-page-container>
-  </q-layout>
+    <QPageContainer>
+      <RouterView />
+    </QPageContainer>
+  </QLayout>
 </template>
 
 <script setup lang="ts">
+import {
+    QLayout,
+    QHeader,
+    QToolbar,
+    QBtn,
+    QToolbarTitle,
+    QDrawer,
+    QList,
+    QItemLabel,
+    QPageContainer,
+} from 'quasar';
 import { ref } from 'vue';
-import EssentialLink, { EssentialLinkProps } from 'components/EssentialLink.vue';
+import EssentialLink, { type EssentialLinkProps } from 'components/EssentialLink.vue';
 
 defineOptions({
     name: 'MainLayout',
