@@ -1820,12 +1820,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:20.17.1":
-  version: 20.17.1
-  resolution: "@types/node@npm:20.17.1"
+"@types/node@npm:20.17.5":
+  version: 20.17.5
+  resolution: "@types/node@npm:20.17.5"
   dependencies:
     undici-types: "npm:~6.19.2"
-  checksum: 10c0/214cf1fffff9c80ae0d49d7dd1f04254215d49711276fff44ff6f61e36dc8d53520509a88add6955fe029b2259c87eaf284b43bc1236d4f4f06bd80c46f0e2b8
+  checksum: 10c0/6e6bf7f84365a2ee95a369c48cdb47a93aae2b5029d19660183ba944d7bdbc193e54167076d64a3a11ff28e307b84c90eda350edf8e2029195d1fc27ae6055f4
   languageName: node
   linkType: hard
 
@@ -8850,7 +8850,7 @@ __metadata:
     "@rollup/plugin-yaml": "npm:^4.1.2"
     "@tsconfig/node20": "npm:^20.1.4"
     "@types/cypress__code-coverage": "npm:^3.10.2"
-    "@types/node": "npm:20.17.1"
+    "@types/node": "npm:20.17.5"
     "@typescript-eslint/eslint-plugin": "npm:^7.17.0"
     "@typescript-eslint/parser": "npm:^7.17.0"
     "@unocss/preset-icons": "npm:^0.63.0"
