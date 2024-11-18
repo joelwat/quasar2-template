@@ -1273,9 +1273,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@quasar/app-vite@npm:2.0.0-rc.1":
-  version: 2.0.0-rc.1
-  resolution: "@quasar/app-vite@npm:2.0.0-rc.1"
+"@quasar/app-vite@npm:2.0.0-rc.2":
+  version: 2.0.0-rc.2
+  resolution: "@quasar/app-vite@npm:2.0.0-rc.2"
   dependencies:
     "@quasar/render-ssr-error": "npm:^1.0.3"
     "@quasar/ssl-certificate": "npm:^1.0.0"
@@ -1339,7 +1339,7 @@ __metadata:
       optional: true
   bin:
     quasar: bin/quasar.js
-  checksum: 10c0/9e5c803c9d7529d6777eaf2bbdfe0174b6d0c08d08324411b5c1961e7526d82f596efd629173cd5deaa0160fa1fbba15d05d5776b90b14c670b199433371a2ae
+  checksum: 10c0/0cdeedfef3eaabcd503928d6758ce3a9f26adb6d6697fd1cda89b27a7d07bf98ddcb5ee55e3fe521e0441f162d54b4083303688f4942fe306a848cbd5964e9bd
   languageName: node
   linkType: hard
 
@@ -8976,7 +8976,7 @@ __metadata:
     "@iconify-json/fa6-solid": "npm:^1.1.23"
     "@intlify/eslint-plugin-vue-i18n": "npm:^3.0.0"
     "@intlify/unplugin-vue-i18n": "npm:^4.0.0"
-    "@quasar/app-vite": "npm:2.0.0-rc.1"
+    "@quasar/app-vite": "npm:2.0.0-rc.2"
     "@quasar/extras": "npm:^1.16.12"
     "@quasar/quasar-app-extension-testing-e2e-cypress": "npm:^6.1.0"
     "@quasar/quasar-app-extension-testing-unit-vitest": "npm:^1.0.0"
