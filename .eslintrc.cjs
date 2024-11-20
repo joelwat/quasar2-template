@@ -13,8 +13,9 @@ module.exports = {
     project: [
       './tsconfig.json',
       './tsconfig.node.json',
+      './tsconfig.tests.json',
       './tsconfig.vue-tsc.json',
-    ]
+    ],
   },
 
   env: {
