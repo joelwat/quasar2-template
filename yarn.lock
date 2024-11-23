@@ -1273,9 +1273,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@quasar/app-vite@npm:2.0.0-rc.3":
-  version: 2.0.0-rc.3
-  resolution: "@quasar/app-vite@npm:2.0.0-rc.3"
+"@quasar/app-vite@npm:2.0.0-rc.4":
+  version: 2.0.0-rc.4
+  resolution: "@quasar/app-vite@npm:2.0.0-rc.4"
   dependencies:
     "@quasar/render-ssr-error": "npm:^1.0.3"
     "@quasar/ssl-certificate": "npm:^1.0.0"
@@ -1289,7 +1289,7 @@ __metadata:
     chokidar: "npm:^3.6.0"
     ci-info: "npm:^4.0.0"
     compression: "npm:^1.7.5"
-    cross-spawn: "npm:^7.0.5"
+    cross-spawn: "npm:^7.0.6"
     dot-prop: "npm:9.0.0"
     dotenv: "npm:^16.4.5"
     dotenv-expand: "npm:^11.0.6"
@@ -1339,7 +1339,7 @@ __metadata:
       optional: true
   bin:
     quasar: bin/quasar.js
-  checksum: 10c0/4b0768505c3fdf5c82c52b53580d76bff16b0233872f9d9aa41468c4387e8c65c987d2ed471e44f337b5162450dc540f5fefb159d10408e941f4e14c725816dc
+  checksum: 10c0/dd79d83cc364ebe70d1622ab3451036de959c3e415f9fe14ac85af964d43f02fc88609ffe4c098342f1bbd801e7a6036ba99efa3121d8a232095eecb21943b45
   languageName: node
   linkType: hard
 
@@ -3960,7 +3960,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cross-spawn@npm:^7.0.0, cross-spawn@npm:^7.0.1, cross-spawn@npm:^7.0.2, cross-spawn@npm:^7.0.3, cross-spawn@npm:^7.0.5":
+"cross-spawn@npm:^7.0.0, cross-spawn@npm:^7.0.1, cross-spawn@npm:^7.0.2, cross-spawn@npm:^7.0.3":
   version: 7.0.5
   resolution: "cross-spawn@npm:7.0.5"
   dependencies:
@@ -3968,6 +3968,17 @@ __metadata:
     shebang-command: "npm:^2.0.0"
     which: "npm:^2.0.1"
   checksum: 10c0/aa82ce7ac0814a27e6f2b738c5a7cf1fa21a3558a1e42df449fc96541ba3ba731e4d3ecffa4435348808a86212f287c6f20a1ee551ef1ff95d01cfec5f434944
+  languageName: node
+  linkType: hard
+
+"cross-spawn@npm:^7.0.6":
+  version: 7.0.6
+  resolution: "cross-spawn@npm:7.0.6"
+  dependencies:
+    path-key: "npm:^3.1.0"
+    shebang-command: "npm:^2.0.0"
+    which: "npm:^2.0.1"
+  checksum: 10c0/053ea8b2135caff68a9e81470e845613e374e7309a47731e81639de3eaeb90c3d01af0e0b44d2ab9d50b43467223b88567dfeb3262db942dc063b9976718ffc1
   languageName: node
   linkType: hard
 
@@ -8802,7 +8813,7 @@ __metadata:
     "@iconify-json/fa6-solid": "npm:^1.1.23"
     "@intlify/eslint-plugin-vue-i18n": "npm:^3.0.0"
     "@intlify/unplugin-vue-i18n": "npm:^4.0.0"
-    "@quasar/app-vite": "npm:2.0.0-rc.3"
+    "@quasar/app-vite": "npm:2.0.0-rc.4"
     "@quasar/extras": "npm:^1.16.12"
     "@quasar/quasar-app-extension-testing-e2e-cypress": "npm:^6.1.0"
     "@quasar/quasar-app-extension-testing-unit-vitest": "npm:^1.0.0"
