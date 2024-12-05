@@ -1300,9 +1300,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@quasar/app-vite@npm:2.0.0-rc.4":
-  version: 2.0.0-rc.4
-  resolution: "@quasar/app-vite@npm:2.0.0-rc.4"
+"@quasar/app-vite@npm:2.0.0":
+  version: 2.0.0
+  resolution: "@quasar/app-vite@npm:2.0.0"
   dependencies:
     "@quasar/render-ssr-error": "npm:^1.0.3"
     "@quasar/ssl-certificate": "npm:^1.0.0"
@@ -1323,7 +1323,6 @@ __metadata:
     elementtree: "npm:0.1.7"
     esbuild: "npm:^0.24.0"
     express: "npm:^4.21.1"
-    fast-glob: "npm:3.3.2"
     fs-extra: "npm:^11.2.0"
     html-minifier-terser: "npm:^7.2.0"
     inquirer: "npm:^9.3.7"
@@ -1336,8 +1335,9 @@ __metadata:
     sass-embedded: "npm:^1.80.6"
     semver: "npm:^7.6.3"
     serialize-javascript: "npm:^6.0.2"
+    tinyglobby: "npm:^0.2.10"
     ts-essentials: "npm:^9.4.2"
-    vite: "npm:6.0.0-beta.10"
+    vite: "npm:^6.0.0"
     webpack-merge: "npm:^6.0.1"
   peerDependencies:
     "@electron/packager": ">= 18"
@@ -1347,7 +1347,6 @@ __metadata:
     typescript: ">= 5.4"
     vue: ^3.2.29
     vue-router: ^4.0.12
-    vuex: ^4.0.0
     workbox-build: ">= 6"
   peerDependenciesMeta:
     "@electron/packager":
@@ -1360,13 +1359,11 @@ __metadata:
       optional: true
     typescript:
       optional: true
-    vuex:
-      optional: true
     workbox-build:
       optional: true
   bin:
     quasar: bin/quasar.js
-  checksum: 10c0/dd79d83cc364ebe70d1622ab3451036de959c3e415f9fe14ac85af964d43f02fc88609ffe4c098342f1bbd801e7a6036ba99efa3121d8a232095eecb21943b45
+  checksum: 10c0/cf3c74e20e3a775bfa38967b173a53c2153213b5efee53f1c1348685447d7d07a089f2e9a662e4f52260da584dff6e2e684569194a9a96125ce868d8d8c653c9
   languageName: node
   linkType: hard
 
@@ -5529,7 +5526,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fast-glob@npm:3.3.2, fast-glob@npm:^3.2.12, fast-glob@npm:^3.2.7, fast-glob@npm:^3.2.9, fast-glob@npm:^3.3.2":
+"fast-glob@npm:^3.2.12, fast-glob@npm:^3.2.7, fast-glob@npm:^3.2.9, fast-glob@npm:^3.3.2":
   version: 3.3.2
   resolution: "fast-glob@npm:3.3.2"
   dependencies:
@@ -8845,7 +8842,7 @@ __metadata:
     "@iconify-json/fa6-solid": "npm:^1.1.23"
     "@intlify/eslint-plugin-vue-i18n": "npm:^3.0.0"
     "@intlify/unplugin-vue-i18n": "npm:^4.0.0"
-    "@quasar/app-vite": "npm:2.0.0-rc.4"
+    "@quasar/app-vite": "npm:2.0.0"
     "@quasar/extras": "npm:^1.16.12"
     "@quasar/quasar-app-extension-testing-e2e-cypress": "npm:^6.1.0"
     "@quasar/quasar-app-extension-testing-unit-vitest": "npm:^1.0.0"
@@ -11275,58 +11272,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:6.0.0-beta.10":
-  version: 6.0.0-beta.10
-  resolution: "vite@npm:6.0.0-beta.10"
-  dependencies:
-    esbuild: "npm:^0.24.0"
-    fsevents: "npm:~2.3.3"
-    postcss: "npm:^8.4.48"
-    rollup: "npm:^4.23.0"
-  peerDependencies:
-    "@types/node": ^18.0.0 || >=20.0.0
-    jiti: ">=1.21.0"
-    less: "*"
-    lightningcss: ^1.21.0
-    sass: "*"
-    sass-embedded: "*"
-    stylus: "*"
-    sugarss: "*"
-    terser: ^5.16.0
-    tsx: ^4.8.1
-    yaml: ^2.4.2
-  dependenciesMeta:
-    fsevents:
-      optional: true
-  peerDependenciesMeta:
-    "@types/node":
-      optional: true
-    jiti:
-      optional: true
-    less:
-      optional: true
-    lightningcss:
-      optional: true
-    sass:
-      optional: true
-    sass-embedded:
-      optional: true
-    stylus:
-      optional: true
-    sugarss:
-      optional: true
-    terser:
-      optional: true
-    tsx:
-      optional: true
-    yaml:
-      optional: true
-  bin:
-    vite: bin/vite.js
-  checksum: 10c0/517e0d84f4439a5ed1234c65e8780e0b2ae3cebf632829cb9dc921c1524fb83617c2b17dc8196511b2fcb0331f929a0ef9a69c0dd8905388c607fae0e5d76594
-  languageName: node
-  linkType: hard
-
 "vite@npm:^5.0.0, vite@npm:^5.3.5":
   version: 5.4.11
   resolution: "vite@npm:5.4.11"
@@ -11367,6 +11312,58 @@ __metadata:
   bin:
     vite: bin/vite.js
   checksum: 10c0/d536bb7af57dd0eca2a808f95f5ff1d7b7ffb8d86e17c6893087680a0448bd0d15e07475270c8a6de65cb5115592d037130a1dd979dc76bcef8c1dda202a1874
+  languageName: node
+  linkType: hard
+
+"vite@npm:^6.0.0":
+  version: 6.0.2
+  resolution: "vite@npm:6.0.2"
+  dependencies:
+    esbuild: "npm:^0.24.0"
+    fsevents: "npm:~2.3.3"
+    postcss: "npm:^8.4.49"
+    rollup: "npm:^4.23.0"
+  peerDependencies:
+    "@types/node": ^18.0.0 || ^20.0.0 || >=22.0.0
+    jiti: ">=1.21.0"
+    less: "*"
+    lightningcss: ^1.21.0
+    sass: "*"
+    sass-embedded: "*"
+    stylus: "*"
+    sugarss: "*"
+    terser: ^5.16.0
+    tsx: ^4.8.1
+    yaml: ^2.4.2
+  dependenciesMeta:
+    fsevents:
+      optional: true
+  peerDependenciesMeta:
+    "@types/node":
+      optional: true
+    jiti:
+      optional: true
+    less:
+      optional: true
+    lightningcss:
+      optional: true
+    sass:
+      optional: true
+    sass-embedded:
+      optional: true
+    stylus:
+      optional: true
+    sugarss:
+      optional: true
+    terser:
+      optional: true
+    tsx:
+      optional: true
+    yaml:
+      optional: true
+  bin:
+    vite: bin/vite.js
+  checksum: 10c0/45fc609f2bc5fb5beb5a8e2cad9ad6c2edce229a922f6fc1270ea2a9d75819482edcc0f77c85b4a7abdad7eb69ce6a4f26131925d47cdc0778fc15d1bbc3b6a2
   languageName: node
   linkType: hard
 
