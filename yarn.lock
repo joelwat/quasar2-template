@@ -1024,8 +1024,8 @@ __metadata:
   linkType: hard
 
 "@intlify/eslint-plugin-vue-i18n@npm:^3.0.0":
-  version: 3.1.0
-  resolution: "@intlify/eslint-plugin-vue-i18n@npm:3.1.0"
+  version: 3.2.0
+  resolution: "@intlify/eslint-plugin-vue-i18n@npm:3.2.0"
   dependencies:
     "@eslint/eslintrc": "npm:^3.0.0"
     "@intlify/core-base": "npm:^9.12.0"
@@ -1048,7 +1048,7 @@ __metadata:
     yaml-eslint-parser: "npm:^1.2.2"
   peerDependencies:
     eslint: ^8.0.0 || ^9.0.0-0
-  checksum: 10c0/d51b0e68b7cd0573cb2de8dcc29d4fdae5803e0ae8bf660eed183dc3e73dd570105a7842d010ec278d04b508094e5e0194d046e1559337579b2fede883ce8f4d
+  checksum: 10c0/8774c77aadfd5736a987dee1228592c00b3c3ad31e29265a1f52e19042af864e28b944bd4027f860ef515e25ffac6161785fd42b40918c31c648c08a899df795
   languageName: node
   linkType: hard
 
