@@ -1283,9 +1283,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@quasar/app-vite@npm:2.0.2":
-  version: 2.0.2
-  resolution: "@quasar/app-vite@npm:2.0.2"
+"@quasar/app-vite@npm:2.0.4":
+  version: 2.0.4
+  resolution: "@quasar/app-vite@npm:2.0.4"
   dependencies:
     "@quasar/render-ssr-error": "npm:^1.0.3"
     "@quasar/ssl-certificate": "npm:^1.0.0"
@@ -1304,7 +1304,7 @@ __metadata:
     dotenv: "npm:^16.4.5"
     dotenv-expand: "npm:^11.0.6"
     elementtree: "npm:0.1.7"
-    esbuild: "npm:^0.24.0"
+    esbuild: "npm:=0.24.0"
     express: "npm:^4.21.1"
     fs-extra: "npm:^11.2.0"
     html-minifier-terser: "npm:^7.2.0"
@@ -1346,7 +1346,7 @@ __metadata:
       optional: true
   bin:
     quasar: bin/quasar.js
-  checksum: 10c0/d9ab3ddc14e39f9c1e8e6996e1f5478943970a54ffc501dc784324fc2943723a062faeefeec4726f02bd1b8e4c52975119713e4aba5a2912bf2e5b38ea7ebe7e
+  checksum: 10c0/e008471881776bd69d85d466960d28487382ddbb973cc050815efc74962675a25c5e37952e94cce8a85af2541b61e79b82acee324e76075dbe5dc9e615484483
   languageName: node
   linkType: hard
 
@@ -4714,7 +4714,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"esbuild@npm:^0.20.2 || ^0.21.0 || ^0.22.0 || ^0.23.0 || ^0.24.0, esbuild@npm:^0.24.0":
+"esbuild@npm:=0.24.0, esbuild@npm:^0.20.2 || ^0.21.0 || ^0.22.0 || ^0.23.0 || ^0.24.0, esbuild@npm:^0.24.0":
   version: 0.24.0
   resolution: "esbuild@npm:0.24.0"
   dependencies:
@@ -8876,7 +8876,7 @@ __metadata:
     "@iconify-json/fa6-solid": "npm:^1.1.23"
     "@intlify/eslint-plugin-vue-i18n": "npm:^3.0.0"
     "@intlify/unplugin-vue-i18n": "npm:^4.0.0"
-    "@quasar/app-vite": "npm:2.0.2"
+    "@quasar/app-vite": "npm:2.0.4"
     "@quasar/extras": "npm:^1.16.12"
     "@quasar/quasar-app-extension-testing-e2e-cypress": "npm:^6.1.0"
     "@quasar/quasar-app-extension-testing-unit-vitest": "npm:^1.0.0"
