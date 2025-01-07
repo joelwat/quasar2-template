@@ -9307,8 +9307,8 @@ __metadata:
   linkType: hard
 
 "rollup-plugin-visualizer@npm:^5.12.0, rollup-plugin-visualizer@npm:^5.13.1":
-  version: 5.13.1
-  resolution: "rollup-plugin-visualizer@npm:5.13.1"
+  version: 5.14.0
+  resolution: "rollup-plugin-visualizer@npm:5.14.0"
   dependencies:
     open: "npm:^8.4.0"
     picomatch: "npm:^4.0.2"
@@ -9324,7 +9324,7 @@ __metadata:
       optional: true
   bin:
     rollup-plugin-visualizer: dist/bin/cli.js
-  checksum: 10c0/dc8377cda0e5d30bba5499a0bd725c30d814048644158c445229b89ce7c88500b5c59b11419253edbe334fcb540bfede16e0f049ce6cfe4cf4e771c07d361f77
+  checksum: 10c0/ec6ca9ed125bce9994ba49a340bda730661d8e8dc5c5dc014dc757185182e1eda49c6708f990cb059095e71a3741a5248f1e6ba0ced7056020692888e06b1ddf
   languageName: node
   linkType: hard
 
