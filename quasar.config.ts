@@ -6,10 +6,10 @@
 /* eslint func-names: 0 */
 /* eslint global-require: 0 */
 
-import { configure } from 'quasar/wrappers';
 import { fileURLToPath } from 'node:url';
+import { defineConfig } from '#q-app/wrappers';
 
-export default configure((ctx) => ({
+export default defineConfig((ctx) => ({
     // https://v2.quasar.dev/quasar-cli-vite/prefetch-feature
     // preFetch: true,
 
@@ -42,17 +42,23 @@ export default configure((ctx) => ({
 
     // Full list of options: https://v2.quasar.dev/quasar-cli-vite/quasar-config-js#build
     build: {
+        alias: {
+            '@/': fileURLToPath(new URL('./src/', import.meta.url)),
+        },
+
         target: {
             browser: ['es2022', 'firefox115', 'chrome115', 'safari14'],
             node: 'node20',
+        },
+
+        typescript: {
+            vueShim: true,
         },
 
         vueRouterMode: 'history', // available values: 'hash', 'history'
         // vueRouterBase,
         // vueDevtools,
         // vueOptionsAPI: false,
-
-        // rebuildCache: true, // rebuilds Vite/linter/etc cache on startup
 
         // publicPath: '/',
         // analyze: true,
@@ -79,7 +85,9 @@ export default configure((ctx) => ({
                     ssr: ctx.modeName === 'ssr',
 
                     // you need to set i18n resource including paths !
-                    include: [fileURLToPath(new URL('./src/i18n', import.meta.url))],
+                    include: [
+                        fileURLToPath(new URL('./src/i18n', import.meta.url)),
+                    ],
                 },
             ],
             [
@@ -95,10 +103,9 @@ export default configure((ctx) => ({
             ],
             [
                 'vite-plugin-checker', {
-                    vueTsc: {
-                        tsconfigPath: 'tsconfig.vue-tsc.json',
-                    },
                     eslint: {
+                        cache: true,
+                        // formatter: ESLint.Formatter,
                         // eslint-disable-next-line max-len
                         lintCommand: 'eslint --cache --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --ignore-path .gitignore',
                     },
@@ -124,6 +131,7 @@ export default configure((ctx) => ({
     // https://v2.quasar.dev/quasar-cli-vite/quasar-config-js#framework
     framework: {
         config: {},
+        autoImportComponentCase: 'combined',
 
         // iconSet: 'material-icons', // Quasar icon set
         // lang: 'en-US', // Quasar language pack

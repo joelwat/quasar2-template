@@ -10,12 +10,7 @@ module.exports = {
   parserOptions: {
     extraFileExtensions: ['.vue'],
     parser: require.resolve('@typescript-eslint/parser'),
-    project: [
-      './tsconfig.json',
-      './tsconfig.node.json',
-      './tsconfig.tests.json',
-      './tsconfig.vue-tsc.json',
-    ],
+    project: './tsconfig.json',
   },
 
   env: {
