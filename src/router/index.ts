@@ -1,4 +1,4 @@
-import { route } from 'quasar/wrappers';
+import { defineRouter } from '#q-app/wrappers';
 import { setupLayouts } from 'virtual:generated-layouts';
 import {
     createMemoryHistory,
@@ -9,7 +9,6 @@ import {
 import {
     handleHotUpdate,
     routes,
-    type RouteNamedMap,
 } from 'vue-router/auto-routes';
 
 /*
@@ -25,7 +24,7 @@ function getHistoryMode() {
     return process.env.VUE_ROUTER_MODE === 'history' ? createWebHistory : createWebHashHistory;
 }
 
-export default route<RouteNamedMap>((/* { store, ssrContext } */) => {
+export default defineRouter((/* { store, ssrContext } */) => {
     const createHistory = process.env.SERVER
         ? createMemoryHistory
         : getHistoryMode();
