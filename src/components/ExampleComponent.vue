@@ -13,6 +13,9 @@
     <p>Count: {{ todoCount }} / {{ meta.totalCount }}</p>
     <p>Active: {{ active ? 'yes' : 'no' }}</p>
     <p>Clicks on todos: {{ clickCount }}</p>
+    <p class="color-blue font-italic">
+      Blue italic font - Unocss test
+    </p>
   </div>
 </template>
 

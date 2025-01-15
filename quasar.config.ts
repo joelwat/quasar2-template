@@ -121,6 +121,9 @@ export default defineConfig((ctx) => ({
                     defaultLayout: 'MainLayout',
                 },
             ],
+            [
+                'unocss/vite',
+            ]
         ],
     },
 
