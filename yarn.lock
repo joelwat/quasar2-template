@@ -32,13 +32,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@antfu/utils@npm:^8.0.0":
-  version: 8.0.0
-  resolution: "@antfu/utils@npm:8.0.0"
-  checksum: 10c0/e752089e82db723a5456ebccb070a6887b1980a9efb0fc7ad4eaceeda9174185338986f43a8b5ee5a2f4e5abcf17ae0111f80a31b0cd174b15681530da33a959
-  languageName: node
-  linkType: hard
-
 "@babel/code-frame@npm:^7.12.13, @babel/code-frame@npm:^7.25.7":
   version: 7.25.7
   resolution: "@babel/code-frame@npm:7.25.7"
@@ -10294,16 +10287,12 @@ __metadata:
   linkType: hard
 
 "vite-plugin-inspect@npm:^10.0.6":
-  version: 10.0.6
-  resolution: "vite-plugin-inspect@npm:10.0.6"
+  version: 10.0.7
+  resolution: "vite-plugin-inspect@npm:10.0.7"
   dependencies:
-    "@antfu/utils": "npm:^8.0.0"
-    "@rollup/pluginutils": "npm:^5.1.4"
     debug: "npm:^4.4.0"
     error-stack-parser-es: "npm:^1.0.5"
-    fs-extra: "npm:^11.2.0"
     open: "npm:^10.1.0"
-    perfect-debounce: "npm:^1.0.0"
     picocolors: "npm:^1.1.1"
     sirv: "npm:^3.0.0"
   peerDependencies:
@@ -10311,7 +10300,7 @@ __metadata:
   peerDependenciesMeta:
     "@nuxt/kit":
       optional: true
-  checksum: 10c0/64ae5d750d247a3089da61d51fd6222c836746fc0d7f48b98da5902a02191330873ce05d91fcc09e3886957fbb4b5f1e014e8f5de092b04385ea455e850dae62
+  checksum: 10c0/ee32a19a7c69a81dd868e7e348201af0f3cdc9be9369a648f681cc6fae0c8f2830653652580a3e68ff60a00caeeea20a73175451d4eee432ff0559e36bf804c3
   languageName: node
   linkType: hard
 
