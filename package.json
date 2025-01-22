@@ -25,7 +25,7 @@
         "axios": "^1.7.9",
         "pinia": "^2.3.0",
         "quasar": "^2.17.6",
-        "unplugin-vue-router": "^0.10.9",
+        "unplugin-vue-router": "^0.11.0",
         "vite-plugin-vue-layouts": "^0.11.0",
         "vue": "^3.5.13",
         "vue-i18n": "^11.0.1",
