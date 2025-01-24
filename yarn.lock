@@ -10092,8 +10092,8 @@ __metadata:
   linkType: hard
 
 "vite-plugin-inspect@npm:^10.0.6":
-  version: 10.0.7
-  resolution: "vite-plugin-inspect@npm:10.0.7"
+  version: 10.1.0
+  resolution: "vite-plugin-inspect@npm:10.1.0"
   dependencies:
     debug: "npm:^4.4.0"
     error-stack-parser-es: "npm:^1.0.5"
@@ -10105,7 +10105,7 @@ __metadata:
   peerDependenciesMeta:
     "@nuxt/kit":
       optional: true
-  checksum: 10c0/ee32a19a7c69a81dd868e7e348201af0f3cdc9be9369a648f681cc6fae0c8f2830653652580a3e68ff60a00caeeea20a73175451d4eee432ff0559e36bf804c3
+  checksum: 10c0/2957d5d23390fa589528977352cc244adbcd6883b63f2c9b7c9eadd73f34dadd58d3e3a387a9ea1363bfcbecdbeeae9db5cc4b8d49ff9c01d72ffdcb522ed430
   languageName: node
   linkType: hard
 
