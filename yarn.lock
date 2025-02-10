@@ -1782,7 +1782,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/utils@npm:8.23.0, @typescript-eslint/utils@npm:^8.20.0":
+"@typescript-eslint/utils@npm:8.23.0, @typescript-eslint/utils@npm:^8.23.0":
   version: 8.23.0
   resolution: "@typescript-eslint/utils@npm:8.23.0"
   dependencies:
@@ -2280,12 +2280,12 @@ __metadata:
   linkType: hard
 
 "@vue/eslint-config-typescript@npm:^14.3.0":
-  version: 14.3.0
-  resolution: "@vue/eslint-config-typescript@npm:14.3.0"
+  version: 14.4.0
+  resolution: "@vue/eslint-config-typescript@npm:14.4.0"
   dependencies:
-    "@typescript-eslint/utils": "npm:^8.20.0"
+    "@typescript-eslint/utils": "npm:^8.23.0"
     fast-glob: "npm:^3.3.3"
-    typescript-eslint: "npm:^8.20.0"
+    typescript-eslint: "npm:^8.23.0"
     vue-eslint-parser: "npm:^9.4.3"
   peerDependencies:
     eslint: ^9.10.0
@@ -2294,7 +2294,7 @@ __metadata:
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: 10c0/d947c224703d1ba7c7eed0940ebd60ac930589e844bef7ec7df15903d45c2d91ac684264ec22b14f77a074fb72f796ea18a4fda75924b1d002b911e4c1048b4d
+  checksum: 10c0/a7f83efc14d1eeb3698eab0c1a4c81ae1b464aa7d234817eb9b85fe9c8c7e0d0fb21b1497a2b83a1dd33cea4521949fd9f2e2c802bea9242ad406f3d115fd3e1
   languageName: node
   linkType: hard
 
@@ -9760,7 +9760,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript-eslint@npm:^8.20.0":
+"typescript-eslint@npm:^8.20.0, typescript-eslint@npm:^8.23.0":
   version: 8.23.0
   resolution: "typescript-eslint@npm:8.23.0"
   dependencies:
