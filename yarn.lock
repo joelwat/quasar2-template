@@ -1130,8 +1130,8 @@ __metadata:
   linkType: hard
 
 "@quasar/app-vite@npm:^2.0.7":
-  version: 2.0.8
-  resolution: "@quasar/app-vite@npm:2.0.8"
+  version: 2.0.9
+  resolution: "@quasar/app-vite@npm:2.0.9"
   dependencies:
     "@quasar/render-ssr-error": "npm:^1.0.3"
     "@quasar/ssl-certificate": "npm:^1.0.0"
@@ -1167,7 +1167,7 @@ __metadata:
     serialize-javascript: "npm:^6.0.2"
     tinyglobby: "npm:^0.2.10"
     ts-essentials: "npm:^9.4.2"
-    vite: "npm:^6.0.7"
+    vite: "npm:^6.1.0"
     webpack-merge: "npm:^6.0.1"
   peerDependencies:
     "@electron/packager": ">= 18"
@@ -1193,7 +1193,7 @@ __metadata:
       optional: true
   bin:
     quasar: bin/quasar.js
-  checksum: 10c0/608faa1901017ed59960b1ebe34b1d8edcb45b0261ef82ba63f24d97af2c038b4bbd49df4a45fbaca3b092c02edbefe9435b8480cddfe230cbac9dd2f0c2d110
+  checksum: 10c0/7347c1ff864ced9bc30c21a00c3a0807f6b7631a142a671bfd86f097464698e2dddb595814c9ec4d127aa1318f85beda9e57b5afd718078239dc782e766e3d10
   languageName: node
   linkType: hard
 
@@ -10327,7 +10327,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:^5.0.0 || ^6.0.0, vite@npm:^6.0.7":
+"vite@npm:^5.0.0 || ^6.0.0, vite@npm:^6.1.0":
   version: 6.1.0
   resolution: "vite@npm:6.1.0"
   dependencies:
