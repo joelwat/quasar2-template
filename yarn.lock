@@ -1130,8 +1130,8 @@ __metadata:
   linkType: hard
 
 "@quasar/app-vite@npm:^2.0.7":
-  version: 2.0.9
-  resolution: "@quasar/app-vite@npm:2.0.9"
+  version: 2.1.0
+  resolution: "@quasar/app-vite@npm:2.1.0"
   dependencies:
     "@quasar/render-ssr-error": "npm:^1.0.3"
     "@quasar/ssl-certificate": "npm:^1.0.0"
@@ -1172,7 +1172,7 @@ __metadata:
   peerDependencies:
     "@electron/packager": ">= 18"
     electron-builder: ">= 22"
-    pinia: ^2.0.0
+    pinia: ^2.0.0 || ^3.0.0
     quasar: ^2.16.0
     typescript: ">= 5.4"
     vue: ^3.2.29
@@ -1193,7 +1193,7 @@ __metadata:
       optional: true
   bin:
     quasar: bin/quasar.js
-  checksum: 10c0/7347c1ff864ced9bc30c21a00c3a0807f6b7631a142a671bfd86f097464698e2dddb595814c9ec4d127aa1318f85beda9e57b5afd718078239dc782e766e3d10
+  checksum: 10c0/ac2cf8f14290eb151a491b2385fb70f5abf42efbb7a375bc456b6165876a7ad64d35d7876442120b05ce380d6ad4a574655e946a968dcbb17d37cb8f7d1bd67c
   languageName: node
   linkType: hard
 
