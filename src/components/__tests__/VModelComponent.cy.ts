@@ -22,10 +22,8 @@ describe('VModelComponent', () => {
         cy.mount(VModelComponent, {
             props: {
                 modelValue: text,
-                // This is how Vue internally codifies listeners,
-                // defining a prop prepended with `on` and camelCased
                 'onUpdate:modelValue': fn,
-            },
+            } as InstanceType<typeof VModelComponent>['$props'], // Explicitly cast props
         });
 
         cy.dataCy('button').click();
@@ -40,10 +38,14 @@ describe('VModelComponent', () => {
         cy.mount(VModelComponent, {
             props: {
                 modelValue: text,
-                'onUpdate:modelValue': (emittedValue: string) => Cypress.vueWrapper.setProps({
-                    modelValue: emittedValue,
-                }),
-            },
+                'onUpdate:modelValue': async (emittedValue: string): Promise<boolean> => {
+                    await Cypress.vueWrapper.setProps({
+                        modelValue: emittedValue,
+                    });
+
+                    return true;
+                },
+            } as InstanceType<typeof VModelComponent>['$props'], // Explicitly cast props
         });
 
         cy.dataCy('button').click();
@@ -54,10 +56,9 @@ describe('VModelComponent', () => {
         const model = ref('Quasar');
 
         cy.mount(VModelComponent, {
-            // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
             props: {
                 ...vModelAdapter(model),
-            },
+            } as InstanceType<typeof VModelComponent>['$props'], // Explicitly cast props
         });
 
         cy.dataCy('button').click();

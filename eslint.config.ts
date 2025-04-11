@@ -2,10 +2,21 @@ import js from '@eslint/js';
 import globals from 'globals';
 import pluginVue from 'eslint-plugin-vue';
 import pluginQuasar from '@quasar/app-vite/eslint';
-import tseslint from 'typescript-eslint';
-import vueTsEslintConfig from '@vue/eslint-config-typescript';
+import tsEslint from 'typescript-eslint';
+import { globalIgnores } from 'eslint/config';
+import {
+    defineConfigWithVueTs,
+    vueTsConfigs,
+} from '@vue/eslint-config-typescript';
+import vueParser from "vue-eslint-parser";
 
-export default tseslint.config(
+interface PluginQuasar {
+    configs: {
+        recommended(): [{ ignores: string[] }];
+    },
+}
+
+export default defineConfigWithVueTs([
     {
         /**
          * Ignore the following files.
@@ -15,15 +26,18 @@ export default tseslint.config(
          *
          * ESLint requires "ignores" key to be the only one in this object
          */
-        ignores: [
-            'coverage/**/*',
-        ],
+        ignores: [] // <<<---- here!
     },
 
-    ...pluginQuasar.configs.recommended(),
+    globalIgnores([
+        'coverage/**/*',
+        'node_modules/',
+    ]),
+
+    (pluginQuasar as PluginQuasar).configs.recommended(),
     js.configs.recommended,
-    tseslint.configs.strictTypeChecked,
-    tseslint.configs.stylisticTypeChecked,
+    tsEslint.configs.strictTypeChecked,
+    tsEslint.configs.stylisticTypeChecked,
 
     /**
      * https://eslint.vuejs.org
@@ -37,44 +51,51 @@ export default tseslint.config(
      * pluginVue.configs["flat/recommended"]
      *   -> Above, plus rules to enforce subjective community defaults to ensure consistency.
      */
-    ...pluginVue.configs['flat/recommended'],
-
-    // https://github.com/vuejs/eslint-config-typescript
-    ...vueTsEslintConfig({
-        // Optional: extend additional configurations from typescript-eslint'.
-        // Supports all the configurations in
-        // https://typescript-eslint.io/users/configs#recommended-configurations
-        // extends: [
-        //     // By default, only the recommended rules are enabled.
-        //     // 'recommended',
-        //     'strictTypeChecked',
-        //     // You can also manually enable the stylistic rules.
-        //     'stylisticTypeChecked',
-
-        //     // Other utility configurations, such as 'eslintRecommended', (note that it's in camelCase)
-        //     // are also extendable here. But we don't recommend using them directly.
-        // ],
-    }),
+    pluginVue.configs['flat/recommended'],
 
     {
+        files: ['**/*.ts', '**/*.vue'],
+        rules: {
+            '@typescript-eslint/consistent-type-imports': [
+                'error',
+                { prefer: 'type-imports' }
+            ],
+        },
+    },
+
+    vueTsConfigs.recommendedTypeChecked,
+
+    {
+        ignores: [
+            'node_modules/',
+        ],
         languageOptions: {
             ecmaVersion: 'latest',
-            parserOptions: {
-                projectService: true,
-                parser: '@typescript-eslint/parser',
-                tsconfigRootDir: import.meta.dirname,
-            },
             sourceType: 'module',
-
+            parser: vueParser,
+            parserOptions: {
+                extraFileExtensions: ['.vue'],
+                parser: '@typescript-eslint/parser',
+                project: [
+                    './jsconfig.json',
+                    './tsconfig.json',
+                    './tsconfig.config.json',
+                    './tsconfig.cypress.json',
+                ],
+            },
             globals: {
-                //             ...globals.browser,
-                ...globals.node, // SSR, Electron, config files
-                process: 'readonly', // process.env.*
-                ga: 'readonly', // Google Analytics
+                ...globals.browser,
+                ...globals.node,
+                ga: 'readonly',
                 cordova: 'readonly',
+                __statics: 'readonly',
+                __QUASAR_SSR__: 'readonly',
+                __QUASAR_SSR_SERVER__: 'readonly',
+                __QUASAR_SSR_CLIENT__: 'readonly',
+                __QUASAR_SSR_PWA__: 'readonly',
+                process: 'readonly',
                 Capacitor: 'readonly',
-                chrome: 'readonly', // BEX related
-                browser: 'readonly', // BEX related
+                chrome: 'readonly',
             },
         },
 
@@ -90,6 +111,11 @@ export default tseslint.config(
             'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
 
             'indent': ['error', 4],
+        },
+        settings: {
+            alias: {
+                map: ['@/', './src'],
+            },
         },
     },
 
@@ -110,4 +136,4 @@ export default tseslint.config(
             },
         },
     },
-);
+]);

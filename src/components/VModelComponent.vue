@@ -16,7 +16,7 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue';
+import { defineComponent, type PropType } from 'vue';
 
 export default defineComponent({
     name: 'QuasarTooltip',
@@ -25,8 +25,12 @@ export default defineComponent({
             type: String,
             required: true,
         },
+        'onUpdate:modelValue': {
+            type: Function as PropType<(payload?: string) => boolean>,
+            required: false,
+        },
     },
 
-    emits: { 'update:modelValue': (payload?: string) => payload !== undefined },
+    emits: { 'update:modelValue': (payload?: string): boolean => payload !== undefined },
 });
 </script>

@@ -108,9 +108,11 @@ export default defineConfig((ctx) => ({
                         // cache: true,
                         // formatter: ESLint.Formatter,
 
-                        lintCommand: 'eslint -c ./eslint.config.ts "./src*/**/*.{js,mjs,cjs,vue}"',
+                        lintCommand: 'eslint',
                         useFlatConfig: true,
                     },
+                    typescript: true,
+                    'vue-tsc': true,
                 }, { server: false },
             ],
             // [
