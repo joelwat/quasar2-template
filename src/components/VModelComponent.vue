@@ -25,9 +25,11 @@ export default defineComponent({
             type: String,
             required: true,
         },
+        // eslint-disable-next-line vue/prop-name-casing
         'onUpdate:modelValue': {
             type: Function as PropType<(payload?: string) => boolean>,
             required: false,
+            default: () => true,
         },
     },
 
