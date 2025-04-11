@@ -703,7 +703,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@intlify/shared@npm:10.0.6, @intlify/shared@npm:^10.0.0":
+"@intlify/shared@npm:10.0.6":
   version: 10.0.6
   resolution: "@intlify/shared@npm:10.0.6"
   checksum: 10c0/cd90aeee74a2906516f11ad4d0a50de2b462c2a29a7b469c83e6078bd5fbe3bd99a9e1b11af7961570d29b8608beb8b9c67d7f4846b7c50707e00368888cd11f
@@ -714,6 +714,13 @@ __metadata:
   version: 11.1.3
   resolution: "@intlify/shared@npm:11.1.3"
   checksum: 10c0/17ee348d5c92ff3b2de054e6e771e3592a96ea27ca196884951a7490ee675987c9737e5658e952d0aece1670730abb2f987eef32de9f42ef0eef65a28c1c781d
+  languageName: node
+  linkType: hard
+
+"@intlify/shared@npm:^10.0.0":
+  version: 10.0.7
+  resolution: "@intlify/shared@npm:10.0.7"
+  checksum: 10c0/776df4d4ffcfe0d7b1ccc53a2abcd73602eb469943b41073fb179b48873e809e35ad6008fa03accf91228b876a5d9741b49e9c35b20282f0dc5dd8de8e60735e
   languageName: node
   linkType: hard
 
