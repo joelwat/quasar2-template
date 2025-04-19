@@ -2382,7 +2382,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ansis@npm:^3.16.0":
+"ansis@npm:^3.17.0":
   version: 3.17.0
   resolution: "ansis@npm:3.17.0"
   checksum: 10c0/d8fa94ca7bb91e7e5f8a7d323756aa075facce07c5d02ca883673e128b2873d16f93e0dec782f98f1eeb1f2b3b4b7b60dcf0ad98fb442e75054fe857988cc5cb
@@ -7164,7 +7164,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ohash@npm:^2.0.4":
+"ohash@npm:^2.0.11":
   version: 2.0.11
   resolution: "ohash@npm:2.0.11"
   checksum: 10c0/d07c8d79cc26da082c1a7c8d5b56c399dd4ed3b2bd069fcae6bae78c99a9bcc3ad813b1e1f49ca2f335292846d689c6141a762cf078727d2302a33d414e69c79
@@ -9721,7 +9721,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"unplugin-utils@npm:^0.2.0, unplugin-utils@npm:^0.2.3, unplugin-utils@npm:^0.2.4":
+"unplugin-utils@npm:^0.2.3, unplugin-utils@npm:^0.2.4":
   version: 0.2.4
   resolution: "unplugin-utils@npm:0.2.4"
   dependencies:
@@ -9956,24 +9956,24 @@ __metadata:
   linkType: hard
 
 "vite-plugin-inspect@npm:^11.0.0":
-  version: 11.0.0
-  resolution: "vite-plugin-inspect@npm:11.0.0"
+  version: 11.0.1
+  resolution: "vite-plugin-inspect@npm:11.0.1"
   dependencies:
-    ansis: "npm:^3.16.0"
+    ansis: "npm:^3.17.0"
     debug: "npm:^4.4.0"
     error-stack-parser-es: "npm:^1.0.5"
-    ohash: "npm:^2.0.4"
+    ohash: "npm:^2.0.11"
     open: "npm:^10.1.0"
     perfect-debounce: "npm:^1.0.0"
     sirv: "npm:^3.0.1"
-    unplugin-utils: "npm:^0.2.0"
+    unplugin-utils: "npm:^0.2.4"
     vite-dev-rpc: "npm:^1.0.7"
   peerDependencies:
     vite: ^6.0.0
   peerDependenciesMeta:
     "@nuxt/kit":
       optional: true
-  checksum: 10c0/808ef69ec2c3baec05f5024d634abb353b4916d1caaede5180560a9e74bafa4761ddde32f651a557ef080910a77d99ea42198081bb8fe1ea0a32891b7730fc8c
+  checksum: 10c0/b7a5d3f882864113520f17e3dfa857b751f53e54371a67cd99a860e24a98cd40beea4389a667de33c6d71cb8411a9da1d5c183689c95e5b42b2c0aea28ffd138
   languageName: node
   linkType: hard
 
