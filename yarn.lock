@@ -719,8 +719,8 @@ __metadata:
   linkType: hard
 
 "@intlify/unplugin-vue-i18n@npm:^6.0.5":
-  version: 6.0.5
-  resolution: "@intlify/unplugin-vue-i18n@npm:6.0.5"
+  version: 6.0.6
+  resolution: "@intlify/unplugin-vue-i18n@npm:6.0.6"
   dependencies:
     "@eslint-community/eslint-utils": "npm:^4.4.0"
     "@intlify/bundle-utils": "npm:^10.0.1"
@@ -747,7 +747,7 @@ __metadata:
       optional: true
     vue-i18n:
       optional: true
-  checksum: 10c0/d88cdd593609cb447e78cf235c9438824774b8f43490469ae807d3d4cb410e1d6bc80b2ab1fb3e71169c1e75134bf65a1f7a58037f42c60b3a35b079d652a28c
+  checksum: 10c0/0cd4773c7c48fea3426cf45adf4bf490aed4c16d7f69bef8b8077803f60dfd7b2f7df78ef54246c7ffb1eaa2fa78af68815897444c74d6f4daad02fdcc0e4b26
   languageName: node
   linkType: hard
 
