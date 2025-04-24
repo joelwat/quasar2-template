@@ -79,8 +79,6 @@ export default defineConfigWithVueTs([
                 project: [
                     './jsconfig.json',
                     './tsconfig.json',
-                    './tsconfig.config.json',
-                    './tsconfig.cypress.json',
                 ],
             },
             globals: {
