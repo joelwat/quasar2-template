@@ -111,13 +111,12 @@ export default defineConfig((ctx) => ({
                         lintCommand: 'eslint',
                         useFlatConfig: true,
                     },
-                    typescript: true,
-                    'vue-tsc': true,
+                    vueTsc: true,
                 }, { server: false },
             ],
-            // [
-            //     'vite-plugin-inspect',
-            // ],
+            [
+                'vite-plugin-inspect',
+            ],
             [
                 'vite-plugin-vue-layouts', {
                     defaultLayout: 'MainLayout',

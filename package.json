@@ -18,7 +18,8 @@
         "test:e2e:ci": "cross-env NODE_ENV=test start-test \"quasar dev\" http-get://127.0.0.1:3000 \"cypress run --e2e\"",
         "test:unit": "vitest",
         "test:unit:ci": "vitest run",
-        "test:unit:ui": "vitest --ui"
+        "test:unit:ui": "vitest --ui",
+        "typecheck": "vue-tsc --noEmit"
     },
     "dependencies": {
         "@quasar/extras": "^1.16.17",

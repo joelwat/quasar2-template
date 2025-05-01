@@ -1,5 +1,5 @@
 import js from '@eslint/js';
-import globals from 'globals';
+import globals, { browser } from 'globals';
 import pluginVue from 'eslint-plugin-vue';
 import pluginQuasar from '@quasar/app-vite/eslint';
 import tsEslint from 'typescript-eslint';
@@ -86,14 +86,10 @@ export default defineConfigWithVueTs([
                 ...globals.node,
                 ga: 'readonly',
                 cordova: 'readonly',
-                __statics: 'readonly',
-                __QUASAR_SSR__: 'readonly',
-                __QUASAR_SSR_SERVER__: 'readonly',
-                __QUASAR_SSR_CLIENT__: 'readonly',
-                __QUASAR_SSR_PWA__: 'readonly',
                 process: 'readonly',
                 Capacitor: 'readonly',
                 chrome: 'readonly',
+                browser: 'readonly',
             },
         },
 
