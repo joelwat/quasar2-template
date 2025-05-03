@@ -1041,8 +1041,8 @@ __metadata:
   linkType: hard
 
 "@quasar/quasar-app-extension-testing-unit-vitest@npm:^1.1.0":
-  version: 1.2.2
-  resolution: "@quasar/quasar-app-extension-testing-unit-vitest@npm:1.2.2"
+  version: 1.2.3
+  resolution: "@quasar/quasar-app-extension-testing-unit-vitest@npm:1.2.3"
   dependencies:
     happy-dom: "npm:^15.0.0"
     lodash-es: "npm:^4.17.21"
@@ -1051,12 +1051,12 @@ __metadata:
     "@vitest/ui": ^1.1.0 || ^2.0.0 || ^3.0.0
     "@vue/test-utils": ^2.4.3
     quasar: ^2.12.7
-    vitest: ^1.1.0 || ^2.0.0 || ^3.0.0
+    vitest: ^1.6.1 || ^2.1.9 || ^3.0.5
     vue: ^3.3.4
   peerDependenciesMeta:
     "@vitest/ui":
       optional: true
-  checksum: 10c0/ec569995bb0265c7834065969a50cc7abf202ffbfeeee174b1215baee00e0b6bd8d599fcfb1f5cee512db7f3f5dfd2f307b02cbf97b2bc6954d5344b3b3b8275
+  checksum: 10c0/60757a6ff5dd16184e2644550611b1fba055cc9fcfd2b380fcfaefdecb8537c746ef057ec69f99d9d21065eb3412e2a7761bbda3cf18caede9b24634072642bf
   languageName: node
   linkType: hard
 
