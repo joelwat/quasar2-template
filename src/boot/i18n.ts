@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-empty-object-type */
 import { defineBoot } from '#q-app/wrappers';
-import { createI18n } from 'vue-i18n';
+import { createI18n, LocaleMessages, VueMessageType } from 'vue-i18n';
 
 import messages from '@/i18n';
 
@@ -26,7 +26,7 @@ export default defineBoot(({ app }) => {
     const i18n = createI18n({
         locale: 'en-US',
         legacy: false,
-        messages,
+        messages: messages as { [key: string]: LocaleMessages<VueMessageType> },
     });
 
     // Set i18n instance on app

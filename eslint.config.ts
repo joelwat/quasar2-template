@@ -1,5 +1,5 @@
 import js from '@eslint/js';
-import globals, { browser } from 'globals';
+import globals from 'globals';
 import pluginVue from 'eslint-plugin-vue';
 import pluginQuasar from '@quasar/app-vite/eslint';
 import tsEslint from 'typescript-eslint';

@@ -38,8 +38,9 @@ describe('VModelComponent', () => {
         cy.mount(VModelComponent, {
             props: {
                 modelValue: text,
-                'onUpdate:modelValue': async (emittedValue: string): Promise<boolean> => {
-                    await Cypress.vueWrapper.setProps({
+                'onUpdate:modelValue': (emittedValue: string): boolean => {
+                    // Use synchronous operation instead of await
+                    Cypress.vueWrapper.setProps({
                         modelValue: emittedValue,
                     });
 

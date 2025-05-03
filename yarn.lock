@@ -527,7 +527,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint/js@npm:9.26.0, @eslint/js@npm:^9.25.1":
+"@eslint/js@npm:9.26.0, @eslint/js@npm:^9.26.0":
   version: 9.26.0
   resolution: "@eslint/js@npm:9.26.0"
   checksum: 10c0/89fa45b7ff7f3c2589ea1f04a31b4f6d41ad85ecac98e519195e8b3a908b103c892ac19c4aec0629cfeccefd9e5b63c2f1269183d63016e7de722b97a085dcf4
@@ -1038,7 +1038,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@quasar/quasar-app-extension-testing-e2e-cypress@npm:^6.1.0":
+"@quasar/quasar-app-extension-testing-e2e-cypress@npm:^6.2.0":
   version: 6.2.0
   resolution: "@quasar/quasar-app-extension-testing-e2e-cypress@npm:6.2.0"
   dependencies:
@@ -1058,7 +1058,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@quasar/quasar-app-extension-testing-unit-vitest@npm:^1.1.0":
+"@quasar/quasar-app-extension-testing-unit-vitest@npm:^1.2.3":
   version: 1.2.3
   resolution: "@quasar/quasar-app-extension-testing-unit-vitest@npm:1.2.3"
   dependencies:
@@ -4432,7 +4432,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:^9.25.1":
+"eslint@npm:^9.26.0":
   version: 9.26.0
   resolution: "eslint@npm:9.26.0"
   dependencies:
@@ -7936,12 +7936,12 @@ __metadata:
   resolution: "quasar2-template@workspace:."
   dependencies:
     "@cypress/code-coverage": "npm:^3.14.0"
-    "@eslint/js": "npm:^9.25.1"
+    "@eslint/js": "npm:^9.26.0"
     "@intlify/unplugin-vue-i18n": "npm:^6.0.8"
     "@quasar/app-vite": "npm:^2.2.0"
     "@quasar/extras": "npm:^1.16.17"
-    "@quasar/quasar-app-extension-testing-e2e-cypress": "npm:^6.1.0"
-    "@quasar/quasar-app-extension-testing-unit-vitest": "npm:^1.1.0"
+    "@quasar/quasar-app-extension-testing-e2e-cypress": "npm:^6.2.0"
+    "@quasar/quasar-app-extension-testing-unit-vitest": "npm:^1.2.3"
     "@types/node": "npm:^22.15.3"
     "@unocss/preset-uno": "npm:^66.1.0-beta.13"
     "@vitest/ui": "npm:^3.1.2"
@@ -7951,7 +7951,7 @@ __metadata:
     axios: "npm:^1.9.0"
     cross-env: "npm:^7.0.3"
     cypress: "npm:^14.3.2"
-    eslint: "npm:^9.25.1"
+    eslint: "npm:^9.26.0"
     eslint-config-airbnb-base: "npm:^15.0.0"
     eslint-plugin-cypress: "npm:^4.3.0"
     eslint-plugin-import: "npm:^2.31.0"
