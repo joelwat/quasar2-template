@@ -1651,30 +1651,30 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@unocss/astro@npm:66.1.0-beta.13":
-  version: 66.1.0-beta.13
-  resolution: "@unocss/astro@npm:66.1.0-beta.13"
+"@unocss/astro@npm:66.1.0":
+  version: 66.1.0
+  resolution: "@unocss/astro@npm:66.1.0"
   dependencies:
-    "@unocss/core": "npm:66.1.0-beta.13"
-    "@unocss/reset": "npm:66.1.0-beta.13"
-    "@unocss/vite": "npm:66.1.0-beta.13"
+    "@unocss/core": "npm:66.1.0"
+    "@unocss/reset": "npm:66.1.0"
+    "@unocss/vite": "npm:66.1.0"
   peerDependencies:
     vite: ^2.9.0 || ^3.0.0-0 || ^4.0.0 || ^5.0.0-0 || ^6.0.0-0
   peerDependenciesMeta:
     vite:
       optional: true
-  checksum: 10c0/1157191f1d096f640121a6c2ba7900869a130513abdb5f0e3b8c84c8f4a205d32e666b5e177bafbf5309c234b36a0c5a7e55c62f4f653e0abdcddcd5ff6d3dc8
+  checksum: 10c0/393fee2819ec10ccc13e29a8d57410858ac8362d457d72b345ddf48299142e4fc00d576effe19f1b12401acdffe32d7062a2f01a876041474ec3fc32ab7bc0d6
   languageName: node
   linkType: hard
 
-"@unocss/cli@npm:66.1.0-beta.13":
-  version: 66.1.0-beta.13
-  resolution: "@unocss/cli@npm:66.1.0-beta.13"
+"@unocss/cli@npm:66.1.0":
+  version: 66.1.0
+  resolution: "@unocss/cli@npm:66.1.0"
   dependencies:
     "@ampproject/remapping": "npm:^2.3.0"
-    "@unocss/config": "npm:66.1.0-beta.13"
-    "@unocss/core": "npm:66.1.0-beta.13"
-    "@unocss/preset-uno": "npm:66.1.0-beta.13"
+    "@unocss/config": "npm:66.1.0"
+    "@unocss/core": "npm:66.1.0"
+    "@unocss/preset-uno": "npm:66.1.0"
     cac: "npm:^6.7.14"
     chokidar: "npm:^3.6.0"
     colorette: "npm:^2.0.20"
@@ -1682,244 +1682,244 @@ __metadata:
     magic-string: "npm:^0.30.17"
     pathe: "npm:^2.0.3"
     perfect-debounce: "npm:^1.0.0"
-    tinyglobby: "npm:^0.2.12"
+    tinyglobby: "npm:^0.2.13"
     unplugin-utils: "npm:^0.2.4"
   bin:
     unocss: bin/unocss.mjs
-  checksum: 10c0/5446dfbf416de13363799fbd61bc0b1c2e42e78d286a17b754004ce37f971fdee271a1d7e717260ed291e03758c50c6a6a87624f06db3780815ffe029ebd6e34
+  checksum: 10c0/e0d224a9d6ccfad7a1df8ef0cdf10fd51c64206cf76c81bb588ce5518942f67e00d41c559fa369bdfa11db6b8385158dcdb8cea9ac35a26319250ab2991eb0e0
   languageName: node
   linkType: hard
 
-"@unocss/config@npm:66.1.0-beta.13":
-  version: 66.1.0-beta.13
-  resolution: "@unocss/config@npm:66.1.0-beta.13"
+"@unocss/config@npm:66.1.0":
+  version: 66.1.0
+  resolution: "@unocss/config@npm:66.1.0"
   dependencies:
-    "@unocss/core": "npm:66.1.0-beta.13"
-    unconfig: "npm:^7.3.1"
-  checksum: 10c0/c8cfea555adda3a65faec4601d85af500de99592b6f577f585e4b64f360843466a7332005827d4546697be0e69de0c27d553ba53b2441168c546009a41b0cc8a
+    "@unocss/core": "npm:66.1.0"
+    unconfig: "npm:^7.3.2"
+  checksum: 10c0/09343a3047bd05e6567feecab94e55b630836d76ecf603a36cf622abb47e750fa51eaa3cf531f4baac9c797d7f1775085d4a112c238e0e927baee48bfeeded71
   languageName: node
   linkType: hard
 
-"@unocss/core@npm:66.1.0-beta.13, @unocss/core@npm:^66.1.0-beta.13":
-  version: 66.1.0-beta.13
-  resolution: "@unocss/core@npm:66.1.0-beta.13"
-  checksum: 10c0/ddb8043e1cc0e66b687797ce55eb4bfc798a2773b95a8b612737f8b84ddce62667118ad03fb054878a334e603f20347528fe85b4b89a1523e3fb97cfd0e6547f
+"@unocss/core@npm:66.1.0, @unocss/core@npm:^66.1.0":
+  version: 66.1.0
+  resolution: "@unocss/core@npm:66.1.0"
+  checksum: 10c0/7cd89619d8db1ae97b4cbe7c874d5594723cf0669c64230f5112410b27f42f47333a2f6f6e876c45730bed89b7f07bff5dabc55e5ebf8821ce3da1fabdc18834
   languageName: node
   linkType: hard
 
-"@unocss/extractor-arbitrary-variants@npm:66.1.0-beta.13":
-  version: 66.1.0-beta.13
-  resolution: "@unocss/extractor-arbitrary-variants@npm:66.1.0-beta.13"
+"@unocss/extractor-arbitrary-variants@npm:66.1.0":
+  version: 66.1.0
+  resolution: "@unocss/extractor-arbitrary-variants@npm:66.1.0"
   dependencies:
-    "@unocss/core": "npm:66.1.0-beta.13"
-  checksum: 10c0/bb7f8806f0070ded15c2e04cb34640259d3405786eebea55dfd2a247e9da656d170060188a3841f83257743c5a3499f2de6085f6f01417629b3452365d2fab66
+    "@unocss/core": "npm:66.1.0"
+  checksum: 10c0/5a503def3a751e0fe18cc6f99c37df0f200faf33626e8336e3183aea2fe64c5fa9720ebd8b92139301f74973c679bb263f4ef94b1d0fbe3b68d88b1a2a5b142b
   languageName: node
   linkType: hard
 
-"@unocss/inspector@npm:66.1.0-beta.13":
-  version: 66.1.0-beta.13
-  resolution: "@unocss/inspector@npm:66.1.0-beta.13"
+"@unocss/inspector@npm:66.1.0":
+  version: 66.1.0
+  resolution: "@unocss/inspector@npm:66.1.0"
   dependencies:
-    "@unocss/core": "npm:66.1.0-beta.13"
-    "@unocss/rule-utils": "npm:66.1.0-beta.13"
+    "@unocss/core": "npm:66.1.0"
+    "@unocss/rule-utils": "npm:66.1.0"
     colorette: "npm:^2.0.20"
     gzip-size: "npm:^6.0.0"
     sirv: "npm:^3.0.1"
     vue-flow-layout: "npm:^0.1.1"
-  checksum: 10c0/818170e3983ed78f0fc6dee595cf556ea01437bdf37180cdfb471782d4fd1ac5502f9fdec80845f7cf6c587784c6cd8316168b7a3a589776d0a9599f494d6b9f
+  checksum: 10c0/8c6e96551d5af1e314750da734f8444975cf1008009ebb82ed33ef3859a25b297a2748e18b7835de2219ac1f4a405e261021aa3616b61e69882b4f244bca1b9c
   languageName: node
   linkType: hard
 
-"@unocss/postcss@npm:66.1.0-beta.13":
-  version: 66.1.0-beta.13
-  resolution: "@unocss/postcss@npm:66.1.0-beta.13"
+"@unocss/postcss@npm:66.1.0":
+  version: 66.1.0
+  resolution: "@unocss/postcss@npm:66.1.0"
   dependencies:
-    "@unocss/config": "npm:66.1.0-beta.13"
-    "@unocss/core": "npm:66.1.0-beta.13"
-    "@unocss/rule-utils": "npm:66.1.0-beta.13"
+    "@unocss/config": "npm:66.1.0"
+    "@unocss/core": "npm:66.1.0"
+    "@unocss/rule-utils": "npm:66.1.0"
     css-tree: "npm:^3.1.0"
     postcss: "npm:^8.5.3"
-    tinyglobby: "npm:^0.2.12"
+    tinyglobby: "npm:^0.2.13"
   peerDependencies:
     postcss: ^8.4.21
-  checksum: 10c0/c5d61f116618b482b9f5ade9f333fc7d497af540a371fdd7521001fd9968d09e6d7622e2c1fff8a3f9bb70ff893cc796af71f8017234c61333c00d28cdd68198
+  checksum: 10c0/a9b2ec2c8dbfb7049f02632e2d9373ab9df093e76c2a5438baaa3e19e284792bcac0f9b6e7de20bbe2c882e0516b0f3b51f458b7f21942528324588408e0bf7d
   languageName: node
   linkType: hard
 
-"@unocss/preset-attributify@npm:66.1.0-beta.13":
-  version: 66.1.0-beta.13
-  resolution: "@unocss/preset-attributify@npm:66.1.0-beta.13"
+"@unocss/preset-attributify@npm:66.1.0":
+  version: 66.1.0
+  resolution: "@unocss/preset-attributify@npm:66.1.0"
   dependencies:
-    "@unocss/core": "npm:66.1.0-beta.13"
-  checksum: 10c0/93e1b7c64989fb517de0ddcf6b2680cc9e7cdf06d225e0cb452cbb7c0c8230e8241e3448d929c3e4a3393f97f08ca4cd66791625c06743984242d1416f3730f6
+    "@unocss/core": "npm:66.1.0"
+  checksum: 10c0/9c4e3134815f28bd88c2d9da3af26bc823c8e7bdbf5377145c869d91d9fb283792d4b08571548b882679ff5f84e09843c1af5249ee6022197fa0bdd5fe5ad0e0
   languageName: node
   linkType: hard
 
-"@unocss/preset-icons@npm:66.1.0-beta.13":
-  version: 66.1.0-beta.13
-  resolution: "@unocss/preset-icons@npm:66.1.0-beta.13"
+"@unocss/preset-icons@npm:66.1.0":
+  version: 66.1.0
+  resolution: "@unocss/preset-icons@npm:66.1.0"
   dependencies:
     "@iconify/utils": "npm:^2.3.0"
-    "@unocss/core": "npm:66.1.0-beta.13"
+    "@unocss/core": "npm:66.1.0"
     ofetch: "npm:^1.4.1"
-  checksum: 10c0/5e09b9c338f0ddc6c3221ef58ae801dc50d226548451c7ce361a3252899465dde63c6b6334d20d12414f371c6897bceaba772ce7c3d9ef36f60c7a85fb51b241
+  checksum: 10c0/91ac8952a8d6afd3060a1e84d1e637df8f2a2e99f8b2cb86ec6cb3707cf6aec020c2b41c3da2b23775c178b8054767ce7a50b28b57623647548d2cb39558e4be
   languageName: node
   linkType: hard
 
-"@unocss/preset-mini@npm:66.1.0-beta.13":
-  version: 66.1.0-beta.13
-  resolution: "@unocss/preset-mini@npm:66.1.0-beta.13"
+"@unocss/preset-mini@npm:66.1.0":
+  version: 66.1.0
+  resolution: "@unocss/preset-mini@npm:66.1.0"
   dependencies:
-    "@unocss/core": "npm:66.1.0-beta.13"
-    "@unocss/extractor-arbitrary-variants": "npm:66.1.0-beta.13"
-    "@unocss/rule-utils": "npm:66.1.0-beta.13"
-  checksum: 10c0/1ab4b13e76f5c66ddb7b4143d0e65b3f646a4403c4747fbf092a4d5d85a90c51878c148a649aa6f2a4b45831c90ef3bcdb0494fff970d7c1a0a04fbf1d9cb060
+    "@unocss/core": "npm:66.1.0"
+    "@unocss/extractor-arbitrary-variants": "npm:66.1.0"
+    "@unocss/rule-utils": "npm:66.1.0"
+  checksum: 10c0/340e2a6a8d9a941be087ba8a5ac3d710299da95f0f2c837d09c87bc5a0ddfaa956a1f17e01252789127a53785fc13981a181806c454948d68d351c8b7592f228
   languageName: node
   linkType: hard
 
-"@unocss/preset-tagify@npm:66.1.0-beta.13":
-  version: 66.1.0-beta.13
-  resolution: "@unocss/preset-tagify@npm:66.1.0-beta.13"
+"@unocss/preset-tagify@npm:66.1.0":
+  version: 66.1.0
+  resolution: "@unocss/preset-tagify@npm:66.1.0"
   dependencies:
-    "@unocss/core": "npm:66.1.0-beta.13"
-  checksum: 10c0/366a14cdbaea1237ed0d7a1d35c9c6c94c8d0d01af842692b2961d25118b9694a1fbe7fcb12e50fd1dce42052083364a7a6c7acf16ab8d68a0bfd49960699650
+    "@unocss/core": "npm:66.1.0"
+  checksum: 10c0/e4c80e7910935280b0ea29f032ea436acd6c28bf1420a9cca67b1bc19161fd576595cd610e71c4a3d248fbef9c3e0e1518531afc2ac31beb9755fb8d692390c9
   languageName: node
   linkType: hard
 
-"@unocss/preset-typography@npm:66.1.0-beta.13":
-  version: 66.1.0-beta.13
-  resolution: "@unocss/preset-typography@npm:66.1.0-beta.13"
+"@unocss/preset-typography@npm:66.1.0":
+  version: 66.1.0
+  resolution: "@unocss/preset-typography@npm:66.1.0"
   dependencies:
-    "@unocss/core": "npm:66.1.0-beta.13"
-    "@unocss/preset-mini": "npm:66.1.0-beta.13"
-    "@unocss/rule-utils": "npm:66.1.0-beta.13"
-  checksum: 10c0/d67a05591869ddec43a73b2aea37437efd47cc669aabd2ef2b291367aa644e9a1342a8919efb39f52359729225618650adc855599f478a716341166d05f3a7f7
+    "@unocss/core": "npm:66.1.0"
+    "@unocss/preset-mini": "npm:66.1.0"
+    "@unocss/rule-utils": "npm:66.1.0"
+  checksum: 10c0/0984cbcb5091108a989141d8d7fb5a7f2e742e087e66c61db83326079bab84f1c01b077f77c8c5c39262a17e5658e543ea7d345b883228d9b1510929d52dcb6d
   languageName: node
   linkType: hard
 
-"@unocss/preset-uno@npm:66.1.0-beta.13, @unocss/preset-uno@npm:^66.1.0-beta.13":
-  version: 66.1.0-beta.13
-  resolution: "@unocss/preset-uno@npm:66.1.0-beta.13"
+"@unocss/preset-uno@npm:66.1.0, @unocss/preset-uno@npm:^66.1.0-beta.13":
+  version: 66.1.0
+  resolution: "@unocss/preset-uno@npm:66.1.0"
   dependencies:
-    "@unocss/core": "npm:66.1.0-beta.13"
-    "@unocss/preset-wind3": "npm:66.1.0-beta.13"
-  checksum: 10c0/04a62cf8d2bf98da4f172ba77e1f7a526bbc4ccbb0062e7a6cc7b83fcf867d9700e9539362676c27440cab124afd2514239a7f9355096dd3920fad55ad4639f8
+    "@unocss/core": "npm:66.1.0"
+    "@unocss/preset-wind3": "npm:66.1.0"
+  checksum: 10c0/02829c405137a73ed3adc6c263f3485ebce4ad3f3d303d331cfe3e9a4f8bb6f672c67b9d231f820e9980fdb68a7d44ce3dbc9523be38696c63322eeb76f2317d
   languageName: node
   linkType: hard
 
-"@unocss/preset-web-fonts@npm:66.1.0-beta.13":
-  version: 66.1.0-beta.13
-  resolution: "@unocss/preset-web-fonts@npm:66.1.0-beta.13"
+"@unocss/preset-web-fonts@npm:66.1.0":
+  version: 66.1.0
+  resolution: "@unocss/preset-web-fonts@npm:66.1.0"
   dependencies:
-    "@unocss/core": "npm:66.1.0-beta.13"
+    "@unocss/core": "npm:66.1.0"
     ofetch: "npm:^1.4.1"
-  checksum: 10c0/853cdcf7d39d848fae26cbc1eab3af420d95facf1694cb841554a6f772276134a2ad8d7e54edbf908c3e691f467dce3d2e58622fab13bac0148c1f0653df40dd
+  checksum: 10c0/a9a82d4e2a35e30f4f85438c82baf381d33261b7991d71284e69708b748ffd5102d767f3f1126b434b8193624b4aa60afff58cc12e17f2896834210c48efe2ce
   languageName: node
   linkType: hard
 
-"@unocss/preset-wind3@npm:66.1.0-beta.13":
-  version: 66.1.0-beta.13
-  resolution: "@unocss/preset-wind3@npm:66.1.0-beta.13"
+"@unocss/preset-wind3@npm:66.1.0":
+  version: 66.1.0
+  resolution: "@unocss/preset-wind3@npm:66.1.0"
   dependencies:
-    "@unocss/core": "npm:66.1.0-beta.13"
-    "@unocss/preset-mini": "npm:66.1.0-beta.13"
-    "@unocss/rule-utils": "npm:66.1.0-beta.13"
-  checksum: 10c0/0b0fc16cb58968247cd1432da9b03d7303d935be83d55db828f111330b4cbb755ec49c21114a648f17f7bd8ae8c590a024478e715003949a1799b8baba414974
+    "@unocss/core": "npm:66.1.0"
+    "@unocss/preset-mini": "npm:66.1.0"
+    "@unocss/rule-utils": "npm:66.1.0"
+  checksum: 10c0/67a61df687822b9da8425cf177b00c6a76427e6ee12ac11ec47e7edc23ce101690ce99eec473f59545e835574e9a8deb634d7512205e5b30d58f3c6f23c12299
   languageName: node
   linkType: hard
 
-"@unocss/preset-wind4@npm:66.1.0-beta.13":
-  version: 66.1.0-beta.13
-  resolution: "@unocss/preset-wind4@npm:66.1.0-beta.13"
+"@unocss/preset-wind4@npm:66.1.0":
+  version: 66.1.0
+  resolution: "@unocss/preset-wind4@npm:66.1.0"
   dependencies:
-    "@unocss/core": "npm:66.1.0-beta.13"
-    "@unocss/extractor-arbitrary-variants": "npm:66.1.0-beta.13"
-    "@unocss/rule-utils": "npm:66.1.0-beta.13"
-  checksum: 10c0/36eba9e8d9a575e286b1256127d574b4e84ad47894a6af6558d1ad10f31df2d4fc1f4f98bac4b7eb52882e21b527fbeaed8394d1a83717264a0916d63c6e7966
+    "@unocss/core": "npm:66.1.0"
+    "@unocss/extractor-arbitrary-variants": "npm:66.1.0"
+    "@unocss/rule-utils": "npm:66.1.0"
+  checksum: 10c0/9042c287ab3d937397b02db79c2a1283e0c663839c0226875f71fb272cded846c7d666b99d865960e62100199d5a141ab34fc7286fedf30c60b731c9bb72d2ef
   languageName: node
   linkType: hard
 
-"@unocss/preset-wind@npm:66.1.0-beta.13":
-  version: 66.1.0-beta.13
-  resolution: "@unocss/preset-wind@npm:66.1.0-beta.13"
+"@unocss/preset-wind@npm:66.1.0":
+  version: 66.1.0
+  resolution: "@unocss/preset-wind@npm:66.1.0"
   dependencies:
-    "@unocss/core": "npm:66.1.0-beta.13"
-    "@unocss/preset-wind3": "npm:66.1.0-beta.13"
-  checksum: 10c0/a7684e5570c19d274b25407c4e8928e5550d2b439d2f7b871887d1cc0ff016a9561f5e498a6a24084a8596585523b0a8fdce15691a15b334e098bb90ab442d7c
+    "@unocss/core": "npm:66.1.0"
+    "@unocss/preset-wind3": "npm:66.1.0"
+  checksum: 10c0/80f4334b32091ef158a1d11284609a7431d498c92624f82b1376f9c065eb9ef63e3ad40938f01371af8ffb555fbd8e190a843833739325b7eb38626ab4bcf7f4
   languageName: node
   linkType: hard
 
-"@unocss/reset@npm:66.1.0-beta.13":
-  version: 66.1.0-beta.13
-  resolution: "@unocss/reset@npm:66.1.0-beta.13"
-  checksum: 10c0/3b0c86729d844bb4c1271cc5cd54b330a384614102a321932a47076a774a6003ec36c038ff43b6541dbfef66806427b77195426874ae6566d364efe13a649487
+"@unocss/reset@npm:66.1.0":
+  version: 66.1.0
+  resolution: "@unocss/reset@npm:66.1.0"
+  checksum: 10c0/1ddc50dfee31e15e942b2bd4cc1617c306b7e8785fc5913b15cf4c10e01b5f18499ca7c7442763f715519fd1ad6d281906c4e4d448f9851ff008511a6234127d
   languageName: node
   linkType: hard
 
-"@unocss/rule-utils@npm:66.1.0-beta.13":
-  version: 66.1.0-beta.13
-  resolution: "@unocss/rule-utils@npm:66.1.0-beta.13"
+"@unocss/rule-utils@npm:66.1.0":
+  version: 66.1.0
+  resolution: "@unocss/rule-utils@npm:66.1.0"
   dependencies:
-    "@unocss/core": "npm:^66.1.0-beta.13"
+    "@unocss/core": "npm:^66.1.0"
     magic-string: "npm:^0.30.17"
-  checksum: 10c0/d301a6e461756828ce594c1cb5c3e68c602899da71190c9b0b7d92f00bdae96ad7482d7af82ad307547cefa0cf9e83d1c6d92ea95b942cca324851b3da429aaf
+  checksum: 10c0/6f62873a180cd235d8bc00d342f249e42665eb399a689eb86ca61a4463404d9e12a8cb82f6d7eb6ae0080c7697618e54aa9a9e841e5ba1a787ed02aefbc76021
   languageName: node
   linkType: hard
 
-"@unocss/transformer-attributify-jsx@npm:66.1.0-beta.13":
-  version: 66.1.0-beta.13
-  resolution: "@unocss/transformer-attributify-jsx@npm:66.1.0-beta.13"
+"@unocss/transformer-attributify-jsx@npm:66.1.0":
+  version: 66.1.0
+  resolution: "@unocss/transformer-attributify-jsx@npm:66.1.0"
   dependencies:
-    "@unocss/core": "npm:66.1.0-beta.13"
-  checksum: 10c0/a42dbd374393e042255f5354c1e5d889e47501a24d5c786019068a8fc5aa048c59a2580cad56f5ad6704a17da02fcd5fe564297c8933510b419b7bf5fffa9519
+    "@unocss/core": "npm:66.1.0"
+  checksum: 10c0/0af89ba3b840bca3e83011875a161f21783ef35d9d86c43177a7fb92cb9d59fe1e8c3a95ab24d8bf88e85543a452efedd4cefbcd1c0dd8f94bf851b7693a0a9e
   languageName: node
   linkType: hard
 
-"@unocss/transformer-compile-class@npm:66.1.0-beta.13":
-  version: 66.1.0-beta.13
-  resolution: "@unocss/transformer-compile-class@npm:66.1.0-beta.13"
+"@unocss/transformer-compile-class@npm:66.1.0":
+  version: 66.1.0
+  resolution: "@unocss/transformer-compile-class@npm:66.1.0"
   dependencies:
-    "@unocss/core": "npm:66.1.0-beta.13"
-  checksum: 10c0/ffabc2a3be31045494f4548690c5ff55b25b6fa606d16211a59ab98a8089875127e4967d49012bf4b422552ddd37e28d9af212c6e00c6c514e78aa222149cd54
+    "@unocss/core": "npm:66.1.0"
+  checksum: 10c0/5a5aaf9d899674584a4e22f0f60e7ae9954e58ea62af6b60e9243ee1674d2ded2ea6802c94ccafa2dd7f0b3211592b6f65eb3521ae83bd232270161e52d45ee5
   languageName: node
   linkType: hard
 
-"@unocss/transformer-directives@npm:66.1.0-beta.13":
-  version: 66.1.0-beta.13
-  resolution: "@unocss/transformer-directives@npm:66.1.0-beta.13"
+"@unocss/transformer-directives@npm:66.1.0":
+  version: 66.1.0
+  resolution: "@unocss/transformer-directives@npm:66.1.0"
   dependencies:
-    "@unocss/core": "npm:66.1.0-beta.13"
-    "@unocss/rule-utils": "npm:66.1.0-beta.13"
+    "@unocss/core": "npm:66.1.0"
+    "@unocss/rule-utils": "npm:66.1.0"
     css-tree: "npm:^3.1.0"
-  checksum: 10c0/c38c216eee55b7dba2db04b90242eba2464aa1b79bf222dc9ff7ec9c31af33b7032b0d6d6dcd9375103b402e30e5385d4513c023fdb689aae2912710bd8fa13e
+  checksum: 10c0/acd90e66060651ef0e3dede89c2990a29b21485257958ee3e8e683e193eb432c8e17645a5e0b75e09c1d2cbca9955c62768a11889b97a94a1aa722a82868b42b
   languageName: node
   linkType: hard
 
-"@unocss/transformer-variant-group@npm:66.1.0-beta.13":
-  version: 66.1.0-beta.13
-  resolution: "@unocss/transformer-variant-group@npm:66.1.0-beta.13"
+"@unocss/transformer-variant-group@npm:66.1.0":
+  version: 66.1.0
+  resolution: "@unocss/transformer-variant-group@npm:66.1.0"
   dependencies:
-    "@unocss/core": "npm:66.1.0-beta.13"
-  checksum: 10c0/39a8355b75cc1a99f29743f6701756d19eb9f8a62c2946840a14b5ca0af3632903de5c64a4b39f6acf079ae9115a31dc6dd85475ea8855ea3e31aea9390aae58
+    "@unocss/core": "npm:66.1.0"
+  checksum: 10c0/762fccf5687c35840b0b02639246b72c57c02aa99a45fc5f36c9286078e517a1f61146507cdc62bb8c4e6bc329542f7bbdc6439487d8de37f149e64bd7b08260
   languageName: node
   linkType: hard
 
-"@unocss/vite@npm:66.1.0-beta.13":
-  version: 66.1.0-beta.13
-  resolution: "@unocss/vite@npm:66.1.0-beta.13"
+"@unocss/vite@npm:66.1.0":
+  version: 66.1.0
+  resolution: "@unocss/vite@npm:66.1.0"
   dependencies:
     "@ampproject/remapping": "npm:^2.3.0"
-    "@unocss/config": "npm:66.1.0-beta.13"
-    "@unocss/core": "npm:66.1.0-beta.13"
-    "@unocss/inspector": "npm:66.1.0-beta.13"
+    "@unocss/config": "npm:66.1.0"
+    "@unocss/core": "npm:66.1.0"
+    "@unocss/inspector": "npm:66.1.0"
     chokidar: "npm:^3.6.0"
     magic-string: "npm:^0.30.17"
     pathe: "npm:^2.0.3"
-    tinyglobby: "npm:^0.2.12"
+    tinyglobby: "npm:^0.2.13"
     unplugin-utils: "npm:^0.2.4"
   peerDependencies:
     vite: ^2.9.0 || ^3.0.0-0 || ^4.0.0 || ^5.0.0-0 || ^6.0.0-0
-  checksum: 10c0/faf78e2d983f99c71f3c73ac560fa1cc5b97b7f8ecb7bdc287e3c42f5bc9f25520e455d54016c231baeca8b4a447b640effab1c278b23239ae809238a02d8855
+  checksum: 10c0/1322f7972364e59b9d3044d17ba3b0dfa225dd55c7af1e06285f94a7e963a79be2a2c27d68e2ee1dea1fdd5e2a500fa7d10870c01954e1729769d7a1b40548ef
   languageName: node
   linkType: hard
 
@@ -9794,7 +9794,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"unconfig@npm:^7.3.1":
+"unconfig@npm:^7.3.2":
   version: 7.3.2
   resolution: "unconfig@npm:7.3.2"
   dependencies:
@@ -9846,37 +9846,37 @@ __metadata:
   linkType: hard
 
 "unocss@npm:^66.1.0-beta.13":
-  version: 66.1.0-beta.13
-  resolution: "unocss@npm:66.1.0-beta.13"
+  version: 66.1.0
+  resolution: "unocss@npm:66.1.0"
   dependencies:
-    "@unocss/astro": "npm:66.1.0-beta.13"
-    "@unocss/cli": "npm:66.1.0-beta.13"
-    "@unocss/core": "npm:66.1.0-beta.13"
-    "@unocss/postcss": "npm:66.1.0-beta.13"
-    "@unocss/preset-attributify": "npm:66.1.0-beta.13"
-    "@unocss/preset-icons": "npm:66.1.0-beta.13"
-    "@unocss/preset-mini": "npm:66.1.0-beta.13"
-    "@unocss/preset-tagify": "npm:66.1.0-beta.13"
-    "@unocss/preset-typography": "npm:66.1.0-beta.13"
-    "@unocss/preset-uno": "npm:66.1.0-beta.13"
-    "@unocss/preset-web-fonts": "npm:66.1.0-beta.13"
-    "@unocss/preset-wind": "npm:66.1.0-beta.13"
-    "@unocss/preset-wind3": "npm:66.1.0-beta.13"
-    "@unocss/preset-wind4": "npm:66.1.0-beta.13"
-    "@unocss/transformer-attributify-jsx": "npm:66.1.0-beta.13"
-    "@unocss/transformer-compile-class": "npm:66.1.0-beta.13"
-    "@unocss/transformer-directives": "npm:66.1.0-beta.13"
-    "@unocss/transformer-variant-group": "npm:66.1.0-beta.13"
-    "@unocss/vite": "npm:66.1.0-beta.13"
+    "@unocss/astro": "npm:66.1.0"
+    "@unocss/cli": "npm:66.1.0"
+    "@unocss/core": "npm:66.1.0"
+    "@unocss/postcss": "npm:66.1.0"
+    "@unocss/preset-attributify": "npm:66.1.0"
+    "@unocss/preset-icons": "npm:66.1.0"
+    "@unocss/preset-mini": "npm:66.1.0"
+    "@unocss/preset-tagify": "npm:66.1.0"
+    "@unocss/preset-typography": "npm:66.1.0"
+    "@unocss/preset-uno": "npm:66.1.0"
+    "@unocss/preset-web-fonts": "npm:66.1.0"
+    "@unocss/preset-wind": "npm:66.1.0"
+    "@unocss/preset-wind3": "npm:66.1.0"
+    "@unocss/preset-wind4": "npm:66.1.0"
+    "@unocss/transformer-attributify-jsx": "npm:66.1.0"
+    "@unocss/transformer-compile-class": "npm:66.1.0"
+    "@unocss/transformer-directives": "npm:66.1.0"
+    "@unocss/transformer-variant-group": "npm:66.1.0"
+    "@unocss/vite": "npm:66.1.0"
   peerDependencies:
-    "@unocss/webpack": 66.1.0-beta.13
+    "@unocss/webpack": 66.1.0
     vite: ^2.9.0 || ^3.0.0-0 || ^4.0.0 || ^5.0.0-0 || ^6.0.0-0
   peerDependenciesMeta:
     "@unocss/webpack":
       optional: true
     vite:
       optional: true
-  checksum: 10c0/ca7a5c0c81692751242e42ba2c7a7faa64be34d02e576ec2a7ada8eb002dfe7b0c375a734a25e65c1da34839ee5e9a44bc6c592c55895c5aaa8a3002a92eec6f
+  checksum: 10c0/cd0bc76356fe6982005873c18f6128f228dacfc7fadc23614c7af1ff052904f6dba35ab8d46337096ea096f2e435e3986c9c0d2227f173f7e5315bfb5b6974e3
   languageName: node
   linkType: hard
 
