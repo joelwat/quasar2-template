@@ -3937,7 +3937,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"debug@npm:4.4.1":
+"debug@npm:4.4.1, debug@npm:^4.4.1":
   version: 4.4.1
   resolution: "debug@npm:4.4.1"
   dependencies:
@@ -7482,6 +7482,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"open@npm:^10.1.2":
+  version: 10.1.2
+  resolution: "open@npm:10.1.2"
+  dependencies:
+    default-browser: "npm:^5.2.1"
+    define-lazy-prop: "npm:^3.0.0"
+    is-inside-container: "npm:^1.0.0"
+    is-wsl: "npm:^3.1.0"
+  checksum: 10c0/1bee796f06e549ce764f693272100323fbc04da8fa3c5b0402d6c2d11b3d76fa0aac0be7535e710015ff035326638e3b9a563f3b0e7ac3266473ed5663caae6d
+  languageName: node
+  linkType: hard
+
 "open@npm:^8.4.0":
   version: 8.4.2
   resolution: "open@npm:8.4.2"
@@ -10148,14 +10160,14 @@ __metadata:
   linkType: hard
 
 "vite-plugin-inspect@npm:^11.0.1":
-  version: 11.0.1
-  resolution: "vite-plugin-inspect@npm:11.0.1"
+  version: 11.1.0
+  resolution: "vite-plugin-inspect@npm:11.1.0"
   dependencies:
     ansis: "npm:^3.17.0"
-    debug: "npm:^4.4.0"
+    debug: "npm:^4.4.1"
     error-stack-parser-es: "npm:^1.0.5"
     ohash: "npm:^2.0.11"
-    open: "npm:^10.1.0"
+    open: "npm:^10.1.2"
     perfect-debounce: "npm:^1.0.0"
     sirv: "npm:^3.0.1"
     unplugin-utils: "npm:^0.2.4"
@@ -10165,7 +10177,7 @@ __metadata:
   peerDependenciesMeta:
     "@nuxt/kit":
       optional: true
-  checksum: 10c0/b7a5d3f882864113520f17e3dfa857b751f53e54371a67cd99a860e24a98cd40beea4389a667de33c6d71cb8411a9da1d5c183689c95e5b42b2c0aea28ffd138
+  checksum: 10c0/f49a7f23388c7a81f5a7b7e5572874c0de170cebcf527d04a2ad71aea63da4f8e5756febdec941eb8bfcb4f1df2e80c5a3cda2501ebf3b6100a23a06639452df
   languageName: node
   linkType: hard
 
