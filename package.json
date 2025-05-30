@@ -49,7 +49,7 @@
         "cypress": "^14.3.2",
         "eslint": "^9.26.0",
         "eslint-config-airbnb-base": "^15.0.0",
-        "eslint-plugin-cypress": "^4.3.0",
+        "eslint-plugin-cypress": "^5.0.0",
         "eslint-plugin-import": "^2.31.0",
         "eslint-plugin-vue": "^10.1.0",
         "jiti": "^2.4.2",
