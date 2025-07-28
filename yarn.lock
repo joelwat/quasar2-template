@@ -7414,7 +7414,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"open@npm:^10.1.0, open@npm:^10.1.2":
+"open@npm:^10.1.0, open@npm:^10.2.0":
   version: 10.2.0
   resolution: "open@npm:10.2.0"
   dependencies:
@@ -10106,14 +10106,14 @@ __metadata:
   linkType: hard
 
 "vite-plugin-inspect@npm:^11.0.1":
-  version: 11.3.0
-  resolution: "vite-plugin-inspect@npm:11.3.0"
+  version: 11.3.2
+  resolution: "vite-plugin-inspect@npm:11.3.2"
   dependencies:
     ansis: "npm:^4.1.0"
     debug: "npm:^4.4.1"
     error-stack-parser-es: "npm:^1.0.5"
     ohash: "npm:^2.0.11"
-    open: "npm:^10.1.2"
+    open: "npm:^10.2.0"
     perfect-debounce: "npm:^1.0.0"
     sirv: "npm:^3.0.1"
     unplugin-utils: "npm:^0.2.4"
@@ -10123,7 +10123,7 @@ __metadata:
   peerDependenciesMeta:
     "@nuxt/kit":
       optional: true
-  checksum: 10c0/d9dbf286a8e2f46378fb3f463d86bd4ab262468c87d84d40943684a6d4964323ba0b88f415513e49f81bfbfc83fb201afac92e94ee96ec6dfaa01e8468321fc6
+  checksum: 10c0/0751420cf934a1396b91c547dff011b336b7d08cc5ad283cde03d75b607d4f6cfd0d913cd806b77e69529acde9df1f0eaa6f42a8aa9cde28109713720b0cca28
   languageName: node
   linkType: hard
 
