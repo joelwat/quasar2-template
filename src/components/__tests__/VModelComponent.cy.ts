@@ -40,7 +40,7 @@ describe('VModelComponent', () => {
                 modelValue: text,
                 'onUpdate:modelValue': (emittedValue: string): boolean => {
                     // Use synchronous operation instead of await
-                    Cypress.vueWrapper.setProps({
+                    void Cypress.vueWrapper.setProps({
                         modelValue: emittedValue,
                     });
 

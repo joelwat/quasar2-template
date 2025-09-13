@@ -1,6 +1,13 @@
+<template>
+  <div />
+</template>
+
 <script lang="ts">
 import { Dialog } from 'quasar';
-import { defineComponent } from 'vue';
+import { defineComponent, ref, onMounted } from 'vue';
+
+// Use ReturnType to capture the actual return type from Dialog.create
+type DialogChainObject = ReturnType<typeof Dialog.create>;
 
 export default defineComponent({
     name: 'DialogWrapper',
@@ -15,12 +22,22 @@ export default defineComponent({
         },
     },
     setup(props) {
-        Dialog.create({
-            component: props.component,
+        const dialogRef = ref<DialogChainObject | null>(null);
 
-            // props forwarded to your custom component
-            componentProps: props.componentProps,
+        onMounted(() => {
+            // Use setTimeout to ensure the component is fully mounted
+            setTimeout(() => {
+                dialogRef.value = Dialog.create({
+                    component: props.component,
+                    // props forwarded to your custom component
+                    componentProps: props.componentProps,
+                });
+            }, 0);
         });
+
+        return {
+            dialogRef
+        };
     },
 });
 </script>

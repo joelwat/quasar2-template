@@ -4,11 +4,11 @@ describe('QuasarCheckbox', () => {
     it('can be used with normal Cypress commands', () => {
         cy.mount(QuasarCheckComponents);
 
-        cy.dataCy('checkbox').check();
-        cy.dataCy('checkbox').should('be.checked');
+        cy.dataCy('checkbox').click();
+        cy.dataCy('checkbox').should('have.attr', 'aria-checked', 'true');
 
-        cy.dataCy('checkbox').uncheck();
-        cy.dataCy('checkbox').should('not.be.checked');
+        cy.dataCy('checkbox').click();
+        cy.dataCy('checkbox').should('have.attr', 'aria-checked', 'false');
     });
 });
 
@@ -16,11 +16,11 @@ describe('QuasarToggle', () => {
     it('can be used with normal Cypress commands', () => {
         cy.mount(QuasarCheckComponents);
 
-        cy.dataCy('toggle').check();
-        cy.dataCy('toggle').should('be.checked');
+        cy.dataCy('toggle').click();
+        cy.dataCy('toggle').should('have.attr', 'aria-checked', 'true');
 
-        cy.dataCy('toggle').uncheck();
-        cy.dataCy('toggle').should('not.be.checked');
+        cy.dataCy('toggle').click();
+        cy.dataCy('toggle').should('have.attr', 'aria-checked', 'false');
     });
 });
 
@@ -28,11 +28,11 @@ describe('QuasarToggle', () => {
     it('can be used with normal Cypress commands', () => {
         cy.mount(QuasarCheckComponents);
 
-        cy.dataCy('radio-1').check();
-        cy.dataCy('radio-1').should('be.checked');
+        cy.dataCy('radio-1').click();
+        cy.dataCy('radio-1').should('have.attr', 'aria-checked', 'true');
 
-        cy.dataCy('radio-2').check();
-        cy.dataCy('radio-2').should('be.checked');
-        cy.dataCy('radio-1').should('not.be.checked');
+        cy.dataCy('radio-2').click();
+        cy.dataCy('radio-2').should('have.attr', 'aria-checked', 'true');
+        cy.dataCy('radio-1').should('have.attr', 'aria-checked', 'false');
     });
 });

@@ -1,7 +1,7 @@
 <template>
   <q-btn
     data-cy="button"
-    label="test emit"
+    :label="label"
     color="positive"
     rounded
     icon="edit"
@@ -14,6 +14,12 @@ import { defineComponent } from 'vue';
 
 export default defineComponent({
     name: 'QuasarButton',
+    props: {
+        label: {
+            type: String,
+            default: 'test emit'
+        }
+    },
     emits: { test: () => true },
 });
 </script>

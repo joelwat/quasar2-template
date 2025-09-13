@@ -11,7 +11,7 @@ describe('Landing', () => {
     });
     it('.should() - assert that <title> is correct', () => {
         cy.title().should('include', 'Quasar');
-        cy.get('li').first().click();
+        cy.get('li').first().click({ force: true });
         cy.contains('Clicks on todos: 1').should('exist');
     });
 });
