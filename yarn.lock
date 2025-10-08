@@ -559,7 +559,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint/js@npm:9.37.0, @eslint/js@npm:^9.36.0":
+"@eslint/js@npm:9.37.0, @eslint/js@npm:^9.37.0":
   version: 9.37.0
   resolution: "@eslint/js@npm:9.37.0"
   checksum: 10c0/84f98a6213522fc76ea104bd910f606136200bd918544e056a7a22442d3f9d5c3c5cd7f4cdf2499d49b1fa140155b87d597a1f16d01644920f05c228e9ca0378
@@ -4808,7 +4808,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:^9.36.0":
+"eslint@npm:^9.37.0":
   version: 9.37.0
   resolution: "eslint@npm:9.37.0"
   dependencies:
@@ -8199,7 +8199,7 @@ __metadata:
   resolution: "quasar2-template@workspace:."
   dependencies:
     "@cypress/code-coverage": "npm:^3.14.6"
-    "@eslint/js": "npm:^9.36.0"
+    "@eslint/js": "npm:^9.37.0"
     "@intlify/unplugin-vue-i18n": "npm:^11.0.1"
     "@quasar/app-vite": "npm:^2.4.0"
     "@quasar/extras": "npm:^1.17.0"
@@ -8216,7 +8216,7 @@ __metadata:
     axios: "npm:^1.12.2"
     cross-env: "npm:^10.1.0"
     cypress: "npm:14.5.4"
-    eslint: "npm:^9.36.0"
+    eslint: "npm:^9.37.0"
     eslint-config-airbnb-base: "npm:^15.0.0"
     eslint-plugin-cypress: "npm:^5.2.0"
     eslint-plugin-import: "npm:^2.32.0"
@@ -8229,7 +8229,7 @@ __metadata:
     start-server-and-test: "npm:^2.1.2"
     tslib: "npm:^2.8.1"
     typescript: "npm:~5.9.3"
-    typescript-eslint: "npm:^8.45.0"
+    typescript-eslint: "npm:^8.46.0"
     unocss: "npm:^66.5.2"
     unplugin-vue-router: "npm:^0.15.0"
     vite-plugin-checker: "npm:^0.11.0"
@@ -8239,7 +8239,7 @@ __metadata:
     vue: "npm:^3.5.22"
     vue-i18n: "npm:^11.1.12"
     vue-router: "npm:^4.5.1"
-    vue-tsc: "npm:^3.1.0"
+    vue-tsc: "npm:^3.1.1"
   languageName: unknown
   linkType: soft
 
@@ -9968,7 +9968,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript-eslint@npm:^8.35.1, typescript-eslint@npm:^8.45.0":
+"typescript-eslint@npm:^8.35.1, typescript-eslint@npm:^8.46.0":
   version: 8.46.0
   resolution: "typescript-eslint@npm:8.46.0"
   dependencies:
@@ -10601,7 +10601,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vue-tsc@npm:^3.1.0":
+"vue-tsc@npm:^3.1.1":
   version: 3.1.1
   resolution: "vue-tsc@npm:3.1.1"
   dependencies:
