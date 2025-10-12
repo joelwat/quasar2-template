@@ -230,7 +230,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@cypress/code-coverage@npm:^3.12.26, @cypress/code-coverage@npm:^3.14.6":
+"@cypress/code-coverage@npm:^3.12.26, @cypress/code-coverage@npm:^3.14.7":
   version: 3.14.7
   resolution: "@cypress/code-coverage@npm:3.14.7"
   dependencies:
@@ -1680,7 +1680,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^22.18.8":
+"@types/node@npm:^22.18.10":
   version: 22.18.10
   resolution: "@types/node@npm:22.18.10"
   dependencies:
@@ -2122,7 +2122,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@unocss/preset-uno@npm:66.5.3, @unocss/preset-uno@npm:^66.5.2":
+"@unocss/preset-uno@npm:66.5.3, @unocss/preset-uno@npm:^66.5.3":
   version: 66.5.3
   resolution: "@unocss/preset-uno@npm:66.5.3"
   dependencies:
@@ -8161,7 +8161,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "quasar2-template@workspace:."
   dependencies:
-    "@cypress/code-coverage": "npm:^3.14.6"
+    "@cypress/code-coverage": "npm:^3.14.7"
     "@eslint/js": "npm:^9.37.0"
     "@intlify/unplugin-vue-i18n": "npm:^11.0.1"
     "@quasar/app-vite": "npm:^2.4.0"
@@ -8169,8 +8169,8 @@ __metadata:
     "@quasar/quasar-app-extension-testing-e2e-cypress": "npm:^6.2.1"
     "@quasar/quasar-app-extension-testing-unit-vitest": "npm:^1.2.3"
     "@quasar/vite-plugin": "npm:^1.10.0"
-    "@types/node": "npm:^22.18.8"
-    "@unocss/preset-uno": "npm:^66.5.2"
+    "@types/node": "npm:^22.18.10"
+    "@unocss/preset-uno": "npm:^66.5.3"
     "@vitejs/plugin-vue": "npm:^6.0.1"
     "@vitest/ui": "npm:^3.2.4"
     "@vue/eslint-config-typescript": "npm:^14.6.0"
@@ -8193,7 +8193,7 @@ __metadata:
     tslib: "npm:^2.8.1"
     typescript: "npm:~5.9.3"
     typescript-eslint: "npm:^8.46.0"
-    unocss: "npm:^66.5.2"
+    unocss: "npm:^66.5.3"
     unplugin-vue-router: "npm:^0.15.0"
     vite-plugin-checker: "npm:^0.11.0"
     vite-plugin-inspect: "npm:^11.3.3"
@@ -10036,7 +10036,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"unocss@npm:^66.5.2":
+"unocss@npm:^66.5.3":
   version: 66.5.3
   resolution: "unocss@npm:66.5.3"
   dependencies:
