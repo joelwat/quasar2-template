@@ -43,7 +43,7 @@
         "@types/node": "^22.18.12",
         "@unocss/preset-uno": "^66.5.4",
         "@vitejs/plugin-vue": "^6.0.1",
-        "@vitest/ui": "^4.0.1",
+        "@vitest/ui": "^4.0.2",
         "@vue/eslint-config-typescript": "^14.6.0",
         "@vue/test-utils": "^2.4.6",
         "autoprefixer": "^10.4.21",
@@ -64,7 +64,7 @@
         "unocss": "^66.5.4",
         "vite-plugin-checker": "^0.11.0",
         "vite-plugin-inspect": "^11.3.3",
-        "vitest": "^4.0.1",
+        "vitest": "^4.0.2",
         "vue-tsc": "^3.1.1"
     },
     "engines": {
