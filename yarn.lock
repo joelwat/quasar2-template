@@ -2453,7 +2453,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vue/language-core@npm:3.1.3, @vue/language-core@npm:^3.1.2":
+"@vue/language-core@npm:3.1.3, @vue/language-core@npm:^3.1.3":
   version: 3.1.3
   resolution: "@vue/language-core@npm:3.1.3"
   dependencies:
@@ -8121,7 +8121,7 @@ __metadata:
     typescript: "npm:~5.9.3"
     typescript-eslint: "npm:^8.46.2"
     unocss: "npm:^66.5.4"
-    unplugin-vue-router: "npm:^0.16.0"
+    unplugin-vue-router: "npm:^0.17.0"
     vite-plugin-checker: "npm:^0.11.0"
     vite-plugin-inspect: "npm:^11.3.3"
     vite-plugin-vue-layouts: "npm:^0.11.0"
@@ -10023,13 +10023,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"unplugin-vue-router@npm:^0.16.0":
-  version: 0.16.1
-  resolution: "unplugin-vue-router@npm:0.16.1"
+"unplugin-vue-router@npm:^0.17.0":
+  version: 0.17.0
+  resolution: "unplugin-vue-router@npm:0.17.0"
   dependencies:
     "@babel/generator": "npm:^7.28.5"
     "@vue-macros/common": "npm:^3.1.1"
-    "@vue/language-core": "npm:^3.1.2"
+    "@vue/language-core": "npm:^3.1.3"
     ast-walker-scope: "npm:^0.8.3"
     chokidar: "npm:^4.0.3"
     json5: "npm:^2.2.3"
@@ -10050,7 +10050,7 @@ __metadata:
   peerDependenciesMeta:
     vue-router:
       optional: true
-  checksum: 10c0/a421747a320f4e7c056761f97ca6e1e2aff6ad4e4cd3b34dde599e525e6186b621739f033522b1a720fd68bf4e670a00a278120a613bb597a3ff18635eaef90f
+  checksum: 10c0/0ac5938fed468b5a7e05dc4ced2ed53bd9b57c51b9f046bb0ba5f92ec12f14b84d30f79e7c2ecbf5a3e6b9b58eb2ddc35cf3feddc02748005b7a51a0b88cfa75
   languageName: node
   linkType: hard
 
