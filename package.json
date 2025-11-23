@@ -72,5 +72,5 @@
         "npm": ">= 6.13.4",
         "yarn": ">= 1.21.1"
     },
-    "packageManager": "yarn@4.11.0"
+    "packageManager": "yarn@4.12.0"
 }
