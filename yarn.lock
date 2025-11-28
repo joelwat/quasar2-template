@@ -8133,7 +8133,7 @@ __metadata:
     typescript: "npm:~5.9.3"
     typescript-eslint: "npm:^8.46.2"
     unocss: "npm:^66.5.4"
-    unplugin-vue-router: "npm:^0.17.0"
+    unplugin-vue-router: "npm:^0.18.0"
     vite-plugin-checker: "npm:^0.11.0"
     vite-plugin-inspect: "npm:^11.3.3"
     vite-plugin-vue-layouts: "npm:^0.11.0"
@@ -10035,9 +10035,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"unplugin-vue-router@npm:^0.17.0":
-  version: 0.17.2
-  resolution: "unplugin-vue-router@npm:0.17.2"
+"unplugin-vue-router@npm:^0.18.0":
+  version: 0.18.0
+  resolution: "unplugin-vue-router@npm:0.18.0"
   dependencies:
     "@babel/generator": "npm:^7.28.5"
     "@vue-macros/common": "npm:^3.1.1"
@@ -10062,7 +10062,7 @@ __metadata:
   peerDependenciesMeta:
     vue-router:
       optional: true
-  checksum: 10c0/2eeecac44971bd7e600d69926758039b12fc817ff95e6c312ceebc9c7a4162f734feecf4e9dc54510938d523ec0cac3519223d81dea6d422251fb65325fb99e9
+  checksum: 10c0/1d3d5d41c83a742c1374cbaa77b2deb0a34d276dacbfc347056001bc14864de336deae2d99b6313a3bb9154ae2803fbc3d388903a2dc74a9635b9aaf79d390cb
   languageName: node
   linkType: hard
 
