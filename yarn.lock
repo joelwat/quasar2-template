@@ -2469,7 +2469,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vue/language-core@npm:3.1.5, @vue/language-core@npm:^3.1.4":
+"@vue/language-core@npm:3.1.5, @vue/language-core@npm:^3.1.5":
   version: 3.1.5
   resolution: "@vue/language-core@npm:3.1.5"
   dependencies:
@@ -10036,12 +10036,12 @@ __metadata:
   linkType: hard
 
 "unplugin-vue-router@npm:^0.17.0":
-  version: 0.17.1
-  resolution: "unplugin-vue-router@npm:0.17.1"
+  version: 0.17.2
+  resolution: "unplugin-vue-router@npm:0.17.2"
   dependencies:
     "@babel/generator": "npm:^7.28.5"
     "@vue-macros/common": "npm:^3.1.1"
-    "@vue/language-core": "npm:^3.1.4"
+    "@vue/language-core": "npm:^3.1.5"
     ast-walker-scope: "npm:^0.8.3"
     chokidar: "npm:^4.0.3"
     json5: "npm:^2.2.3"
@@ -10053,7 +10053,7 @@ __metadata:
     picomatch: "npm:^4.0.3"
     scule: "npm:^1.3.0"
     tinyglobby: "npm:^0.2.15"
-    unplugin: "npm:^2.3.10"
+    unplugin: "npm:^2.3.11"
     unplugin-utils: "npm:^0.3.1"
     yaml: "npm:^2.8.1"
   peerDependencies:
@@ -10062,11 +10062,11 @@ __metadata:
   peerDependenciesMeta:
     vue-router:
       optional: true
-  checksum: 10c0/9b7e54d6f1220a09b9a4014697dc81597a9dff6160b4d792835f1691a459201555ebd167fe12dd348a3c5496340579c5473dfc180a009dabeb5dab71b29f399f
+  checksum: 10c0/2eeecac44971bd7e600d69926758039b12fc817ff95e6c312ceebc9c7a4162f734feecf4e9dc54510938d523ec0cac3519223d81dea6d422251fb65325fb99e9
   languageName: node
   linkType: hard
 
-"unplugin@npm:^2.3.10, unplugin@npm:^2.3.4":
+"unplugin@npm:^2.3.11, unplugin@npm:^2.3.4":
   version: 2.3.11
   resolution: "unplugin@npm:2.3.11"
   dependencies:
