@@ -670,18 +670,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint-community/eslint-utils@npm:^4.4.0, @eslint-community/eslint-utils@npm:^4.7.0, @eslint-community/eslint-utils@npm:^4.8.0":
-  version: 4.9.1
-  resolution: "@eslint-community/eslint-utils@npm:4.9.1"
-  dependencies:
-    eslint-visitor-keys: "npm:^3.4.3"
-  peerDependencies:
-    eslint: ^6.0.0 || ^7.0.0 || >=8.0.0
-  checksum: 10c0/dc4ab5e3e364ef27e33666b11f4b86e1a6c1d7cbf16f0c6ff87b1619b3562335e9201a3d6ce806221887ff780ec9d828962a290bb910759fd40a674686503f02
-  languageName: node
-  linkType: hard
-
-"@eslint-community/eslint-utils@npm:^4.9.1":
+"@eslint-community/eslint-utils@npm:^4.4.0, @eslint-community/eslint-utils@npm:^4.7.0, @eslint-community/eslint-utils@npm:^4.8.0, @eslint-community/eslint-utils@npm:^4.9.1":
   version: 4.9.1
   resolution: "@eslint-community/eslint-utils@npm:4.9.1"
   dependencies:
@@ -5013,13 +5002,13 @@ __metadata:
   linkType: hard
 
 "eslint-plugin-cypress@npm:^5.2.0":
-  version: 5.2.0
-  resolution: "eslint-plugin-cypress@npm:5.2.0"
+  version: 5.2.1
+  resolution: "eslint-plugin-cypress@npm:5.2.1"
   dependencies:
     globals: "npm:^16.2.0"
   peerDependencies:
     eslint: ">=9"
-  checksum: 10c0/64ce8f7fc8064c825f8564324f955aa4fe0a27175d36f44838698fdcc5d7a5be0d828906df1275411390b0e2ac7d01127a9a413c5b42f250567e677b53cb8afe
+  checksum: 10c0/c57ecde95747b4834ec56f6ce003f725d6c0e047950496dae3d640e12b5a90c02fd7f0f7b5bfa1befd6cf5901bada53dbbb1a8c3b21fb2bc07f08d446cf287db
   languageName: node
   linkType: hard
 
@@ -10083,16 +10072,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ts-api-utils@npm:^2.2.0":
-  version: 2.4.0
-  resolution: "ts-api-utils@npm:2.4.0"
-  peerDependencies:
-    typescript: ">=4.8.4"
-  checksum: 10c0/ed185861aef4e7124366a3f6561113557a57504267d4d452a51e0ba516a9b6e713b56b4aeaab9fa13de9db9ab755c65c8c13a777dba9133c214632cb7b65c083
-  languageName: node
-  linkType: hard
-
-"ts-api-utils@npm:^2.4.0":
+"ts-api-utils@npm:^2.2.0, ts-api-utils@npm:^2.4.0":
   version: 2.4.0
   resolution: "ts-api-utils@npm:2.4.0"
   peerDependencies:
