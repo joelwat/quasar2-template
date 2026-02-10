@@ -1332,8 +1332,8 @@ __metadata:
   linkType: hard
 
 "@quasar/app-vite@npm:^2.4.0":
-  version: 2.4.0
-  resolution: "@quasar/app-vite@npm:2.4.0"
+  version: 2.4.1
+  resolution: "@quasar/app-vite@npm:2.4.1"
   dependencies:
     "@quasar/render-ssr-error": "npm:^1.0.3"
     "@quasar/ssl-certificate": "npm:^1.0.0"
@@ -1365,12 +1365,12 @@ __metadata:
     mlly: "npm:^1.7.4"
     open: "npm:^10.1.0"
     rollup-plugin-visualizer: "npm:^5.13.1"
-    sass-embedded: "npm:^1.83.0"
+    sass-embedded: "npm:^1.93.2"
     semver: "npm:^7.6.3"
     serialize-javascript: "npm:^6.0.2"
     tinyglobby: "npm:^0.2.10"
     ts-essentials: "npm:^9.4.2"
-    vite: "npm:^7.0.3"
+    vite: "npm:^7.1.6"
     webpack-merge: "npm:^6.0.1"
   peerDependencies:
     "@electron/packager": ">= 18"
@@ -1379,7 +1379,7 @@ __metadata:
     quasar: ^2.16.0
     typescript: ">= 5.4"
     vue: ^3.2.29
-    vue-router: ^4.0.12
+    vue-router: ^4.0.12 || ^5.0.0
     workbox-build: ">= 6"
   peerDependenciesMeta:
     "@electron/packager":
@@ -1396,7 +1396,7 @@ __metadata:
       optional: true
   bin:
     quasar: bin/quasar.js
-  checksum: 10c0/50281342a4e06737a43e462cc45915533fffa9dc865f6012aca8f771e78e243b44aa3bde46440f892c3e6cccdb5a214419abc01029aa04a40a142c2e26687456
+  checksum: 10c0/385b516d4d28a0539afb8e7356a36c40a9c7f3d5b67117ee8aff8cd8c60935f587f5038d528082ea76ba6a21d2d188189f90176616f6340b5c0c35ff54d634eb
   languageName: node
   linkType: hard
 
@@ -8977,7 +8977,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sass-embedded@npm:^1.83.0":
+"sass-embedded@npm:^1.93.2":
   version: 1.97.3
   resolution: "sass-embedded@npm:1.97.3"
   dependencies:
@@ -10497,7 +10497,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:^6.0.0 || ^7.0.0, vite@npm:^7.0.3":
+"vite@npm:^6.0.0 || ^7.0.0, vite@npm:^7.1.6":
   version: 7.3.1
   resolution: "vite@npm:7.3.1"
   dependencies:
