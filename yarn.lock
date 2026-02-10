@@ -223,7 +223,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@cypress/code-coverage@npm:^3.12.26, @cypress/code-coverage@npm:^3.14.7":
+"@cypress/code-coverage@npm:^3.12.26":
   version: 3.14.7
   resolution: "@cypress/code-coverage@npm:3.14.7"
   dependencies:
@@ -243,6 +243,29 @@ __metadata:
     cypress: "*"
     webpack: ^4 || ^5
   checksum: 10c0/5a03bf3a08693b5a8316bdb9232cc4e0a87a459b253d2ea565be5c5e3f378b3a4cbfa7688b3bac49536f23dd4c28c32d5883d582bd2fa33387a5e54bb07a77f9
+  languageName: node
+  linkType: hard
+
+"@cypress/code-coverage@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "@cypress/code-coverage@npm:4.0.0"
+  dependencies:
+    "@cypress/webpack-preprocessor": "npm:^6.0.0"
+    chalk: "npm:4.1.2"
+    dayjs: "npm:1.11.13"
+    debug: "npm:4.4.0"
+    execa: "npm:4.1.0"
+    istanbul-lib-coverage: "npm:^3.0.0"
+    js-yaml: "npm:^4.1.1"
+    nyc: "npm:^17.1.0"
+    tinyglobby: "npm:^0.2.14"
+  peerDependencies:
+    "@babel/core": ^7.0.1
+    "@babel/preset-env": ^7.0.0
+    babel-loader: ^8.3 || ^9 || ^10
+    cypress: ">=15.10.0"
+    webpack: ^4 || ^5
+  checksum: 10c0/ec1fa2a4f28b2d447f9343841b5f536bdf973e2980cc8c0ac121533883a5185cf1ba34a540f6127e8020e9c245758861352f41b51ffcc5a5c1c56f7a98cacf8f
   languageName: node
   linkType: hard
 
@@ -5526,7 +5549,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"foreground-child@npm:^3.1.0":
+"foreground-child@npm:^3.1.0, foreground-child@npm:^3.3.0":
   version: 3.3.1
   resolution: "foreground-child@npm:3.3.1"
   dependencies:
@@ -6654,7 +6677,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"istanbul-lib-instrument@npm:^6.0.3":
+"istanbul-lib-instrument@npm:^6.0.2, istanbul-lib-instrument@npm:^6.0.3":
   version: 6.0.3
   resolution: "istanbul-lib-instrument@npm:6.0.3"
   dependencies:
@@ -6801,6 +6824,17 @@ __metadata:
   bin:
     js-yaml: bin/js-yaml.js
   checksum: 10c0/3261f25912f5dd76605e5993d0a126c2b6c346311885d3c483706cd722efe34f697ea0331f654ce27c00a42b426e524518ec89d65ed02ea47df8ad26dcc8ce69
+  languageName: node
+  linkType: hard
+
+"js-yaml@npm:^4.1.1":
+  version: 4.1.1
+  resolution: "js-yaml@npm:4.1.1"
+  dependencies:
+    argparse: "npm:^2.0.1"
+  bin:
+    js-yaml: bin/js-yaml.js
+  checksum: 10c0/561c7d7088c40a9bb53cc75becbfb1df6ae49b34b5e6e5a81744b14ae8667ec564ad2527709d1a6e7d5e5fa6d483aa0f373a50ad98d42fde368ec4a190d4fae7
   languageName: node
   linkType: hard
 
@@ -7635,6 +7669,43 @@ __metadata:
   languageName: node
   linkType: hard
 
+"nyc@npm:^17.1.0":
+  version: 17.1.0
+  resolution: "nyc@npm:17.1.0"
+  dependencies:
+    "@istanbuljs/load-nyc-config": "npm:^1.0.0"
+    "@istanbuljs/schema": "npm:^0.1.2"
+    caching-transform: "npm:^4.0.0"
+    convert-source-map: "npm:^1.7.0"
+    decamelize: "npm:^1.2.0"
+    find-cache-dir: "npm:^3.2.0"
+    find-up: "npm:^4.1.0"
+    foreground-child: "npm:^3.3.0"
+    get-package-type: "npm:^0.1.0"
+    glob: "npm:^7.1.6"
+    istanbul-lib-coverage: "npm:^3.0.0"
+    istanbul-lib-hook: "npm:^3.0.0"
+    istanbul-lib-instrument: "npm:^6.0.2"
+    istanbul-lib-processinfo: "npm:^2.0.2"
+    istanbul-lib-report: "npm:^3.0.0"
+    istanbul-lib-source-maps: "npm:^4.0.0"
+    istanbul-reports: "npm:^3.0.2"
+    make-dir: "npm:^3.0.0"
+    node-preload: "npm:^0.2.1"
+    p-map: "npm:^3.0.0"
+    process-on-spawn: "npm:^1.0.0"
+    resolve-from: "npm:^5.0.0"
+    rimraf: "npm:^3.0.0"
+    signal-exit: "npm:^3.0.2"
+    spawn-wrap: "npm:^2.0.0"
+    test-exclude: "npm:^6.0.0"
+    yargs: "npm:^15.0.2"
+  bin:
+    nyc: bin/nyc.js
+  checksum: 10c0/653497bf11c53c70d821c18a2bfb7dba310b297b8bc83e5392e560c3d60d4dc9836b6c44f060065dfa99f7dacfd49147f8f60b160dfbe3f722517d4e7e236db2
+  languageName: node
+  linkType: hard
+
 "object-inspect@npm:^1.13.3, object-inspect@npm:^1.13.4":
   version: 1.13.4
   resolution: "object-inspect@npm:1.13.4"
@@ -8324,7 +8395,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "quasar2-template@workspace:."
   dependencies:
-    "@cypress/code-coverage": "npm:^3.14.7"
+    "@cypress/code-coverage": "npm:^4.0.0"
     "@eslint/js": "npm:^10.0.0"
     "@intlify/unplugin-vue-i18n": "npm:^11.0.1"
     "@quasar/app-vite": "npm:^2.4.0"
