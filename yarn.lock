@@ -1741,8 +1741,8 @@ __metadata:
   linkType: hard
 
 "@quasar/app-vite@npm:^2.4.0":
-  version: 2.5.1
-  resolution: "@quasar/app-vite@npm:2.5.1"
+  version: 2.5.2
+  resolution: "@quasar/app-vite@npm:2.5.2"
   dependencies:
     "@quasar/render-ssr-error": "npm:^1.0.4"
     "@quasar/ssl-certificate": "npm:^1.0.0"
@@ -1805,7 +1805,7 @@ __metadata:
       optional: true
   bin:
     quasar: bin/quasar.js
-  checksum: 10c0/f06e27d0c4f5a7dab7c54574c70605f146c29354ea591da95547f4243f238641e7a0294483429855a24a50b5cea0623d878b00021cd70b744013f98f381e3374
+  checksum: 10c0/a8b27f264ba16db96b5f6b61ca25ca218346cf2511098a46b114ed719fc2ae6ceb7355dbd1ac71308bbfc909c5de6ffa1fa6988f978399e43aaeadde8fe9a6b5
   languageName: node
   linkType: hard
 
