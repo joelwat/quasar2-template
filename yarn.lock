@@ -9163,7 +9163,7 @@ __metadata:
     quasar: "npm:^2.18.5"
     rollup-plugin-visualizer: "npm:^6.0.5"
     sass: "npm:^1.93.2"
-    start-server-and-test: "npm:^2.1.2"
+    start-server-and-test: "npm:^3.0.0"
     tslib: "npm:^2.8.1"
     typescript: "npm:~6.0.0"
     typescript-eslint: "npm:^8.46.2"
@@ -10243,7 +10243,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"start-server-and-test@npm:^2.0.3, start-server-and-test@npm:^2.1.2":
+"start-server-and-test@npm:^2.0.3":
   version: 2.1.5
   resolution: "start-server-and-test@npm:2.1.5"
   dependencies:
@@ -10260,6 +10260,26 @@ __metadata:
     start-server-and-test: src/bin/start.js
     start-test: src/bin/start.js
   checksum: 10c0/45b87415cd96cb0d5106e663459ea78e7acaf59ccdcb3633d0c3199994a96e6acf9238777af27abf68c89e332426eec8a2cccb74eb8286d9f47e79fe0756b3a4
+  languageName: node
+  linkType: hard
+
+"start-server-and-test@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "start-server-and-test@npm:3.0.0"
+  dependencies:
+    arg: "npm:^5.0.2"
+    bluebird: "npm:3.7.2"
+    check-more-types: "npm:2.24.0"
+    debug: "npm:4.4.3"
+    execa: "npm:5.1.1"
+    lazy-ass: "npm:1.6.0"
+    tree-kill: "npm:1.2.2"
+    wait-on: "npm:9.0.4"
+  bin:
+    server-test: src/bin/start.js
+    start-server-and-test: src/bin/start.js
+    start-test: src/bin/start.js
+  checksum: 10c0/f2a447eadfe8258de5f4515a4512b723425ca8e65e61af6a2753bbe87a04c85706c6a7e910159f5e422d126760e136c1231ec618f543b77a4f2a41095622a30f
   languageName: node
   linkType: hard
 
