@@ -76,10 +76,6 @@ export default defineConfigWithVueTs([
             parserOptions: {
                 extraFileExtensions: ['.vue'],
                 parser: '@typescript-eslint/parser',
-                project: [
-                    './jsconfig.json',
-                    './tsconfig.json',
-                ],
             },
             globals: {
                 ...globals.browser,
