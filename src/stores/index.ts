@@ -4,12 +4,12 @@ import { defineStore } from '#q-app/wrappers';
 /*
  * When adding new properties to stores, you should also
  * extend the `PiniaCustomProperties` interface.
- * @see https://pinia.vuejs.org/core-concepts/plugins.html#typing-new-store-properties
+ * @see https://pinia.vuejs.org/core-concepts/plugins.html#Typing-new-store-properties
  */
-// declare module 'pinia' {
-//   export interface PiniaCustomProperties {
-//   }
-// }
+declare module 'pinia' {
+    // export interface PiniaCustomProperties {
+    // }
+}
 
 /*
  * If not building with SSR mode, you can

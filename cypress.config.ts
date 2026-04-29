@@ -1,4 +1,4 @@
-import registerCodeCoverageTasks from '@cypress/code-coverage/task.js';
+import registerCodeCoverageTasks from '@cypress/code-coverage/task';
 import { injectQuasarDevServerConfig } from '@quasar/quasar-app-extension-testing-e2e-cypress/cct-dev-server';
 import { defineConfig } from 'cypress';
 
