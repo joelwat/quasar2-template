@@ -1,5 +1,5 @@
 <template>
-  <q-btn
+  <QBtn
     data-cy="button"
     :label="label"
     color="positive"

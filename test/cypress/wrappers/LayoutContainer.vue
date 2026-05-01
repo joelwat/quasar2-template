@@ -1,10 +1,10 @@
 <template>
-  <q-layout>
+  <QLayout>
     <component
       :is="component"
       v-bind="$attrs"
     />
-  </q-layout>
+  </QLayout>
 </template>
 
 <script lang="ts">
