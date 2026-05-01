@@ -36,6 +36,9 @@ jobs:
       - name: Run Vitest Unit Tests
         run: yarn test:unit:ci
 
+      - name: Install Cypress
+        run: yarn exec cypress install
+
       - name: Run Cypress Component Tests
         uses: cypress-io/github-action@v7.1.10
         with:
