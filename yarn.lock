@@ -775,9 +775,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@intlify/bundle-utils@npm:11.2.0":
-  version: 11.2.0
-  resolution: "@intlify/bundle-utils@npm:11.2.0"
+"@intlify/bundle-utils@npm:11.2.3":
+  version: 11.2.3
+  resolution: "@intlify/bundle-utils@npm:11.2.3"
   dependencies:
     "@intlify/message-compiler": "npm:~11.4.2"
     "@intlify/shared": "npm:~11.4.2"
@@ -793,7 +793,7 @@ __metadata:
       optional: true
     vue-i18n:
       optional: true
-  checksum: 10c0/da9278fea743633254a9d329969bd321e0baa704bc8317251ecebf852385d4e74e415c536ca981a13aa524f99769f71b6c9c4094decae87f15e9d3435b10430c
+  checksum: 10c0/1533847126ce2c1993af6db1b3364d823890ba7cc25d9661caac63eb705aae3ec6a77c5c1562afd18a32986ca79fc34154cf46dfae5904a3b736c04211a56dff
   languageName: node
   linkType: hard
 
@@ -863,11 +863,11 @@ __metadata:
   linkType: hard
 
 "@intlify/unplugin-vue-i18n@npm:^11.1.2":
-  version: 11.2.0
-  resolution: "@intlify/unplugin-vue-i18n@npm:11.2.0"
+  version: 11.2.3
+  resolution: "@intlify/unplugin-vue-i18n@npm:11.2.3"
   dependencies:
     "@eslint-community/eslint-utils": "npm:^4.4.0"
-    "@intlify/bundle-utils": "npm:11.2.0"
+    "@intlify/bundle-utils": "npm:11.2.3"
     "@intlify/shared": "npm:~11.4.2"
     "@intlify/vue-i18n-extensions": "npm:^8.0.0"
     "@rollup/pluginutils": "npm:^5.1.0"
@@ -891,7 +891,7 @@ __metadata:
       optional: true
     vue-i18n:
       optional: true
-  checksum: 10c0/e145bc2667e1012958354ff9c0b0c51562feb4f061305f89480344c65c631f9854f8e0029c60714dd8cb996039cda670ee38bf2392e22cdbe30b0e1a736d9941
+  checksum: 10c0/eb25280b286eb6ef3168dc367382fee921c49561ac6c99f1f74b0a9edfdd123e1e9c6e282a098056aafec52d0f3f2f24f4f3d6257104c212c83f3a7b2a7274a6
   languageName: node
   linkType: hard
 
