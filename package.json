@@ -22,7 +22,7 @@
     "typecheck": "vue-tsc --noEmit"
   },
   "dependencies": {
-    "@quasar/extras": "^1.18.0",
+    "@quasar/extras": "^2.0.0",
     "axios": "^1.15.2",
     "pinia": "^3.0.4",
     "quasar": "^2.19.3",
