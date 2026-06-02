@@ -40,7 +40,7 @@ jobs:
         run: yarn exec cypress install
 
       - name: Run Cypress Component Tests
-        uses: cypress-io/github-action@v7.3.0
+        uses: cypress-io/github-action@v7.4.0
         with:
           browser: chrome
           component: true
@@ -50,7 +50,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Run Cypress E2E Tests
-        uses: cypress-io/github-action@v7.3.0
+        uses: cypress-io/github-action@v7.4.0
         with:
           browser: chrome
           record: true
