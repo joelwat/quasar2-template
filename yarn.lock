@@ -10245,8 +10245,8 @@ __metadata:
   linkType: hard
 
 "start-server-and-test@npm:^3.0.2":
-  version: 3.0.9
-  resolution: "start-server-and-test@npm:3.0.9"
+  version: 3.0.10
+  resolution: "start-server-and-test@npm:3.0.10"
   dependencies:
     arg: "npm:5.0.2"
     check-more-types: "npm:2.24.0"
@@ -10259,7 +10259,7 @@ __metadata:
     server-test: src/bin/start.js
     start-server-and-test: src/bin/start.js
     start-test: src/bin/start.js
-  checksum: 10c0/e84ec6c1aa333e9e92e015657b6b9ddbf4f89e7a770949bdd8894993ed83e4d8476ea33a643327e9bcf345b5caefbfa44f687e6d4f379373a9aee0bc08bb3333
+  checksum: 10c0/0b68e1952e9db0c88fc68a4aa522f792fe5df6de4bcd63fb82eb44ae2243079f2a46eb6a71bd8d48270c331442e51b9e77d82b7ee66feffce93f2a7879e5365d
   languageName: node
   linkType: hard
 
