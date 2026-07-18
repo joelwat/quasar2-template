@@ -9066,9 +9066,9 @@ __metadata:
   linkType: soft
 
 "quasar@npm:^2.19.3":
-  version: 2.21.3
-  resolution: "quasar@npm:2.21.3"
-  checksum: 10c0/d3b4728729b3af3b46b1507b19187265fb945499e1c52a0c666528e07fed2887abd79423ff4fe77d3c7c05b764d3e88d3357e69508c269798ff316c0393f8c3a
+  version: 2.21.4
+  resolution: "quasar@npm:2.21.4"
+  checksum: 10c0/bf55cec863e5fe775ca85432bfdb26ed77ead08b5778b18755ffcee56f3f272346aee738f7f9cf8699fab330f0ad55444518a6e2dd61eb1dd46162af8d93046f
   languageName: node
   linkType: hard
 
