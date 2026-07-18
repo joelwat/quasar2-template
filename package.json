@@ -24,7 +24,7 @@
   "dependencies": {
     "@quasar/extras": "^2.0.0",
     "axios": "^1.15.2",
-    "pinia": "^3.0.4",
+    "pinia": "^4.0.0",
     "quasar": "^2.19.3",
     "unplugin-vue-router": "^0.19.2",
     "vite-plugin-vue-layouts": "^0.11.0",
