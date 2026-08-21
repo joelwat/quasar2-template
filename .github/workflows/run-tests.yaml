@@ -25,6 +25,11 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: Checkout
         uses: actions/checkout@v7
+        with:
+          # PNG/ICO/font assets are stored in Git LFS (see .gitattributes).
+          # Without this they check out as pointer files and any test that
+          # loads a public asset fails.
+          lfs: true
 
       - name: Enable Corepack
         run: corepack enable
