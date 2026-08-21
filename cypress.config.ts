@@ -4,6 +4,7 @@ import { defineConfig } from 'cypress';
 
 export default defineConfig({
     fixturesFolder: 'test/cypress/fixtures',
+    projectId: 'bkmavm',
     screenshotsFolder: 'test/cypress/screenshots',
     videosFolder: 'test/cypress/videos',
     video: true,
@@ -26,6 +27,6 @@ export default defineConfig({
         indexHtmlFile: 'test/cypress/support/component-index.html',
         devServer: injectQuasarDevServerConfig(),
         // @ts-expect-error -- If not set it will break tests related to components that load public assets. See https://github.com/quasarframework/quasar-testing/issues/379
-        devServerPublicPathRoute: '' 
+        devServerPublicPathRoute: ''
     },
 });
