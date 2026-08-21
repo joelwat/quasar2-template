@@ -85,7 +85,7 @@ export default defineConfig((ctx) => ({
 
                     // you need to set i18n resource including paths !
                     include: [
-                        fileURLToPath(new URL('./src/i18n', import.meta.url)),
+                        fileURLToPath(new URL('./src/i18n/**', import.meta.url)),
                     ],
                 },
             ],
