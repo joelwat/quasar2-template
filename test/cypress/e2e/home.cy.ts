@@ -1,4 +1,3 @@
-/// <reference types="cypress" />
 // Use `cy.dataCy` custom command for more robust tests
 // See https://docs.cypress.io/guides/references/best-practices.html#Selecting-Elements
 
@@ -11,7 +10,7 @@ describe('Landing', () => {
     });
     it('.should() - assert that <title> is correct', () => {
         cy.title().should('include', 'Quasar');
-        cy.get('li').first().click({ force: true });
+        cy.get('li').first().click();
         cy.contains('Clicks on todos: 1').should('exist');
     });
 });
@@ -42,6 +41,8 @@ describe('Landing', () => {
 //   });
 // });
 
+ 
 // Workaround for Cypress AE + TS + Vite
 // See: https://github.com/quasarframework/quasar-testing/issues/262#issuecomment-1154127497
 export {};
+

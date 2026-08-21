@@ -1,28 +1,28 @@
 <template>
   <!-- notice dialogRef here -->
-  <QDialog
+  <q-dialog
     ref="dialogRef"
     @hide="onDialogHide"
   >
-    <QCard>
-      <QCardSection>{{ message }}</QCardSection>
+    <q-card>
+      <q-card-section>{{ message }}</q-card-section>
 
       <!-- buttons example -->
-      <QCardActions align="right">
-        <QBtn
+      <q-card-actions align="right">
+        <q-btn
           data-cy="ok-button"
           color="primary"
           label="OK"
           @click="onOKClick"
         />
-        <QBtn
+        <q-btn
           color="primary"
           label="Cancel"
           @click="onCancelClick"
         />
-      </QCardActions>
-    </QCard>
-  </QDialog>
+      </q-card-actions>
+    </q-card>
+  </q-dialog>
 </template>
 
 <script lang="ts">
@@ -44,9 +44,8 @@ export default defineComponent({
 
     setup() {
     // REQUIRED; must be called inside of setup()
-        const {
-            dialogRef, onDialogHide, onDialogOK, onDialogCancel,
-        } = useDialogPluginComponent();
+        const { dialogRef, onDialogHide, onDialogOK, onDialogCancel } =
+      useDialogPluginComponent();
         // dialogRef      - Vue ref to be applied to QDialog
         // onDialogHide   - Function to be used as handler for @hide on QDialog
         // onDialogOK     - Function to call to settle dialog with "ok" outcome

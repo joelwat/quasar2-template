@@ -1,25 +1,25 @@
 <template>
-  <QBtn
+  <q-btn
     data-cy="open-menu-btn"
     label="Open menu"
   >
-    <QMenu>
-      <QList>
-        <QItem
+    <q-menu>
+      <q-list>
+        <q-item
           v-close-popup
           clickable
         >
-          <QItemSection>Item 1</QItemSection>
-        </QItem>
-        <QItem
+          <q-item-section>Item 1</q-item-section>
+        </q-item>
+        <q-item
           v-close-popup
           clickable
         >
-          <QItemSection>Item 2</QItemSection>
-        </QItem>
-      </QList>
-    </QMenu>
-  </QBtn>
+          <q-item-section>Item 2</q-item-section>
+        </q-item>
+      </q-list>
+    </q-menu>
+  </q-btn>
 </template>
 
 <script lang="ts">

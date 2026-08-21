@@ -22,8 +22,10 @@ describe('VModelComponent', () => {
         cy.mount(VModelComponent, {
             props: {
                 modelValue: text,
+                // This is how Vue internally codifies listeners,
+                // defining a prop prepended with `on` and camelCased
                 'onUpdate:modelValue': fn,
-            } as InstanceType<typeof VModelComponent>['$props'], // Explicitly cast props
+            },
         });
 
         cy.dataCy('button').click();
@@ -38,15 +40,9 @@ describe('VModelComponent', () => {
         cy.mount(VModelComponent, {
             props: {
                 modelValue: text,
-                'onUpdate:modelValue': (emittedValue: string): boolean => {
-                    // Use synchronous operation instead of await
-                    void Cypress.vueWrapper.setProps({
-                        modelValue: emittedValue,
-                    });
-
-                    return true;
-                },
-            } as InstanceType<typeof VModelComponent>['$props'], // Explicitly cast props
+                'onUpdate:modelValue': (emittedValue: string) =>
+                    Cypress.vueWrapper.setProps({ modelValue: emittedValue }),
+            },
         });
 
         cy.dataCy('button').click();
@@ -59,7 +55,7 @@ describe('VModelComponent', () => {
         cy.mount(VModelComponent, {
             props: {
                 ...vModelAdapter(model),
-            } as InstanceType<typeof VModelComponent>['$props'], // Explicitly cast props
+            },
         });
 
         cy.dataCy('button').click();

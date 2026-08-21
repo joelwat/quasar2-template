@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(yarn typecheck *)",
+      "Bash(yarn test:component:ci)",
+      "Bash(yarn list *)",
+      "Bash(yarn info *)",
+      "Bash(yarn why *)"
+    ]
+  }
+}

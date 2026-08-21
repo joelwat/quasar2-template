@@ -1,10 +1,10 @@
 <template>
-  <QCard
+  <q-card
     data-cy="dark-card"
     :dark="$q.dark.isActive"
   >
     {{ $q.dark.isActive ? 'Dark ' : 'Light' }} content
-  </QCard>
+  </q-card>
 </template>
 
 <script lang="ts">
