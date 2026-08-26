@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-empty-object-type */
-import { defineBoot } from '#q-app/wrappers';
+import { defineBoot } from '#q-app';
 import {
     createI18n,
     type LocaleMessages,

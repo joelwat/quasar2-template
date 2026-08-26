@@ -4,10 +4,12 @@
 /// <reference types="@intlify/unplugin-vue-i18n/messages" />
 /// <reference types="unplugin-vue-router/client" />
 
-declare namespace NodeJS {
-  interface ProcessEnv {
-    NODE_ENV: string;
-    VUE_ROUTER_MODE: 'hash' | 'history' | 'abstract' | undefined;
-    VUE_ROUTER_BASE: string | undefined;
-  }
+interface ImportMetaEnv {
+    readonly NODE_ENV: string;
+    readonly VUE_ROUTER_MODE: 'hash' | 'history' | 'abstract' | undefined;
+    readonly VUE_ROUTER_BASE: string | undefined;
+}
+
+interface ImportMeta {
+    readonly env: ImportMetaEnv;
 }

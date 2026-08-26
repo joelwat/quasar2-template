@@ -5,7 +5,7 @@
 /* eslint global-require: 0 */
 
 import { fileURLToPath } from 'node:url';
-import { defineConfig } from '#q-app/wrappers';
+import { defineConfig } from '#q-app';
 
 export default defineConfig((ctx) => ({
     // https://v2.quasar.dev/quasar-cli-vite/prefetch-feature
@@ -60,12 +60,10 @@ export default defineConfig((ctx) => ({
         // vueOptionsAPI: false,
 
         // publicPath: '/',
-        // analyze: true,
-        // env: {},
-        // rawDefine: {}
+        // defineEnv: {},
+        // define: {}
         // ignorePublicFolder: true,
         // minify: false,
-        // polyfillModulePreload: true,
         // distDir
 
         // extendViteConf(viteConf) { },
@@ -81,7 +79,7 @@ export default defineConfig((ctx) => ({
                     // you need to set `runtimeOnly: false`
                     // runtimeOnly: false,
 
-                    ssr: ctx.modeName === 'ssr',
+                    ssr: ctx.mode.ssr || ctx.mode.ssg,
 
                     // you need to set i18n resource including paths !
                     include: [
@@ -178,38 +176,49 @@ export default defineConfig((ctx) => ({
             'render' // keep this as last one
         ],
 
-        // extendPackageJson (json) {},
-        // extendSSRWebserverConf (esbuildConf) {},
+        // extendSSRPackageJson (json) {},
+        // extendSSRWebserverConf (rolldownConf) {},
+
+        // @quasar/app-vite v3.1+
+        clientSideRenderingRoutes: [],
+        // @quasar/app-vite v3.1+
+        noPreloadTagRoutes: [],
+        // @quasar/app-vite v3.1+
+        extendSSRManifestJson(ssrManifestJson) { },
 
         // manualStoreSerialization: true,
         // manualStoreSsrContextInjection: true,
         // manualStoreHydration: true,
         // manualPostHydrationTrigger: true,
 
-        pwa: false
+        pwa: false,
         // pwaOfflineHtmlFilename: 'offline.html', // do NOT use index.html as name!
-
-        // pwaExtendGenerateSWOptions (cfg) {},
-        // pwaExtendInjectManifestOptions (cfg) {}
+        // can now be async and optionally return object to be merged with default one
+        extendSSRGenerateSWOptions(conf) { },
+        // can now be async and optionally return object to be merged with default one
+        extendSSRInjectManifestOptions(conf) { },
     },
 
     // https://v2.quasar.dev/quasar-cli-vite/developing-pwa/configuring-pwa
     pwa: {
-        workboxMode: 'GenerateSW' // 'GenerateSW' or 'InjectManifest'
+        // new! NOT async, but it can now also return a new config
+        // that will be merged with the default one
+        // extendPWASwTsConfig: (tsConfig: TSConfig) => void | TSConfig,
+        workboxMode: 'GenerateSW', // 'GenerateSW' or 'InjectManifest'
         // swFilename: 'sw.js',
         // manifestFilename: 'manifest.json',
-        // extendManifestJson (json) {},
+        // extendPWAManifestJson (json) {},
         // useCredentialsForManifestTag: true,
-        // injectPwaMetaTags: false,
-        // extendPWACustomSWConf (esbuildConf) {},
-        // extendGenerateSWOptions (cfg) {},
-        // extendInjectManifestOptions (cfg) {}
+        // injectPWAMetaTags: false,
+        // extendPWACustomSWConf (rolldownConf) {},
+        // can now be async and optionally return object to be merged with default one
+        // extendPWAGenerateSWOptions(conf) { },
+        // can now be async and optionally return object to be merged with default one
+        // extendPWAInjectManifestOptions(conf) { },
     },
 
     // Full list of options: https://v2.quasar.dev/quasar-cli-vite/developing-cordova-apps/configuring-cordova
-    cordova: {
-        // noIosLegacyBuildFlag: true, // uncomment only if you know what you are doing
-    },
+    cordova: {},
 
     // Full list of options: https://v2.quasar.dev/quasar-cli-vite/developing-capacitor-apps/configuring-capacitor
     capacitor: {
@@ -218,10 +227,10 @@ export default defineConfig((ctx) => ({
 
     // Full list of options: https://v2.quasar.dev/quasar-cli-vite/developing-electron-apps/configuring-electron
     electron: {
-        // extendElectronMainConf (esbuildConf) {},
-        // extendElectronPreloadConf (esbuildConf) {},
+        // extendElectronMainConf (rolldownConf) {},
+        // extendElectronPreloadConf (rolldownConf) {},
 
-        // extendPackageJson (json) {},
+        // extendElectronPackageJson (json) {},
 
         // Electron preload scripts (if any) from /src-electron, WITHOUT file extension
         preloadScripts: ['electron-preload'],
@@ -253,7 +262,7 @@ export default defineConfig((ctx) => ({
 
     // Full list of options: https://v2.quasar.dev/quasar-cli-vite/developing-browser-extensions/configuring-bex
     bex: {
-        // extendBexScriptsConf (esbuildConf) {},
+        // extendBexScriptsConf (rolldownConf) {},
         // extendBexManifestJson (json) {},
 
         /**
@@ -265,5 +274,10 @@ export default defineConfig((ctx) => ({
          * @example [ 'my-script.ts', 'sub-folder/my-other-script.js' ]
          */
         extraScripts: []
+    },
+
+    // new Quasar Mode (SSG) in @quasar/app-vite v3.1+!
+    ssg: {
+        // check the "Configuring SSG" docs page
     },
 }));

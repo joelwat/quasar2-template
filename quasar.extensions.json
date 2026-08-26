@@ -1,13 +1,11 @@
 {
-  "@quasar/testing-unit-vitest": {
-    "options": [
-      "ui"
-    ]
-  },
   "@quasar/testing-e2e-cypress": {
     "port": "8080",
     "options": [
       "code-coverage"
     ]
+  },
+  "@quasar/testing-unit-vitest": {
+    "ui": true
   }
 }
