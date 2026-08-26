@@ -38,7 +38,7 @@
         "@intlify/unplugin-vue-i18n": "^11.2.5",
         "@quasar/app-vite": "2.6.2",
         "@quasar/quasar-app-extension-testing-e2e-cypress": "^6.3.0",
-        "@quasar/quasar-app-extension-testing-unit-vitest": "^2.0.0",
+        "@quasar/quasar-app-extension-testing-unit-vitest": "^3.0.0",
         "@quasar/vite-plugin": "^2.0.0",
         "@types/node": "^24.13.3",
         "@unocss/preset-uno": "^66.8.0",
