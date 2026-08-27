@@ -41,15 +41,15 @@ jobs:
       - name: Run Vitest Unit Tests
         run: yarn test:unit:ci
 
-      - name: Install Cypress
-        run: yarn exec cypress install
+    #   - name: Install Cypress
+    #     run: yarn exec cypress install
 
       - name: Run Cypress Component Tests
         uses: cypress-io/github-action@v7.4.3
         with:
           browser: chrome
           component: true
-          record: true
+          record: false
         env:
           CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -58,7 +58,7 @@ jobs:
         uses: cypress-io/github-action@v7.4.3
         with:
           browser: chrome
-          record: true
+          record: false
           start: yarn dev
           wait-on: http://127.0.0.1:3000
         env:
