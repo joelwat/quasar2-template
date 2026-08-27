@@ -36,7 +36,7 @@
     "@cypress/code-coverage": "^4.0.3",
     "@eslint/js": "^10.0.1",
     "@intlify/unplugin-vue-i18n": "^11.2.5",
-    "@quasar/app-vite": "3.8.0",
+    "@quasar/app-vite": "3.8.1",
     "@quasar/quasar-app-extension-testing-e2e-cypress": "^6.3.0",
     "@quasar/quasar-app-extension-testing-unit-vitest": "3",
     "@quasar/vite-plugin": "^2.0.1",
