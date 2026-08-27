@@ -58,7 +58,7 @@ import {
     QPageContainer,
 } from 'quasar';
 import { ref } from 'vue';
-import EssentialLink, { type EssentialLinkProps } from 'components/EssentialLink.vue';
+import EssentialLink, { type EssentialLinkProps } from '@/components/EssentialLink.vue';
 
 defineOptions({
     name: 'MainLayout',

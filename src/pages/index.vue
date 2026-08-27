@@ -14,8 +14,8 @@ import { ref } from 'vue';
 import {
     QPage,
 } from 'quasar';
-import type { Todo, Meta } from 'components/models';
-import ExampleComponent from 'components/ExampleComponent.vue';
+import type { Todo, Meta } from '@/components/models';
+import ExampleComponent from '@/components/ExampleComponent.vue';
 
 defineOptions({
     name: 'IndexPage',

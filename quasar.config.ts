@@ -184,7 +184,7 @@ export default defineConfig((ctx) => ({
         // @quasar/app-vite v3.1+
         noPreloadTagRoutes: [],
         // @quasar/app-vite v3.1+
-        extendSSRManifestJson(ssrManifestJson) { },
+        // extendSSRManifestJson(ssrManifestJson) { },
 
         // manualStoreSerialization: true,
         // manualStoreSsrContextInjection: true,
@@ -194,9 +194,9 @@ export default defineConfig((ctx) => ({
         pwa: false,
         // pwaOfflineHtmlFilename: 'offline.html', // do NOT use index.html as name!
         // can now be async and optionally return object to be merged with default one
-        extendSSRGenerateSWOptions(conf) { },
+        // extendSSRGenerateSWOptions(conf) { },
         // can now be async and optionally return object to be merged with default one
-        extendSSRInjectManifestOptions(conf) { },
+        // extendSSRInjectManifestOptions(conf) { },
     },
 
     // https://v2.quasar.dev/quasar-cli-vite/developing-pwa/configuring-pwa
