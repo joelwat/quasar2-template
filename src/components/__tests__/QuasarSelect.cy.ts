@@ -17,14 +17,14 @@ describe('QuasarSelect', () => {
     it('selects an option by content', () => {
         cy.mount(QuasarSelect);
 
-        dataCySelect('select').select('Option 1');
+        cy.dataCy('select').select('Option 1');
         cy.dataCy('select-value').should('have.text', 'Option 1');
     });
 
     it('selects an option by cardinality', () => {
         cy.mount(QuasarSelect);
 
-        dataCySelect('select').select(1);
+        cy.dataCy('select').select(1);
         cy.dataCy('select-value').should('have.text', 'Option 2');
     });
 
@@ -38,7 +38,7 @@ describe('QuasarSelect', () => {
         // Wait for loading to complete
         cy.dataCy('select').get('.q-spinner').should('not.exist');
 
-        dataCySelect('select').select('Option 3');
+        cy.dataCy('select').select('Option 3');
         cy.dataCy('select-value').should('have.text', 'Option 3');
     });
 
@@ -52,6 +52,6 @@ describe('QuasarSelect', () => {
             },
         });
 
-        dataCySelect('select').select(['Option 1', 'Option 2']);
+        cy.dataCy('select').select(['Option 1', 'Option 2']);
     });
 });

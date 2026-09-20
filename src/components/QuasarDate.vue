@@ -7,7 +7,7 @@
   <div>
     <q-input
       v-model="date"
-      label="Scegli data"
+      label="Choose date"
     >
       <template #append>
         <q-btn
@@ -15,14 +15,14 @@
           icon="event"
           flat
           round
-          @click="dateDialogRef.show()"
+          @click="dateDialogRef?.show()"
         />
       </template>
     </q-input>
     <q-dialog ref="dateDialogRef">
       <q-date
         v-model="date"
-        @update:model-value="dateDialogRef.hide()"
+        @update:model-value="dateDialogRef?.hide()"
       />
     </q-dialog>
   </div>
@@ -30,21 +30,10 @@
   <span data-cy="date-value">{{ date }}</span>
 </template>
 
-<script lang="ts">
+<script setup lang="ts">
 import type { QDialog } from 'quasar';
-import type { Ref } from 'vue';
-import { defineComponent, ref } from 'vue';
+import { ref, useTemplateRef } from 'vue';
 
-export default defineComponent({
-    name: 'QuasarDate',
-    setup() {
-        const date = ref('');
-        const dateDialogRef = ref() as Ref<QDialog>;
-
-        return {
-            date,
-            dateDialogRef,
-        };
-    },
-});
+const date = ref('');
+const dateDialogRef = useTemplateRef<QDialog>('dateDialogRef');
 </script>

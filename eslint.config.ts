@@ -2,6 +2,7 @@ import js from '@eslint/js';
 import globals from 'globals';
 import pluginVue from 'eslint-plugin-vue';
 import pluginQuasar from '@quasar/app-vite/eslint';
+import pluginCypress from 'eslint-plugin-cypress';
 import tsEslint from 'typescript-eslint';
 import { globalIgnores } from 'eslint/config';
 import {
@@ -124,6 +125,15 @@ export default defineConfigWithVueTs([
             globals: {
                 ...globals.serviceworker,
             },
+        },
+    },
+
+    {
+        files: ['test/cypress/**/*.{js,ts}', '**/*.cy.ts'],
+        ...pluginCypress.configs.recommended,
+        rules: {
+            ...pluginCypress.configs.recommended.rules,
+            '@typescript-eslint/no-unused-expressions': 'off',
         },
     },
 ]);

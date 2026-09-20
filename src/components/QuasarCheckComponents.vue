@@ -24,21 +24,10 @@
   </q-radio>
 </template>
 
-<script lang="ts">
-import { defineComponent, ref } from 'vue';
+<script setup lang="ts">
+import { ref } from 'vue';
 
-export default defineComponent({
-    name: 'QuasarCheckboxAndToggle',
-    setup() {
-        const checked = ref();
-        const toggled = ref();
-        const selected = ref();
-
-        return {
-            checked,
-            toggled,
-            selected,
-        };
-    },
-});
+const checked = ref();
+const toggled = ref();
+const selected = ref();
 </script>
