@@ -1524,9 +1524,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@quasar/app-vite@npm:3.10.0":
-  version: 3.10.0
-  resolution: "@quasar/app-vite@npm:3.10.0"
+"@quasar/app-vite@npm:3.10.1":
+  version: 3.10.1
+  resolution: "@quasar/app-vite@npm:3.10.1"
   dependencies:
     "@clack/prompts": "npm:^1.8.1"
     "@quasar/art": "npm:^1.0.0"
@@ -1591,7 +1591,7 @@ __metadata:
       optional: true
   bin:
     quasar: ./bin/quasar.js
-  checksum: 10c0/cc6545a16fd2b085affb9638205a183de0020e7908bbfb05b7f96052d149201d829c9290ca214c0636f5d32a1bbd7ca6e20d1b76b05c42ebfa1d335779e79e27
+  checksum: 10c0/7e50d479ed26adb8df8030e84a585fea731bb10ddbfd1adfe8c3bf6347cfde09d8d0673c856712b2ba48b3f1faab6c622e945df83bdc46f2051f2201f22b27f7
   languageName: node
   linkType: hard
 
@@ -8104,7 +8104,7 @@ __metadata:
     "@cypress/code-coverage": "npm:^4.0.3"
     "@eslint/js": "npm:^10.0.1"
     "@intlify/unplugin-vue-i18n": "npm:^11.2.5"
-    "@quasar/app-vite": "npm:3.10.0"
+    "@quasar/app-vite": "npm:3.10.1"
     "@quasar/extras": "npm:^2.0.4"
     "@quasar/quasar-app-extension-testing-e2e-cypress": "npm:^7.0.0"
     "@quasar/quasar-app-extension-testing-unit-vitest": "npm:3"
