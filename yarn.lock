@@ -8240,9 +8240,9 @@ __metadata:
   linkType: soft
 
 "quasar@npm:^2.34.0":
-  version: 2.35.1
-  resolution: "quasar@npm:2.35.1"
-  checksum: 10c0/630ff713f6642a88c30eccd92ec186f422990db5d41ee86b2e668c74fd1489be13cb1f839eed653a1d70620f98c9b258f08c729472b12225dad096a071821be8
+  version: 2.35.2
+  resolution: "quasar@npm:2.35.2"
+  checksum: 10c0/47ff09603529c7a4f4e5811e289fbb9f27567ad13252d9d80053b7c489f39c6e51e147a57c4f8f2b2d5dd1d4721078ed16bd69bda62eede74a2dd4c9cc858a6b
   languageName: node
   linkType: hard
 
