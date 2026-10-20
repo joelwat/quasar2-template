@@ -796,16 +796,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@intlify/bundle-utils@npm:11.2.6":
-  version: 11.2.6
-  resolution: "@intlify/bundle-utils@npm:11.2.6"
+"@intlify/bundle-utils@npm:11.2.7":
+  version: 11.2.7
+  resolution: "@intlify/bundle-utils@npm:11.2.7"
   dependencies:
-    "@intlify/message-compiler": "npm:~11.4.2"
-    "@intlify/shared": "npm:~11.4.2"
+    "@intlify/message-compiler": "npm:~11.4.15"
+    "@intlify/shared": "npm:~11.4.15"
     acorn: "npm:^8.8.2"
     esbuild: "npm:^0.25.4"
-    escodegen: "npm:^2.1.0"
-    estree-walker: "npm:^2.0.2"
     jsonc-eslint-parser: "npm:^2.3.0"
     source-map-js: "npm:^1.2.1"
     yaml-eslint-parser: "npm:^1.2.2"
@@ -814,7 +812,7 @@ __metadata:
       optional: true
     vue-i18n:
       optional: true
-  checksum: 10c0/a1ce07b881cede5d942197cb19f95210bbf85ccb2c12dd5daa8675e14852fd2ccfd32e6837cf84db5a25873873cbd76b315977f2db22dd941f51092a85ad3bd9
+  checksum: 10c0/2a6850d9cc589590b66b6743c1debd51bf05580cdd69f233fa42d6bd165d29b8d40db8f29ac55df256d5f117d250cd5b2ae3497e266a86aa2faf70462d606420
   languageName: node
   linkType: hard
 
@@ -859,23 +857,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@intlify/message-compiler@npm:11.4.16":
+"@intlify/message-compiler@npm:11.4.16, @intlify/message-compiler@npm:~11.4.15":
   version: 11.4.16
   resolution: "@intlify/message-compiler@npm:11.4.16"
   dependencies:
     "@intlify/shared": "npm:11.4.16"
     source-map-js: "npm:^1.0.2"
   checksum: 10c0/9ddf5ab83c9b6f9d4f3e3896dba4e9da6d59b5a4b713134f4d9015767ff946ebb5d0d58078e378d91aa684323c7568756017b2da36eac5b28c9722791eb2a9d0
-  languageName: node
-  linkType: hard
-
-"@intlify/message-compiler@npm:~11.4.2":
-  version: 11.4.9
-  resolution: "@intlify/message-compiler@npm:11.4.9"
-  dependencies:
-    "@intlify/shared": "npm:11.4.9"
-    source-map-js: "npm:^1.0.2"
-  checksum: 10c0/4dfd954f53fc85850f28cc2726d56001da13eec3aa983635cc2a1e4113fbfc8646672d4593254f21ec7ed17f751f5b60fdb3c2e0a19572a4432a24b52320f0aa
   languageName: node
   linkType: hard
 
@@ -886,26 +874,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@intlify/shared@npm:11.4.16":
+"@intlify/shared@npm:11.4.16, @intlify/shared@npm:~11.4.15":
   version: 11.4.16
   resolution: "@intlify/shared@npm:11.4.16"
   checksum: 10c0/3bb4ef833b92806024b8677a5b6a70a29bcc1ddd332148e6a32a92db89e05887a45245436b90f6fdb86fd3f13f4bf35ce381a9396a8462d314eb2beeea0993fb
   languageName: node
   linkType: hard
 
-"@intlify/shared@npm:11.4.9, @intlify/shared@npm:~11.4.2":
-  version: 11.4.9
-  resolution: "@intlify/shared@npm:11.4.9"
-  checksum: 10c0/9ab55982fca811b6a005a0d5e9f8addcae8b36b2d3984d60615ac224ade35552c406c7d1eebd5c043363029e03f0d0658e03a811d520cd20458c4c3e037bfb59
-  languageName: node
-  linkType: hard
-
 "@intlify/unplugin-vue-i18n@npm:^11.2.5":
-  version: 11.2.6
-  resolution: "@intlify/unplugin-vue-i18n@npm:11.2.6"
+  version: 11.2.7
+  resolution: "@intlify/unplugin-vue-i18n@npm:11.2.7"
   dependencies:
-    "@intlify/bundle-utils": "npm:11.2.6"
-    "@intlify/shared": "npm:~11.4.2"
+    "@intlify/bundle-utils": "npm:11.2.7"
+    "@intlify/shared": "npm:~11.4.15"
     "@intlify/vue-i18n-extensions": "npm:^8.0.0"
     "@rollup/pluginutils": "npm:^5.1.0"
     "@typescript-eslint/scope-manager": "npm:^8.13.0"
@@ -928,7 +909,7 @@ __metadata:
       optional: true
     vue-i18n:
       optional: true
-  checksum: 10c0/8fdb35bfafe9c42eed1d8763117064ca160098fe61bb1dbf2ac03f6ebbd88aad4814bbbc456e97fbc2ad05ecefbe3c6ffb6f52a9e533a1821f5054746bbb1691
+  checksum: 10c0/5d62a69b3ba261ee72833cd99bfbfa1ac8880b308c4db1c5be2a87facb05d139e12e2a816b061d1afbda36eb1a0ddd5f01fbe5e1e4ea7b8db30f72ed5e94e8c1
   languageName: node
   linkType: hard
 
@@ -4944,24 +4925,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"escodegen@npm:^2.1.0":
-  version: 2.1.0
-  resolution: "escodegen@npm:2.1.0"
-  dependencies:
-    esprima: "npm:^4.0.1"
-    estraverse: "npm:^5.2.0"
-    esutils: "npm:^2.0.2"
-    source-map: "npm:~0.6.1"
-  dependenciesMeta:
-    source-map:
-      optional: true
-  bin:
-    escodegen: bin/escodegen.js
-    esgenerate: bin/esgenerate.js
-  checksum: 10c0/e1450a1f75f67d35c061bf0d60888b15f62ab63aef9df1901cffc81cffbbb9e8b3de237c5502cf8613a017c1df3a3003881307c78835a1ab54d8c8d2206e01d3
-  languageName: node
-  linkType: hard
-
 "eslint-config-airbnb-base@npm:^15.0.0":
   version: 15.0.0
   resolution: "eslint-config-airbnb-base@npm:15.0.0"
@@ -5161,7 +5124,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"esprima@npm:^4.0.0, esprima@npm:^4.0.1":
+"esprima@npm:^4.0.0":
   version: 4.0.1
   resolution: "esprima@npm:4.0.1"
   bin:
@@ -9268,7 +9231,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"source-map@npm:^0.6.0, source-map@npm:^0.6.1, source-map@npm:~0.6.0, source-map@npm:~0.6.1":
+"source-map@npm:^0.6.0, source-map@npm:^0.6.1, source-map@npm:~0.6.0":
   version: 0.6.1
   resolution: "source-map@npm:0.6.1"
   checksum: 10c0/ab55398007c5e5532957cb0beee2368529618ac0ab372d789806f5718123cc4367d57de3904b4e6a4170eb5a0b0f41373066d02ca0735a0c4d75c7d328d3e011
