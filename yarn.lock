@@ -881,7 +881,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@intlify/unplugin-vue-i18n@npm:^11.2.5":
+"@intlify/unplugin-vue-i18n@npm:^11.2.7":
   version: 11.2.7
   resolution: "@intlify/unplugin-vue-i18n@npm:11.2.7"
   dependencies:
@@ -1643,7 +1643,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@quasar/extras@npm:^2.0.4":
+"@quasar/extras@npm:^2.1.0":
   version: 2.1.0
   resolution: "@quasar/extras@npm:2.1.0"
   checksum: 10c0/e3c3ea00a6136f947ed093e7c2eadbce2c8209cfdb101d69353c668ea3905b22dfae42c7d492b3ee04a4658fa3d644d54af8453e06793221f5a8bbd60ab042da
@@ -1666,7 +1666,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@quasar/quasar-app-extension-testing-unit-vitest@npm:3":
+"@quasar/quasar-app-extension-testing-unit-vitest@npm:3.0.0":
   version: 3.0.0
   resolution: "@quasar/quasar-app-extension-testing-unit-vitest@npm:3.0.0"
   dependencies:
@@ -1706,7 +1706,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@quasar/vite-plugin@npm:^2.0.1, @quasar/vite-plugin@npm:^2.0.2":
+"@quasar/vite-plugin@npm:^2.0.2":
   version: 2.0.2
   resolution: "@quasar/vite-plugin@npm:2.0.2"
   peerDependencies:
@@ -2173,7 +2173,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^24.13.3":
+"@types/node@npm:^24.19.2":
   version: 24.19.2
   resolution: "@types/node@npm:24.19.2"
   dependencies:
@@ -2585,7 +2585,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@unocss/preset-uno@npm:66.11.0, @unocss/preset-uno@npm:^66.8.1":
+"@unocss/preset-uno@npm:66.11.0, @unocss/preset-uno@npm:^66.11.0":
   version: 66.11.0
   resolution: "@unocss/preset-uno@npm:66.11.0"
   dependencies:
@@ -2746,7 +2746,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vitejs/plugin-vue@npm:^6.0.8, @vitejs/plugin-vue@npm:^6.0.9":
+"@vitejs/plugin-vue@npm:^6.0.10, @vitejs/plugin-vue@npm:^6.0.9":
   version: 6.0.10
   resolution: "@vitejs/plugin-vue@npm:6.0.10"
   dependencies:
@@ -2829,7 +2829,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vitest/ui@npm:^4.1.11":
+"@vitest/ui@npm:^4.1.12":
   version: 4.1.12
   resolution: "@vitest/ui@npm:4.1.12"
   dependencies:
@@ -3144,7 +3144,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vue/test-utils@npm:^2.4.11":
+"@vue/test-utils@npm:^2.5.1":
   version: 2.5.1
   resolution: "@vue/test-utils@npm:2.5.1"
   dependencies:
@@ -3500,7 +3500,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"autoprefixer@npm:^10.5.4":
+"autoprefixer@npm:^10.6.1":
   version: 10.6.1
   resolution: "autoprefixer@npm:10.6.1"
   dependencies:
@@ -3540,7 +3540,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"axios@npm:^1.19.0, axios@npm:^1.20.0":
+"axios@npm:^1.20.0":
   version: 1.20.0
   resolution: "axios@npm:1.20.0"
   dependencies:
@@ -4207,7 +4207,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cypress@npm:^15.21.0":
+"cypress@npm:^15.21.1":
   version: 15.21.1
   resolution: "cypress@npm:15.21.1"
   dependencies:
@@ -4963,7 +4963,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-cypress@npm:^7.0.1":
+"eslint-plugin-cypress@npm:^7.0.2":
   version: 7.0.2
   resolution: "eslint-plugin-cypress@npm:7.0.2"
   dependencies:
@@ -5007,7 +5007,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-vue@npm:^10.10.0":
+"eslint-plugin-vue@npm:^10.11.1":
   version: 10.11.1
   resolution: "eslint-plugin-vue@npm:10.11.1"
   dependencies:
@@ -5057,7 +5057,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:^10.9.1":
+"eslint@npm:^10.13.0":
   version: 10.13.0
   resolution: "eslint@npm:10.13.0"
   dependencies:
@@ -7905,7 +7905,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pinia@npm:^4.0.3":
+"pinia@npm:^4.1.0":
   version: 4.1.0
   resolution: "pinia@npm:4.1.0"
   dependencies:
@@ -8196,50 +8196,50 @@ __metadata:
   dependencies:
     "@cypress/code-coverage": "npm:^4.0.3"
     "@eslint/js": "npm:^10.0.1"
-    "@intlify/unplugin-vue-i18n": "npm:^11.2.5"
+    "@intlify/unplugin-vue-i18n": "npm:^11.2.7"
     "@quasar/app-vite": "npm:3.10.3"
-    "@quasar/extras": "npm:^2.0.4"
+    "@quasar/extras": "npm:^2.1.0"
     "@quasar/quasar-app-extension-testing-e2e-cypress": "npm:^7.0.0"
-    "@quasar/quasar-app-extension-testing-unit-vitest": "npm:3"
-    "@quasar/vite-plugin": "npm:^2.0.1"
-    "@types/node": "npm:^24.13.3"
-    "@unocss/preset-uno": "npm:^66.8.1"
-    "@vitejs/plugin-vue": "npm:^6.0.8"
-    "@vitest/ui": "npm:^4.1.11"
+    "@quasar/quasar-app-extension-testing-unit-vitest": "npm:3.0.0"
+    "@quasar/vite-plugin": "npm:^2.0.2"
+    "@types/node": "npm:^24.19.2"
+    "@unocss/preset-uno": "npm:^66.11.0"
+    "@vitejs/plugin-vue": "npm:^6.0.10"
+    "@vitest/ui": "npm:^4.1.12"
     "@vue/eslint-config-typescript": "npm:^14.9.0"
-    "@vue/test-utils": "npm:^2.4.11"
-    autoprefixer: "npm:^10.5.4"
-    axios: "npm:^1.19.0"
+    "@vue/test-utils": "npm:^2.5.1"
+    autoprefixer: "npm:^10.6.1"
+    axios: "npm:^1.20.0"
     cross-env: "npm:^10.1.0"
-    cypress: "npm:^15.21.0"
-    eslint: "npm:^10.9.1"
+    cypress: "npm:^15.21.1"
+    eslint: "npm:^10.13.0"
     eslint-config-airbnb-base: "npm:^15.0.0"
-    eslint-plugin-cypress: "npm:^7.0.1"
+    eslint-plugin-cypress: "npm:^7.0.2"
     eslint-plugin-import: "npm:^2.32.0"
-    eslint-plugin-vue: "npm:^10.10.0"
+    eslint-plugin-vue: "npm:^10.11.1"
     jiti: "npm:^2.7.0"
-    pinia: "npm:^4.0.3"
-    quasar: "npm:^2.34.0"
+    pinia: "npm:^4.1.0"
+    quasar: "npm:^2.35.2"
     rollup-plugin-visualizer: "npm:^7.1.1"
-    sass: "npm:^1.103.1"
-    start-server-and-test: "npm:^3.0.12"
+    sass: "npm:^1.105.2"
+    start-server-and-test: "npm:^3.0.13"
     tslib: "npm:^2.8.1"
     typescript: "npm:~6.0.3"
-    typescript-eslint: "npm:^8.68.0"
-    unocss: "npm:^66.8.1"
+    typescript-eslint: "npm:^8.72.0"
+    unocss: "npm:^66.11.0"
     unplugin-vue-router: "npm:^0.19.2"
     vite-plugin-checker: "npm:^0.14.5"
-    vite-plugin-inspect: "npm:^12.0.2"
+    vite-plugin-inspect: "npm:^12.1.0"
     vite-plugin-vue-layouts: "npm:^0.11.0"
-    vitest: "npm:^4.1.11"
-    vue: "npm:^3.5.41"
-    vue-i18n: "npm:^11.4.9"
-    vue-router: "npm:^5.2.0"
-    vue-tsc: "npm:^3.3.11"
+    vitest: "npm:^4.1.12"
+    vue: "npm:^3.5.44"
+    vue-i18n: "npm:^11.4.16"
+    vue-router: "npm:^5.4.0"
+    vue-tsc: "npm:^3.3.13"
   languageName: unknown
   linkType: soft
 
-"quasar@npm:^2.34.0":
+"quasar@npm:^2.35.2":
   version: 2.35.2
   resolution: "quasar@npm:2.35.2"
   checksum: 10c0/47ff09603529c7a4f4e5811e289fbb9f27567ad13252d9d80053b7c489f39c6e51e147a57c4f8f2b2d5dd1d4721078ed16bd69bda62eede74a2dd4c9cc858a6b
@@ -8927,7 +8927,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sass@npm:^1.103.1":
+"sass@npm:^1.105.2":
   version: 1.105.2
   resolution: "sass@npm:1.105.2"
   dependencies:
@@ -9318,7 +9318,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"start-server-and-test@npm:^3.0.12":
+"start-server-and-test@npm:^3.0.13":
   version: 3.0.13
   resolution: "start-server-and-test@npm:3.0.13"
   dependencies:
@@ -9844,7 +9844,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript-eslint@npm:^8.60.0, typescript-eslint@npm:^8.68.0":
+"typescript-eslint@npm:^8.60.0, typescript-eslint@npm:^8.72.0":
   version: 8.72.0
   resolution: "typescript-eslint@npm:8.72.0"
   dependencies:
@@ -9956,7 +9956,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"unocss@npm:^66.8.1":
+"unocss@npm:^66.11.0":
   version: 66.11.0
   resolution: "unocss@npm:66.11.0"
   dependencies:
@@ -10200,7 +10200,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite-plugin-inspect@npm:^12.0.2":
+"vite-plugin-inspect@npm:^12.1.0":
   version: 12.1.0
   resolution: "vite-plugin-inspect@npm:12.1.0"
   dependencies:
@@ -10368,7 +10368,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vitest@npm:^4.1.11":
+"vitest@npm:^4.1.12":
   version: 4.1.12
   resolution: "vitest@npm:4.1.12"
   dependencies:
@@ -10521,7 +10521,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vue-i18n@npm:^11.4.9":
+"vue-i18n@npm:^11.4.16":
   version: 11.4.16
   resolution: "vue-i18n@npm:11.4.16"
   dependencies:
@@ -10535,7 +10535,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vue-router@npm:^5.2.0":
+"vue-router@npm:^5.4.0":
   version: 5.4.0
   resolution: "vue-router@npm:5.4.0"
   dependencies:
@@ -10574,7 +10574,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vue-tsc@npm:^3.3.11":
+"vue-tsc@npm:^3.3.13":
   version: 3.3.13
   resolution: "vue-tsc@npm:3.3.13"
   dependencies:
@@ -10588,7 +10588,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vue@npm:^3.5.41, vue@npm:~3.5.34":
+"vue@npm:^3.5.44, vue@npm:~3.5.34":
   version: 3.5.44
   resolution: "vue@npm:3.5.44"
   dependencies:
