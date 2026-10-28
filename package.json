@@ -39,7 +39,7 @@
         "@quasar/quasar-app-extension-testing-e2e-cypress": "^7.0.0",
         "@quasar/quasar-app-extension-testing-unit-vitest": "3.0.0",
         "@quasar/vite-plugin": "^2.0.2",
-        "@types/node": "^24.19.2",
+        "@types/node": "^26.0.0",
         "@unocss/preset-uno": "^66.11.0",
         "@vitejs/plugin-vue": "^6.0.10",
         "@vitest/ui": "^5.0.5",
