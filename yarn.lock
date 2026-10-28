@@ -2045,21 +2045,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:>=20.0.0":
+"@types/node@npm:*, @types/node@npm:>=20.0.0, @types/node@npm:^26.0.0":
   version: 26.6.5
   resolution: "@types/node@npm:26.6.5"
   dependencies:
     undici-types: "npm:~8.9.0"
   checksum: 10c0/4f791f69466ace7842c09e7bef96cb1ddbb65cf3db916ef7e84f0e2b2a17220b6b816dc7539d01520cadfb17ed7169b8214910900493e0a83be8bc7d124ec20a
-  languageName: node
-  linkType: hard
-
-"@types/node@npm:^24.19.2":
-  version: 24.19.2
-  resolution: "@types/node@npm:24.19.2"
-  dependencies:
-    undici-types: "npm:>=7.24.0 <7.24.7"
-  checksum: 10c0/b51a7f8854007ad579dffdd0633d8addbfeb2c97cceb380f2eba0ed163638ec52e17565385a6cc04d54ac4ff99c70c64aee68a4ca45b6128c035e828794e29c5
   languageName: node
   linkType: hard
 
@@ -7986,7 +7977,7 @@ __metadata:
     "@quasar/quasar-app-extension-testing-e2e-cypress": "npm:^7.0.0"
     "@quasar/quasar-app-extension-testing-unit-vitest": "npm:3.0.0"
     "@quasar/vite-plugin": "npm:^2.0.2"
-    "@types/node": "npm:^24.19.2"
+    "@types/node": "npm:^26.0.0"
     "@unocss/preset-uno": "npm:^66.11.0"
     "@vitejs/plugin-vue": "npm:^6.0.10"
     "@vitest/ui": "npm:^5.0.5"
@@ -9623,13 +9614,6 @@ __metadata:
     quansync: "npm:^1.0.0"
     unconfig-core: "npm:7.5.0"
   checksum: 10c0/940cb2b30d802e4edbb36c0469d122ec5d2402b20635aa71c223d24db431e2b83624672d1b42ba0023085111f3dddccc77516d23b79e1f0d6c67798a1351820c
-  languageName: node
-  linkType: hard
-
-"undici-types@npm:>=7.24.0 <7.24.7":
-  version: 7.24.6
-  resolution: "undici-types@npm:7.24.6"
-  checksum: 10c0/d9cd8befb643ac904615c280a095ba4240531f6bb4a5e75a22a7483630ca8d3f1016d2ab6ace6ceda1f63b3a2db2fe037fafe121d6917a0187573aa548ff78ca
   languageName: node
   linkType: hard
 
