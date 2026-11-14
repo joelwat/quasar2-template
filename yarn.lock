@@ -3895,9 +3895,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cypress@npm:^15.21.1":
-  version: 15.21.2
-  resolution: "cypress@npm:15.21.2"
+"cypress@npm:^16.0.0":
+  version: 16.3.0
+  resolution: "cypress@npm:16.3.0"
   dependencies:
     "@cypress/request": "npm:^4.0.0"
     "@cypress/xvfb": "npm:^1.2.4"
@@ -3915,7 +3915,7 @@ __metadata:
     cli-table3: "npm:0.6.1"
     commander: "npm:^6.2.1"
     common-tags: "npm:^1.8.0"
-    dayjs: "npm:^1.10.4"
+    dayjs: "npm:^1.11.23"
     debug: "npm:^4.3.4"
     eventemitter2: "npm:6.4.7"
     execa: "npm:4.1.0"
@@ -3933,14 +3933,14 @@ __metadata:
     proxy-from-env: "npm:1.0.0"
     request-progress: "npm:^3.0.0"
     supports-color: "npm:^8.1.1"
-    systeminformation: "npm:^5.31.1"
+    systeminformation: "npm:^5.33.16"
     tmp: "npm:~0.2.4"
     tree-kill: "npm:1.2.2"
     untildify: "npm:^4.0.0"
     yauzl: "npm:^3.3.1"
   bin:
     cypress: bin/cypress
-  checksum: 10c0/6083534b8c22d680336f8d8c4950866b107ab19e515fbbc947ec948811ff9555d1b46252881d97605a2dc43a10182a67378e4a44fe20c566b01f543336996b63
+  checksum: 10c0/b655ece0f8f4e2456b1c829c06bddb366347f21f4a21e6ad5e882ff2e67a69fb325ccd54112dff4fcf666419edc295ae7e0aa46ce400c4e5642d04d5fd5f2f70
   languageName: node
   linkType: hard
 
@@ -3993,7 +3993,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dayjs@npm:^1.10.4":
+"dayjs@npm:^1.11.23":
   version: 1.11.23
   resolution: "dayjs@npm:1.11.23"
   checksum: 10c0/69ab04bf19c676e44ab50cc2fca223d265f3dafd107151ef3b0f3ad74d360c37caa602abe62f87cb25d90bd9f6bee003698af47df5b0dbf10a998b7b5f3bb3f1
@@ -7882,7 +7882,7 @@ __metadata:
     autoprefixer: "npm:^10.6.1"
     axios: "npm:^1.20.0"
     cross-env: "npm:^10.1.0"
-    cypress: "npm:^15.21.1"
+    cypress: "npm:^16.0.0"
     eslint: "npm:^10.13.0"
     eslint-config-airbnb-base: "npm:^15.0.0"
     eslint-plugin-cypress: "npm:^7.0.2"
@@ -9062,12 +9062,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"systeminformation@npm:^5.31.1":
-  version: 5.33.2
-  resolution: "systeminformation@npm:5.33.2"
+"systeminformation@npm:^5.33.16":
+  version: 5.33.20
+  resolution: "systeminformation@npm:5.33.20"
   bin:
     systeminformation: lib/cli.js
-  checksum: 10c0/2d022c72aacb852626bbe613467f525a9072679dfb1a351c48afe9183cccbb37ef25f9f8a1c69613fe9cf9f5289d6190d29d5e4768a82bd74ce46494e24e2f6e
+  checksum: 10c0/1da765d9a9cad650f0cd90de4e8d077a4025e302688c4019ee3e6518872a4c32b4bd51236694d8ec485acbc843841cdd46ed4e2c5ce69ff31bbe3d5a429b6346
   conditions: (os=darwin | os=linux | os=win32 | os=freebsd | os=openbsd | os=netbsd | os=sunos | os=android)
   languageName: node
   linkType: hard
