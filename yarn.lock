@@ -292,16 +292,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@clack/core@npm:1.4.3":
-  version: 1.4.3
-  resolution: "@clack/core@npm:1.4.3"
-  dependencies:
-    fast-wrap-ansi: "npm:^0.2.0"
-    sisteransi: "npm:^1.0.5"
-  checksum: 10c0/16cda430974bc02844cfa6e3f0e6e19695d97e915a580ab74603d34a1f00dcbdd8dc856adc3f89405e3555b5cf42568ae8687e748cb92c3434fe4d9fc7ebe664
-  languageName: node
-  linkType: hard
-
 "@clack/core@npm:1.5.1":
   version: 1.5.1
   resolution: "@clack/core@npm:1.5.1"
@@ -312,15 +302,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@clack/prompts@npm:^1.4.0":
-  version: 1.7.0
-  resolution: "@clack/prompts@npm:1.7.0"
+"@clack/core@npm:1.6.0":
+  version: 1.6.0
+  resolution: "@clack/core@npm:1.6.0"
   dependencies:
-    "@clack/core": "npm:1.4.3"
     fast-string-width: "npm:^3.0.2"
     fast-wrap-ansi: "npm:^0.2.0"
-    sisteransi: "npm:^1.0.5"
-  checksum: 10c0/a11e4f8d4a03cfe2d9eb21c3263f0252648573977b96e495a7d4f159f7efa929fe775a6ac3fe7ae30d8acb72514d94418a2c4335855d05b575a41aa885c9ff26
+    sisteransi: "npm:^2.0.0"
+  checksum: 10c0/57fdd41fa409d191f02fec667c98f34ea17e9bab5bbeadeb20de67077ec430d6800d8efd0b4e49bcaa1c2e8d78298751457da8586a2934aac81d1e7b6fe989f3
   languageName: node
   linkType: hard
 
@@ -333,6 +322,18 @@ __metadata:
     fast-wrap-ansi: "npm:^0.2.0"
     sisteransi: "npm:^1.0.5"
   checksum: 10c0/ed38748acde0cb1e7ebdac1242470c78bd90380cbdde1e5560e0828881e3c74e2676de666086cf8183c8d4d3f1fc6e489f15a004f0d9f8ee294a3aa744de2093
+  languageName: node
+  linkType: hard
+
+"@clack/prompts@npm:^1.9.0":
+  version: 1.9.0
+  resolution: "@clack/prompts@npm:1.9.0"
+  dependencies:
+    "@clack/core": "npm:1.6.0"
+    fast-string-width: "npm:^3.0.2"
+    fast-wrap-ansi: "npm:^0.2.0"
+    sisteransi: "npm:^2.0.0"
+  checksum: 10c0/3dd75b8a20bd77c10cbbc81d6d4bde3e386e6630b9e74b607560236b127af7c64490efe6270369999cdda2d05a68ab946704416ee7e106eb5a560378680bd4f1
   languageName: node
   linkType: hard
 
@@ -1667,13 +1668,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@quasar/quasar-app-extension-testing-unit-vitest@npm:3.0.0":
-  version: 3.0.0
-  resolution: "@quasar/quasar-app-extension-testing-unit-vitest@npm:3.0.0"
+"@quasar/quasar-app-extension-testing-unit-vitest@npm:3.0.1":
+  version: 3.0.1
+  resolution: "@quasar/quasar-app-extension-testing-unit-vitest@npm:3.0.1"
   dependencies:
-    "@clack/prompts": "npm:^1.4.0"
-    es-toolkit: "npm:^1.42.0"
-    happy-dom: "npm:^20.11.6"
+    "@clack/prompts": "npm:^1.9.0"
+    es-toolkit: "npm:^1.53.2"
+    happy-dom: "npm:^21.0.4"
   peerDependencies:
     "@quasar/app-vite": ^3.0.0
     "@vitest/ui": ^4.0.0 || ^5.0.0
@@ -1684,7 +1685,7 @@ __metadata:
   peerDependenciesMeta:
     "@vitest/ui":
       optional: true
-  checksum: 10c0/53b8680f10569db83ac2b8470e3bd1d285d4646c58ab9717de70ab73bca411ddfadc416a69d841936500f9ef99f993ae11775e16a6a010d5de14a1842506412f
+  checksum: 10c0/7cd47a688296ac0bf789e7eb0acb705b7be4b3df84057265a04afb8186051bf1772a85d2984636858ebe80e74b7dbc128370502e15bbaddcbfe812d90ce7815e
   languageName: node
   linkType: hard
 
@@ -4556,6 +4557,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"es-toolkit@npm:^1.53.2":
+  version: 1.53.2
+  resolution: "es-toolkit@npm:1.53.2"
+  dependenciesMeta:
+    vitepress-plugin-sandpack@1.1.4:
+      unplugged: true
+  checksum: 10c0/5b0cad13f54e010d84fabd74dbc016a3db09cd9d3992bd97bc06fe54568af439333a61692e68494751c71fd2f453f882711cceb9c61239658a231f013882452a
+  languageName: node
+  linkType: hard
+
 "es6-error@npm:^4.0.1":
   version: 4.1.1
   resolution: "es6-error@npm:4.1.1"
@@ -5588,9 +5599,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"happy-dom@npm:^20.11.6":
-  version: 20.11.6
-  resolution: "happy-dom@npm:20.11.6"
+"happy-dom@npm:^21.0.4":
+  version: 21.0.4
+  resolution: "happy-dom@npm:21.0.4"
   dependencies:
     "@types/node": "npm:>=20.0.0"
     "@types/whatwg-mimetype": "npm:^3.0.2"
@@ -5599,7 +5610,7 @@ __metadata:
     entities: "npm:^7.0.1"
     whatwg-mimetype: "npm:^3.0.0"
     ws: "npm:^8.21.0"
-  checksum: 10c0/09711651886849e6dcd0fde1c56685a50569485bf33795ea420598fe22406a17ac56f3b661315829ee6ed14a27c31be77c429ae2aff79a4373b254105ed17749
+  checksum: 10c0/9368af9739a5ba07776a116368d13d6b2690de81a6525096a1fec36e4cd1270b569151d021e2a56fb314fba73674572de562f1364090b01df6c68e9843b002e8
   languageName: node
   linkType: hard
 
@@ -7952,7 +7963,7 @@ __metadata:
     "@quasar/app-vite": "npm:3.10.4"
     "@quasar/extras": "npm:^2.1.0"
     "@quasar/quasar-app-extension-testing-e2e-cypress": "npm:^7.0.0"
-    "@quasar/quasar-app-extension-testing-unit-vitest": "npm:3.0.0"
+    "@quasar/quasar-app-extension-testing-unit-vitest": "npm:3.0.1"
     "@quasar/vite-plugin": "npm:^2.0.2"
     "@types/node": "npm:^26.0.0"
     "@unocss/preset-uno": "npm:^66.11.0"
@@ -8815,6 +8826,13 @@ __metadata:
   version: 1.0.5
   resolution: "sisteransi@npm:1.0.5"
   checksum: 10c0/230ac975cca485b7f6fe2b96a711aa62a6a26ead3e6fb8ba17c5a00d61b8bed0d7adc21f5626b70d7c33c62ff4e63933017a6462942c719d1980bb0b1207ad46
+  languageName: node
+  linkType: hard
+
+"sisteransi@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "sisteransi@npm:2.0.0"
+  checksum: 10c0/f33e4aa6418d2e3d66820f1fa8422c18bf7c66843cb41a891bee6a9e9821ff9179dfdfc249a34a3fae2999a030aa1c2a0ab70803130e8c46228751c3899fade3
   languageName: node
   linkType: hard
 
