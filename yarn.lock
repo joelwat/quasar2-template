@@ -10313,8 +10313,8 @@ __metadata:
   linkType: hard
 
 "vue-router@npm:^5.4.0":
-  version: 5.5.2
-  resolution: "vue-router@npm:5.5.2"
+  version: 5.5.3
+  resolution: "vue-router@npm:5.5.3"
   dependencies:
     "@vue-macros/common": "npm:^3.1.4"
     "@vue/devtools-api": "npm:^8.2.1"
@@ -10347,7 +10347,7 @@ __metadata:
       optional: true
     vite:
       optional: true
-  checksum: 10c0/ffd89890da4874a360f6d4caf2e74ae3be171e9a98805af09decdb9e7e083cdcf8a4efb810d00abe4efdee69f5291b01f0aa434cfae0ace81ec8055bac574d63
+  checksum: 10c0/381525a5ef6b082776891c7ebd2b102530dd0daf52dfc78eea13ac31d98610ca99227166113568fbb9892e7d0b90ae8adf70deb12588c55931b3b865bb3d25d2
   languageName: node
   linkType: hard
 
